@@ -9,9 +9,12 @@
       <div class="column is-four-fifths task-list has-background-link">
         ここがタスクリストだよ～
         <template v-for="task in tasks" :key="task.id">
-          <span v-if="displayDoneTasks || execList.includes(task.id)" @click="toggleDoneState">
-            {{ task.name }}
-          </span>
+          <div v-if="displayDoneTasks || execList.includes(task.id)" class="box">
+            <div class="task-name">{{ task.name }}</div>
+
+            <button v-if="displayDoneTasks" class="button is-info is-light" @click="toggleDoneState(id)">UNDONE</button>
+            <button v-else class="button is-primary" @click="toggleDoneState(id)">DONE!</button>
+          </div>
         </template>
         <span>ここまでタスクリストのつもり</span>
       </div>
