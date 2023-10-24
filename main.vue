@@ -99,7 +99,8 @@
           </template>
         </div>
         <div class="column side-menu has-background-warning">
-          進捗率
+          <h3 class="title is-3">進捗率</h3>
+          <p class="title is-1">{{ progress }}</p>
         </div>
       </div>
     </div>
@@ -1783,6 +1784,10 @@ module.exports = {
       tasks = this.tasks.filter((task) => this.isKappaRequire(task.name));
       return tasks;
     },
+    progress: function() {
+      per = this.execList.length / this.kappaRequireTasks.length
+      return Math.round(100 * per) + '%'
+    }
   },
   methods: {
     toggleDoneState: function (id) {
