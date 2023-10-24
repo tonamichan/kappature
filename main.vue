@@ -1,9 +1,11 @@
 <template>
   <div>ここにタスクリストを出すよ～</div>
-  <ul id="example-1">
+  <ul>
     <li>test</li>
     <li v-for="task in tasks" :key="task.id">{{ task.id }}: {{ task.name }}</li>
   </ul>
+  <div>ここまでタスクリストのつもり</div>
+  <div>{{ exportTest }}</div>
 </template>
 
 <script>
@@ -1572,6 +1574,7 @@ module.exports = {
           owner: 8,
         },
       ],
+      exportTest: 'この文章が出ていればmodule.exports OK'
     };
   },
 };
