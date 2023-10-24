@@ -12,8 +12,15 @@
           <div v-if="displayDoneTasks || !execList.includes(task.id)" class="box">
             <div class="task-name">{{ task.name }}</div>
 
-            <button v-if="execList.includes(task.id)" class="button is-info is-light" @click="toggleDoneState(task.id)">UNDONE</button>
-            <button v-else class="button is-primary" @click="toggleDoneState(task.id)">DONE!</button>
+            <div>
+              <div>
+                <a :href="'https://wikiwiki.jp/eft/' + getPersonName(task.owner) + '/' + task.name" class="has-text-link">日本語wiki</a>
+              </div>
+              <div>
+                <button v-if="execList.includes(task.id)" class="button is-info is-light" @click="toggleDoneState(task.id)">UNDONE</button>
+                <button v-else class="button is-primary" @click="toggleDoneState(task.id)">DONE!</button>
+              </div>
+            </div>
           </div>
         </template>
         <span>ここまでタスクリストのつもり</span>
@@ -1590,7 +1597,8 @@ module.exports = {
         },
       ],
       execList: [],
-      displayDoneTasks: false
+      displayDoneTasks: false,
+      tradors: ['Dummy', 'Prapor', 'Therapist', 'Fence', 'Skier', 'Peacekeeper', 'Mechanic', 'Ragman', 'Jaeger', 'Lightkeeper']
     };
   },
   methods: {
@@ -1605,6 +1613,10 @@ module.exports = {
     toggleDisplayDoneTaks: function() {
       this.displayDoneTasks = !this.displayDoneTasks
     },
+    getPersonName: function(id) {
+      // トレーダーに振ったidと添字が一致するようにしてる
+      return this.tradors[id]
+    }
   }
 };
 </script>
