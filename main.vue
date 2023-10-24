@@ -2113,6 +2113,8 @@ module.exports = {
     "GettingAcquainted",
     "MakeAmendsBuyout",
     "MakeAmendsEquipment",
+    "MakeAmendsSecurity",
+    "MakeAmendsSweepUp",
     "MakeAmends",
     "TheDoor",
     "TextilePart1",
