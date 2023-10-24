@@ -58,49 +58,51 @@
         </div>
       </div>
     </div>
-    <div class="columns">
-      <div class="column is-four-fifths task-list has-background-link">
-        <template v-for="task in kappaRequireTasks" :key="task.id">
-          <div
-            v-if="displayDoneTasks || !execList.includes(task.id)"
-            class="box"
-          >
-            <div class="task-name">{{ task.name }}</div>
+    <div class="container">
+      <div class="columns">
+        <div class="column is-four-fifths task-list has-background-link">
+          <template v-for="task in kappaRequireTasks" :key="task.id">
+            <div
+              v-if="displayDoneTasks || !execList.includes(task.id)"
+              class="box"
+            >
+              <div class="task-name">{{ task.name }}</div>
 
-            <div class="flex">
-              <div class="wiki-link">
-                <a
-                  :href="generateWikiUrl(task)"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="has-text-link"
-                >
-                  日本語wiki
-                  <span class="material-symbols-outlined google-icon"> open_in_new </span>
-                </a>
-              </div>
-              <div class="done-button">
-                <button
-                  v-if="execList.includes(task.id)"
-                  class="button is-info is-light"
-                  @click="toggleDoneState(task.id)"
-                >
-                  UNDONE
-                </button>
-                <button
-                  v-else
-                  class="button is-primary"
-                  @click="toggleDoneState(task.id)"
-                >
-                  DONE!
-                </button>
+              <div class="flex">
+                <div class="wiki-link">
+                  <a
+                    :href="generateWikiUrl(task)"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="has-text-link"
+                  >
+                    日本語wiki
+                    <span class="material-symbols-outlined google-icon"> open_in_new </span>
+                  </a>
+                </div>
+                <div class="done-button">
+                  <button
+                    v-if="execList.includes(task.id)"
+                    class="button is-info is-light"
+                    @click="toggleDoneState(task.id)"
+                  >
+                    UNDONE
+                  </button>
+                  <button
+                    v-else
+                    class="button is-primary"
+                    @click="toggleDoneState(task.id)"
+                  >
+                    DONE!
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-        </template>
-      </div>
-      <div class="column side-menu has-background-warning">
-        進捗率
+          </template>
+        </div>
+        <div class="column side-menu has-background-warning">
+          進捗率
+        </div>
       </div>
     </div>
   </div>
