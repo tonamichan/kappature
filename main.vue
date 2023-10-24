@@ -1,6 +1,7 @@
 <template>
   <div>ここにタスクリストを出すよ～</div>
   <ul id="example-1">
+    <li>test</li>
     <li v-for="tasks in task" :key="task.id">{{ task.id }}: {{ task.name }}</li>
   </ul>
 </template>
