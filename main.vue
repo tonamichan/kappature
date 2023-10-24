@@ -1,8 +1,68 @@
 <template>
   <div class="container">
-    <div class="header has-background-danger">
-      <div v-if="!displayDoneTasks" @click="toggleDisplayDoneTaks">完了済のやつ表示する</div>
-      <div v-else @click="toggleDisplayDoneTaks">完了済のやつ隠す</div>
+    <div class="hero has-background-danger">
+      <div class="flex">
+        <div class="card">
+          <div class="card-content" >
+            <div class="content">
+              Prapor
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content" >
+            <div class="content">
+              Therapist
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content" >
+            <div class="content">
+              Fence
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content" >
+            <div class="content">
+              Skier
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content" >
+            <div class="content">
+              Peacekeeper
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content" >
+            <div class="content">
+              Mechanic
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content" >
+            <div class="content">
+              Ragman
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content" >
+            <div class="content">
+              Jaeger
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div v-if="!displayDoneTasks" @click="toggleDisplayDoneTaks">完了済のやつ表示する</div>
+        <div v-else @click="toggleDisplayDoneTaks">完了済のやつ隠す</div>
+      </div>
     </div>
     <div class="columns">
       <div class="column is-four-fifths task-list has-background-link">
@@ -1600,7 +1660,16 @@ module.exports = {
       not_require_tasks: ["LongLine", "Booze", "Thestylishone", "TextilePart", "TextilePart", "TheChoice", "Hunter", "TheHuntsmanPathRelentless", "Anappleadaykeepsthedoctoraway", "TheHuntsmanpathSadist", "SwiftOne", "CapturingOutposts", "Escort", "Loyaltybuyout", "Nooffence", "Trustregain", "Calibration", "Flint", "NightSweep", "TheCourier", "Mentor", "MutualInterest", "TopSecret", "OurOwnLand", "Trophies", "SpecialEquipment", "Counteraction", "TheHuntsmanPathAdministrator", "KingsoftheRooftops", "CeaseFire", "YourCarNeedsaService", "WorstJobintheWorld", "TestDrivePart", "HouseArrestPart", "NetworkProviderPart", "BestJobintheWorld", "Slaughterhouse", "NetworkProviderPart", "AssessmentPart", "AssessmentPart", "AssessmentPart", "KeytotheTower", "KnockKnock", "GettingAcquainted", "Lightkeepersquestchain", "InformationSource", "Missinginformant", "Snatch", "ReturntheFavor", "Payback", "Provocation", "FollowingtheBreadCrumbs", "Spotter", "MakeanImpression", "TroubleintheBigCity", "GendarmerieSchoolGuard", "GlorytoCPSUPart", "PetsWontNeedIt", "AmbulancesAgain", "OutofTime", "TheHuntsmanPathBigGame", "GendarmerieMallCop", "BeyondtheRedMeatPart", "GunsmithPart", "BroadcastPart", "BeyondtheRedMeatPart", "GendarmerieTicketsPlease", "GunsmithPart", "GendarmerieDistrictPatrol", "TestDrivePart", "GunsmithPart", "TheDoor", "BalladoftheRogues", "BalladoftheRoguesPart"],
       execList: [],
       displayDoneTasks: false,
-      tradors: ['Dummy', 'Prapor', 'Therapist', 'Fence', 'Skier', 'Peacekeeper', 'Mechanic', 'Ragman', 'Jaeger', 'Lightkeeper']
+      tradors: ['Dummy', 'Prapor', 'Therapist', 'Fence', 'Skier', 'Peacekeeper', 'Mechanic', 'Ragman', 'Jaeger', 'Lightkeeper'],
+      parpor: false,
+      therapist: false,
+      fence: false,
+      skier: false,
+      peacekeeper: false,
+      mechanic: false,
+      ragman: false,
+      jaeger: false,
+      lightkeeper: false
     };
   },
   mounted() {
