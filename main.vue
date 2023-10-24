@@ -1,7 +1,9 @@
 <template>
   <div class="section">
     <div class="container has-background-danger">
-      <div class="container flex">
+      <div class="columns">
+        <div class="column is-four-fifths">
+          <div class="container flex">
         <div class="card">
           <div class="card-content">
             <div class="content">Prapor</div>
@@ -22,6 +24,8 @@
             <div class="content">Skier</div>
           </div>
         </div>
+      </div>
+      <div class="container flex">
         <div class="card">
           <div class="card-content">
             <div class="content">Peacekeeper</div>
@@ -43,11 +47,15 @@
           </div>
         </div>
       </div>
-      <div class="is-boxed is-centerd">
-        <div v-if="!displayDoneTasks" @click="toggleDisplayDoneTask">
-          完了済のやつ表示する
         </div>
-        <div v-else @click="toggleDisplayDoneTask">完了済のやつ隠す</div>
+      </div>
+      <div class="level">
+        <div class="level-left">
+          <div v-if="!displayDoneTasks" class="level-item" @click="toggleDisplayDoneTask">
+            完了済のやつ表示する
+          </div>
+          <div v-else class="level-item"  @click="toggleDisplayDoneTask">完了済のやつ隠す</div>
+        </div>
       </div>
     </div>
     <div class="columns">
@@ -92,7 +100,7 @@
         </template>
       </div>
       <div class="column side-menu has-background-warning">
-        ここが横のおまけメニューだよ～
+        進捗率
       </div>
     </div>
   </div>
@@ -1819,5 +1827,8 @@ module.exports = {
 }
 .google-icon {
   vertical-align: -6px;
+}
+.card-content {
+  width: 8rem;
 }
 </style>
