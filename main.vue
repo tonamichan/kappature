@@ -12,7 +12,11 @@
 
             <div class="flex">
               <div class="wiki-link">
-                <a :href="'https://wikiwiki.jp/eft/' + getPersonName(task.owner) + '/' + task.name" target="_blank" rel="noopener noreferrer" class="has-text-link"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />日本語wiki</a>
+                <a :href="'https://wikiwiki.jp/eft/' + getPersonName(task.owner) + '/' + task.name" target="_blank" rel="noopener noreferrer" class="has-text-link">
+                  <span class="material-symbols-outlined">
+                    open_in_new
+                  </span>
+                  日本語wiki</a>
               </div>
               <div class="done-button">
                 <button v-if="execList.includes(task.id)" class="button is-info is-light" @click="toggleDoneState(task.id)">UNDONE</button>
