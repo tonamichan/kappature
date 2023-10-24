@@ -1602,6 +1602,11 @@ module.exports = {
       tradors: ['Dummy', 'Prapor', 'Therapist', 'Fence', 'Skier', 'Peacekeeper', 'Mechanic', 'Ragman', 'Jaeger', 'Lightkeeper']
     };
   },
+  mounted() {
+    if (localStorage.execList) {
+      this.execList = JSON.parse(localStorage.execList)
+    }
+  },
   computed: {
     kappaRequireTasks: function () {
       tasks = this.tasks.filter(task => this.isKappaRequire(task.name))
@@ -1616,6 +1621,8 @@ module.exports = {
       } else {
         this.execList.splice(index, 1)
       }
+
+      localStorage.execList = JSON.stringify(this.execList, undefined, 1)
     },
     toggleDisplayDoneTaks: function() {
       this.displayDoneTasks = !this.displayDoneTasks
