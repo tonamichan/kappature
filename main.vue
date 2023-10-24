@@ -1,9 +1,9 @@
 <template>
   <div>ここタブにするよ～</div>
-  <div>
+  <!-- <div>
     <span>test</span>
     <span v-for="task in tasks" :key="task.id">{{ task.id }}: {{ task.name }}</span>
-  </div>
+  </div> -->
   <div>ここまでタスクリストのつもり</div>
   <div>{{ exportTest }}</div>
 </template>
