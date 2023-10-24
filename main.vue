@@ -48,10 +48,8 @@
         </div>
       </div>
         </div>
-      </div>
-      <div class="level block">
-        <div class="level-left">
-          <button v-if="!displayDoneTasks" class="level-item button is-info" @click="toggleDisplayDoneTask">
+        <div class="column side-menu has-background-warning">
+          <button v-if="!displayDoneTasks" class="level-item button is-info is-light" @click="toggleDisplayDoneTask">
             完了済のやつ表示する
           </button>
           <button v-else class="level-item button is-info"  @click="toggleDisplayDoneTask">完了済のやつ隠す</button>
