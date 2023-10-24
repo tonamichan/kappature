@@ -676,12 +676,6 @@ module.exports = {
           difficulty: 3,
         },
         {
-          id: 84,
-          name: "SkierFullRes.jpg",
-          owner: 4,
-          difficulty: 3,
-        },
-        {
           id: 85,
           name: "Supplier",
           owner: 4,
