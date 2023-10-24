@@ -1,8 +1,8 @@
 <template>
   <div class="section">
-    <div class="container has-background-danger">
-      <div class="columns">
-        <div class="column is-four-fifths">
+    <div class="container block">
+      <div class="columns block">
+        <div class="column is-four-fifths has-background-danger">
           <div class="container flex">
         <div class="card">
           <div class="card-content">
@@ -49,12 +49,12 @@
       </div>
         </div>
       </div>
-      <div class="level">
+      <div class="level block">
         <div class="level-left">
-          <div v-if="!displayDoneTasks" class="level-item" @click="toggleDisplayDoneTask">
+          <button v-if="!displayDoneTasks" class="level-item button is-info" @click="toggleDisplayDoneTask">
             完了済のやつ表示する
-          </div>
-          <div v-else class="level-item"  @click="toggleDisplayDoneTask">完了済のやつ隠す</div>
+          </button>
+          <button v-else class="level-item button is-info"  @click="toggleDisplayDoneTask">完了済のやつ隠す</button>
         </div>
       </div>
     </div>
@@ -1823,6 +1823,7 @@ module.exports = {
 }
 .wiki-link {
   margin-right: auto;
+  padding-top: 1rem;
 }
 .flex {
   display: flex;
