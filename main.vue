@@ -1,47 +1,45 @@
 <template>
   <div class="section">
-    <div class="hero has-background-danger">
-      <div class="hero-body">
-        <div class="container flex">
-          <div class="card">
-            <div class="card-content">
-              <div class="content">Prapor</div>
-            </div>
+    <div class="container has-background-danger">
+      <div class="container flex">
+        <div class="card">
+          <div class="card-content">
+            <div class="content">Prapor</div>
           </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="content">Therapist</div>
-            </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <div class="content">Therapist</div>
           </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="content">Fence</div>
-            </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <div class="content">Fence</div>
           </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="content">Skier</div>
-            </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <div class="content">Skier</div>
           </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="content">Peacekeeper</div>
-            </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <div class="content">Peacekeeper</div>
           </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="content">Mechanic</div>
-            </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <div class="content">Mechanic</div>
           </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="content">Ragman</div>
-            </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <div class="content">Ragman</div>
           </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="content">Jaeger</div>
-            </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <div class="content">Jaeger</div>
           </div>
         </div>
       </div>
@@ -64,19 +62,14 @@
             <div class="flex">
               <div class="wiki-link">
                 <a
-                  :href="
-                    'https://wikiwiki.jp/eft/' +
-                    getPersonName(task.owner) +
-                    '/' +
-                    task.name.replace(/[?]/g, '%3F')
-                  "
+                  :href="generateWikiUrl(task)"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="has-text-link"
                 >
-                  <span class="material-symbols-outlined"> open_in_new </span>
-                  日本語wiki</a
-                >
+                  日本語wiki
+                  <span class="material-symbols-outlined google-icon"> open_in_new </span>
+                </a>
               </div>
               <div class="done-button">
                 <button
@@ -1806,6 +1799,10 @@ module.exports = {
         name.replace(/[^0-9a-zA-Z]/g, "")
       );
     },
+    generateWikiUrl: function(task) {
+      // 末尾のハテナのはほぼWhat’s on the Flash Drive?用
+      return 'https://wikiwiki.jp/eft/' + this.getPersonName(task.owner) + '/' + task.name.replace(/[?]/g, '%3F')
+    },
   },
 };
 </script>
@@ -1819,5 +1816,8 @@ module.exports = {
 }
 .flex {
   display: flex;
+}
+.google-icon {
+  vertical-align: -6px;
 }
 </style>
