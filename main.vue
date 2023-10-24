@@ -4,62 +4,136 @@
       <div class="columns block">
         <div class="column is-four-fifths has-background-danger">
           <div class="container flex">
-        <div class="card">
-          <div class="card-content">
-            <div class="content">Prapor</div>
+            <div class="card">
+              <div class="card-content">
+                <div
+                  class="content"
+                  :class="{
+                    'card-active': viewPrapor,
+                    'has-background-grey': !viewPrapor,
+                  }"
+                >
+                  Prapor
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div
+                  class="content"
+                  :class="{
+                    'card-active': viewTherapist,
+                    'has-background-grey': !viewTherapist,
+                  }"
+                >
+                  Therapist
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div
+                  class="content"
+                  :class="{
+                    'card-active': viewFence,
+                    'has-background-grey': !viewFence,
+                  }"
+                >
+                  Fence
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div
+                  class="content"
+                  :class="{
+                    'card-active': viewSkier,
+                    'has-background-grey': !viewSkier,
+                  }"
+                >
+                  Skier
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <div class="content">Therapist</div>
+          <div class="container flex">
+            <div class="card">
+              <div class="card-content">
+                <div
+                  class="content"
+                  :class="{
+                    'card-active': viewPeacekeeper,
+                    'has-background-grey': !viewPeacekeeper,
+                  }"
+                >
+                  Peacekeeper
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div
+                  class="content"
+                  :class="{
+                    'card-active': viewMechanic,
+                    'has-background-grey': !viewMechanic,
+                  }"
+                >
+                  Mechanic
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div
+                  class="content"
+                  :class="{
+                    'card-active': viewRagman,
+                    'has-background-grey': !viewRagman,
+                  }"
+                >
+                  Ragman
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div
+                  class="content"
+                  :class="{
+                    'card-active': viewJaeger,
+                    'has-background-grey': !viewJaeger,
+                  }"
+                >
+                  Jaeger
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <div class="content">Fence</div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <div class="content">Skier</div>
-          </div>
-        </div>
-      </div>
-      <div class="container flex">
-        <div class="card">
-          <div class="card-content">
-            <div class="content">Peacekeeper</div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <div class="content">Mechanic</div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <div class="content">Ragman</div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <div class="content">Jaeger</div>
-          </div>
-        </div>
-      </div>
         </div>
         <div class="column side-menu has-background-warning">
-          <button v-if="!displayDoneTasks" class="level-item button is-info is-light" @click="toggleDisplayDoneTask">
+          <button
+            v-if="!displayDoneTasks"
+            class="level-item button is-info is-light"
+            @click="toggleDisplayDoneTask"
+          >
             完了済のやつ表示する
           </button>
-          <button v-else class="level-item button is-info"  @click="toggleDisplayDoneTask">完了済のやつ隠す</button>
+          <button
+            v-else
+            class="level-item button is-info"
+            @click="toggleDisplayDoneTask"
+          >
+            完了済のやつ隠す
+          </button>
         </div>
       </div>
     </div>
     <div class="container">
       <div class="columns">
         <div class="column is-four-fifths task-list has-background-link">
-          <template v-for="task in kappaRequireTasks" :key="task.id">
+          <template v-for="task in displayTasks" :key="task.id">
             <div
               v-if="displayDoneTasks || !execList.includes(task.id)"
               class="box"
@@ -75,7 +149,9 @@
                     class="has-text-link"
                   >
                     日本語wiki
-                    <span class="material-symbols-outlined google-icon"> open_in_new </span>
+                    <span class="material-symbols-outlined google-icon">
+                      open_in_new
+                    </span>
                   </a>
                 </div>
                 <div class="done-button">
@@ -1763,15 +1839,15 @@ module.exports = {
         "Jaeger",
         "Lightkeeper",
       ],
-      parpor: false,
-      therapist: false,
-      fence: false,
-      skier: false,
-      peacekeeper: false,
-      mechanic: false,
-      ragman: false,
-      jaeger: false,
-      lightkeeper: false,
+      viewParpor: false,
+      viewTherapist: false,
+      viewFence: false,
+      viewSkier: false,
+      viewPeacekeeper: false,
+      viewMechanic: false,
+      viewRagman: false,
+      viewJaeger: false,
+      viewLightkeeper: false,
     };
   },
   mounted() {
@@ -1784,10 +1860,24 @@ module.exports = {
       tasks = this.tasks.filter((task) => this.isKappaRequire(task.name));
       return tasks;
     },
-    progress: function() {
-      per = this.execList.length / this.kappaRequireTasks.length
-      return Math.round(100 * per) + '%'
-    }
+    displayTasks: function () {
+      // 計算量注意
+      tasks = this.kappaRequireTasks.filter((task) => {
+        (this.viewParpor || task.owner !== 1) &&
+          (this.viewTherapist || task.owner !== 2) &&
+          (this.viewFence || task.owner !== 3) &&
+          (this.viewSkier || task.owner !== 4) &&
+          (this.viewPeacekeeper || task.owner !== 5) &&
+          (this.viewMechanic || task.owner !== 6) &&
+          (this.viewRagman || task.owner !== 7) &&
+          (this.viewJaeger || task.owner !== 8);
+      });
+      return tasks;
+    },
+    progress: function () {
+      per = this.execList.length / this.kappaRequireTasks.length;
+      return Math.round(100 * per) + "%";
+    },
   },
   methods: {
     toggleDoneState: function (id) {
@@ -1812,9 +1902,14 @@ module.exports = {
         name.replace(/[^0-9a-zA-Z]/g, "")
       );
     },
-    generateWikiUrl: function(task) {
+    generateWikiUrl: function (task) {
       // 末尾のハテナのはほぼWhat’s on the Flash Drive?用
-      return 'https://wikiwiki.jp/eft/' + this.getPersonName(task.owner) + '/' + task.name.replace(/[?]/g, '%3F')
+      return (
+        "https://wikiwiki.jp/eft/" +
+        this.getPersonName(task.owner) +
+        "/" +
+        task.name.replace(/[?]/g, "%3F")
+      );
     },
   },
 };
@@ -1823,6 +1918,9 @@ module.exports = {
 <style scoped>
 .done-button {
   margin-left: auto;
+}
+.side-menu {
+  text-align: center;
 }
 .wiki-link {
   margin-right: auto;
@@ -1839,5 +1937,8 @@ module.exports = {
 }
 .card {
   margin: 2px;
+}
+.box {
+  margin-bottom: 0.5rem;
 }
 </style>
