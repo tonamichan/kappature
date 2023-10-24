@@ -1,9 +1,11 @@
 <template>
   <div>
+    <div :click="toggleDisplayDoneTaks">完了済のやつ表示する</div>
     <div>ここタブにするよ～</div>
     <div>
       <template v-for="task in tasks" :key="task.id">
-        <div v-if="isDone(task.id)" :click="toggleDoneState">
+        <!-- <div v-if="isDone(task.id)" :click="toggleDoneState"> -->
+        <div>
           {{ task.name }}
         </div>
       </template>
@@ -1578,7 +1580,8 @@ module.exports = {
           owner: 8,
         },
       ],
-      execList: []
+      execList: [],
+      displayDoneTasks: false
     };
   },
   methods: {
@@ -1592,6 +1595,9 @@ module.exports = {
       } else {
         this.execList.splice(index, 1)
       }
+    },
+    toggleDisplayDoneTaks: function() {
+      this.displayDoneTasks = !this.displayDoneTasks
     },
   }
 };
