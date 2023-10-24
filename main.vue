@@ -1,92 +1,106 @@
 <template>
-  <div class="container">
+  <div class="section">
     <div class="hero has-background-danger">
-      <div class="flex">
-        <div class="card">
-          <div class="card-content" >
-            <div class="content">
-              Prapor
+      <div class="hero-body">
+        <div class="container flex">
+          <div class="card">
+            <div class="card-content">
+              <div class="content">Prapor</div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-content" >
-            <div class="content">
-              Therapist
+          <div class="card">
+            <div class="card-content">
+              <div class="content">Therapist</div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-content" >
-            <div class="content">
-              Fence
+          <div class="card">
+            <div class="card-content">
+              <div class="content">Fence</div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-content" >
-            <div class="content">
-              Skier
+          <div class="card">
+            <div class="card-content">
+              <div class="content">Skier</div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-content" >
-            <div class="content">
-              Peacekeeper
+          <div class="card">
+            <div class="card-content">
+              <div class="content">Peacekeeper</div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-content" >
-            <div class="content">
-              Mechanic
+          <div class="card">
+            <div class="card-content">
+              <div class="content">Mechanic</div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-content" >
-            <div class="content">
-              Ragman
+          <div class="card">
+            <div class="card-content">
+              <div class="content">Ragman</div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-content" >
-            <div class="content">
-              Jaeger
+          <div class="card">
+            <div class="card-content">
+              <div class="content">Jaeger</div>
             </div>
           </div>
         </div>
       </div>
-      <div>
-        <div v-if="!displayDoneTasks" @click="toggleDisplayDoneTask">完了済のやつ表示する</div>
+      <div class="is-boxed is-centerd">
+        <div v-if="!displayDoneTasks" @click="toggleDisplayDoneTask">
+          完了済のやつ表示する
+        </div>
         <div v-else @click="toggleDisplayDoneTask">完了済のやつ隠す</div>
       </div>
     </div>
     <div class="columns">
       <div class="column is-four-fifths task-list has-background-link">
         <template v-for="task in kappaRequireTasks" :key="task.id">
-          <div v-if="displayDoneTasks || !execList.includes(task.id)" class="box">
+          <div
+            v-if="displayDoneTasks || !execList.includes(task.id)"
+            class="box"
+          >
             <div class="task-name">{{ task.name }}</div>
 
             <div class="flex">
               <div class="wiki-link">
-                <a :href="'https://wikiwiki.jp/eft/' + getPersonName(task.owner) + '/' + task.name" target="_blank" rel="noopener noreferrer" class="has-text-link">
-                  <span class="material-symbols-outlined">
-                    open_in_new
-                  </span>
-                  日本語wiki</a>
+                <a
+                  :href="
+                    'https://wikiwiki.jp/eft/' +
+                    getPersonName(task.owner) +
+                    '/' +
+                    task.name
+                  "
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="has-text-link"
+                >
+                  <span class="material-symbols-outlined"> open_in_new </span>
+                  日本語wiki</a
+                >
               </div>
               <div class="done-button">
-                <button v-if="execList.includes(task.id)" class="button is-info is-light" @click="toggleDoneState(task.id)">UNDONE</button>
-                <button v-else class="button is-primary" @click="toggleDoneState(task.id)">DONE!</button>
+                <button
+                  v-if="execList.includes(task.id)"
+                  class="button is-info is-light"
+                  @click="toggleDoneState(task.id)"
+                >
+                  UNDONE
+                </button>
+                <button
+                  v-else
+                  class="button is-primary"
+                  @click="toggleDoneState(task.id)"
+                >
+                  DONE!
+                </button>
               </div>
             </div>
           </div>
         </template>
       </div>
-    <div class="column side-menu has-background-warning">ここが横のおまけメニューだよ～</div>
+      <div class="column side-menu has-background-warning">
+        ここが横のおまけメニューだよ～
+      </div>
     </div>
   </div>
 </template>
@@ -1657,10 +1671,96 @@ module.exports = {
           owner: 8,
         },
       ],
-      not_require_tasks: ["LongLine", "Booze", "Thestylishone", "TextilePart", "TextilePart", "TheChoice", "Hunter", "TheHuntsmanPathRelentless", "Anappleadaykeepsthedoctoraway", "TheHuntsmanpathSadist", "SwiftOne", "CapturingOutposts", "Escort", "Loyaltybuyout", "Nooffence", "Trustregain", "Calibration", "Flint", "NightSweep", "TheCourier", "Mentor", "MutualInterest", "TopSecret", "OurOwnLand", "Trophies", "SpecialEquipment", "Counteraction", "TheHuntsmanPathAdministrator", "KingsoftheRooftops", "CeaseFire", "YourCarNeedsaService", "WorstJobintheWorld", "TestDrivePart", "HouseArrestPart", "NetworkProviderPart", "BestJobintheWorld", "Slaughterhouse", "NetworkProviderPart", "AssessmentPart", "AssessmentPart", "AssessmentPart", "KeytotheTower", "KnockKnock", "GettingAcquainted", "Lightkeepersquestchain", "InformationSource", "Missinginformant", "Snatch", "ReturntheFavor", "Payback", "Provocation", "FollowingtheBreadCrumbs", "Spotter", "MakeanImpression", "TroubleintheBigCity", "GendarmerieSchoolGuard", "GlorytoCPSUPart", "PetsWontNeedIt", "AmbulancesAgain", "OutofTime", "TheHuntsmanPathBigGame", "GendarmerieMallCop", "BeyondtheRedMeatPart", "GunsmithPart", "BroadcastPart", "BeyondtheRedMeatPart", "GendarmerieTicketsPlease", "GunsmithPart", "GendarmerieDistrictPatrol", "TestDrivePart", "GunsmithPart", "TheDoor", "BalladoftheRogues", "BalladoftheRoguesPart"],
+      not_require_tasks: [
+        "LongLine",
+        "Booze",
+        "Thestylishone",
+        "TextilePart",
+        "TextilePart",
+        "TheChoice",
+        "Hunter",
+        "TheHuntsmanPathRelentless",
+        "Anappleadaykeepsthedoctoraway",
+        "TheHuntsmanpathSadist",
+        "SwiftOne",
+        "CapturingOutposts",
+        "Escort",
+        "Loyaltybuyout",
+        "Nooffence",
+        "Trustregain",
+        "Calibration",
+        "Flint",
+        "NightSweep",
+        "TheCourier",
+        "Mentor",
+        "MutualInterest",
+        "TopSecret",
+        "OurOwnLand",
+        "Trophies",
+        "SpecialEquipment",
+        "Counteraction",
+        "TheHuntsmanPathAdministrator",
+        "KingsoftheRooftops",
+        "CeaseFire",
+        "YourCarNeedsaService",
+        "WorstJobintheWorld",
+        "TestDrivePart",
+        "HouseArrestPart",
+        "NetworkProviderPart",
+        "BestJobintheWorld",
+        "Slaughterhouse",
+        "NetworkProviderPart",
+        "AssessmentPart",
+        "AssessmentPart",
+        "AssessmentPart",
+        "KeytotheTower",
+        "KnockKnock",
+        "GettingAcquainted",
+        "Lightkeepersquestchain",
+        "InformationSource",
+        "Missinginformant",
+        "Snatch",
+        "ReturntheFavor",
+        "Payback",
+        "Provocation",
+        "FollowingtheBreadCrumbs",
+        "Spotter",
+        "MakeanImpression",
+        "TroubleintheBigCity",
+        "GendarmerieSchoolGuard",
+        "GlorytoCPSUPart",
+        "PetsWontNeedIt",
+        "AmbulancesAgain",
+        "OutofTime",
+        "TheHuntsmanPathBigGame",
+        "GendarmerieMallCop",
+        "BeyondtheRedMeatPart",
+        "GunsmithPart",
+        "BroadcastPart",
+        "BeyondtheRedMeatPart",
+        "GendarmerieTicketsPlease",
+        "GunsmithPart",
+        "GendarmerieDistrictPatrol",
+        "TestDrivePart",
+        "GunsmithPart",
+        "TheDoor",
+        "BalladoftheRogues",
+        "BalladoftheRoguesPart",
+      ],
       execList: [],
       displayDoneTasks: false,
-      tradors: ['Dummy', 'Prapor', 'Therapist', 'Fence', 'Skier', 'Peacekeeper', 'Mechanic', 'Ragman', 'Jaeger', 'Lightkeeper'],
+      tradors: [
+        "Dummy",
+        "Prapor",
+        "Therapist",
+        "Fence",
+        "Skier",
+        "Peacekeeper",
+        "Mechanic",
+        "Ragman",
+        "Jaeger",
+        "Lightkeeper",
+      ],
       parpor: false,
       therapist: false,
       fence: false,
@@ -1669,42 +1769,44 @@ module.exports = {
       mechanic: false,
       ragman: false,
       jaeger: false,
-      lightkeeper: false
+      lightkeeper: false,
     };
   },
   mounted() {
     if (localStorage.execList) {
-      this.execList = JSON.parse(localStorage.execList)
+      this.execList = JSON.parse(localStorage.execList);
     }
   },
   computed: {
     kappaRequireTasks: function () {
-      tasks = this.tasks.filter(task => this.isKappaRequire(task.name))
-      return tasks
+      tasks = this.tasks.filter((task) => this.isKappaRequire(task.name));
+      return tasks;
     },
   },
   methods: {
-    toggleDoneState: function(id) {
-      const index = this.execList.findIndex(el => el == id)
+    toggleDoneState: function (id) {
+      const index = this.execList.findIndex((el) => el == id);
       if (index === -1) {
-        this.execList.push(id)
+        this.execList.push(id);
       } else {
-        this.execList.splice(index, 1)
+        this.execList.splice(index, 1);
       }
 
-      localStorage.execList = JSON.stringify(this.execList, undefined, 1)
+      localStorage.execList = JSON.stringify(this.execList, undefined, 1);
     },
-    toggleDisplayDoneTask: function() {
-      this.displayDoneTasks = !this.displayDoneTasks
+    toggleDisplayDoneTask: function () {
+      this.displayDoneTasks = !this.displayDoneTasks;
     },
-    getPersonName: function(id) {
+    getPersonName: function (id) {
       // トレーダーに振ったidと添字が一致するようにしてる
-      return this.tradors[id]
+      return this.tradors[id];
     },
-    isKappaRequire: function(name) {
-      return !this.not_require_tasks.includes(name.replace(/[^0-9a-zA-Z]/g, ''))
-    }
-  }
+    isKappaRequire: function (name) {
+      return !this.not_require_tasks.includes(
+        name.replace(/[^0-9a-zA-Z]/g, "")
+      );
+    },
+  },
 };
 </script>
 
