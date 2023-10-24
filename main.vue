@@ -4,110 +4,102 @@
       <div class="columns block">
         <div class="column is-four-fifths has-background-danger">
           <div class="container flex">
-            <div class="card">
+            <div
+              class="card"
+              :class="{
+                'card-active': viewPrapor,
+                'has-background-grey': !viewPrapor,
+              }"
+              @click="viewPrapor = !viewPrapor"
+            >
               <div class="card-content">
-                <div
-                  class="content"
-                  :class="{
-                    'card-active': viewPrapor,
-                    'has-background-grey': !viewPrapor,
-                  }"
-                >
-                  Prapor
-                </div>
+                <div class="content">Prapor</div>
               </div>
             </div>
-            <div class="card">
+            <div
+              class="card"
+              :class="{
+                'card-active': viewTherapist,
+                'has-background-grey': !viewTherapist,
+              }"
+              @click="viewTherapist = !viewTherapist"
+            >
               <div class="card-content">
-                <div
-                  class="content"
-                  :class="{
-                    'card-active': viewTherapist,
-                    'has-background-grey': !viewTherapist,
-                  }"
-                >
-                  Therapist
-                </div>
+                <div class="content">Therapist</div>
               </div>
             </div>
-            <div class="card">
+            <div
+              class="card"
+              :class="{
+                'card-active': viewFence,
+                'has-background-grey': !viewFence,
+              }"
+              @click="viewFence = !viewFence"
+            >
               <div class="card-content">
-                <div
-                  class="content"
-                  :class="{
-                    'card-active': viewFence,
-                    'has-background-grey': !viewFence,
-                  }"
-                >
-                  Fence
-                </div>
+                <div class="content">Fence</div>
               </div>
             </div>
-            <div class="card">
+            <div
+              class="card"
+              :class="{
+                'card-active': viewSkier,
+                'has-background-grey': !viewSkier,
+              }"
+              @click="viewSkier = !viewSkier"
+            >
               <div class="card-content">
-                <div
-                  class="content"
-                  :class="{
-                    'card-active': viewSkier,
-                    'has-background-grey': !viewSkier,
-                  }"
-                >
-                  Skier
-                </div>
+                <div class="content">Skier</div>
               </div>
             </div>
           </div>
           <div class="container flex">
-            <div class="card">
+            <div
+              class="card"
+              :class="{
+                'card-active': viewPeacekeeper,
+                'has-background-grey': !viewPeacekeeper,
+              }"
+              @click="viewPeacekeeper = !viewPeacekeeper"
+            >
               <div class="card-content">
-                <div
-                  class="content"
-                  :class="{
-                    'card-active': viewPeacekeeper,
-                    'has-background-grey': !viewPeacekeeper,
-                  }"
-                >
-                  Peacekeeper
-                </div>
+                <div class="content">Peacekeeper</div>
               </div>
             </div>
-            <div class="card">
+            <div
+              class="card"
+              :class="{
+                'card-active': viewMechanic,
+                'has-background-grey': !viewMechanic,
+              }"
+              @click="viewMechanic = !viewMechanic"
+            >
               <div class="card-content">
-                <div
-                  class="content"
-                  :class="{
-                    'card-active': viewMechanic,
-                    'has-background-grey': !viewMechanic,
-                  }"
-                >
-                  Mechanic
-                </div>
+                <div class="content">Mechanic</div>
               </div>
             </div>
-            <div class="card">
+            <div
+              class="card"
+              :class="{
+                'card-active': viewRagman,
+                'has-background-grey': !viewRagman,
+              }"
+              @click="viewRagman = !viewRagman"
+            >
               <div class="card-content">
-                <div
-                  class="content"
-                  :class="{
-                    'card-active': viewRagman,
-                    'has-background-grey': !viewRagman,
-                  }"
-                >
-                  Ragman
-                </div>
+                <div class="content">Ragman</div>
               </div>
             </div>
-            <div class="card">
+            <div
+              class="card"
+              :class="{
+                'card-active': viewJaeger,
+                'has-background-grey': !viewJaeger,
+              }"
+              @click="viewJaeger = !viewJaeger"
+            >
               <div class="card-content">
-                <div
-                  class="content"
-                  :class="{
-                    'card-active': viewJaeger,
-                    'has-background-grey': !viewJaeger,
-                  }"
-                >
-                  Jaeger
-                </div>
+                <div class="content">Jaeger</div>
               </div>
             </div>
           </div>
@@ -1839,15 +1831,15 @@ module.exports = {
         "Jaeger",
         "Lightkeeper",
       ],
-      viewPrapor: false,
-      viewTherapist: false,
-      viewFence: false,
-      viewSkier: false,
-      viewPeacekeeper: false,
-      viewMechanic: false,
-      viewRagman: false,
-      viewJaeger: false,
-      viewLightkeeper: false,
+      viewPrapor: true,
+      viewTherapist: true,
+      viewFence: true,
+      viewSkier: true,
+      viewPeacekeeper: true,
+      viewMechanic: true,
+      viewRagman: true,
+      viewJaeger: true,
+      viewLightkeeper: true,
     };
   },
   mounted() {
