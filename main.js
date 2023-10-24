@@ -2,11 +2,8 @@
 const router = new VueRouter({
     routes: [{
       path: '/',
-      component: httpVueLoader('./page1.vue')
-    }, {
-      path: '/page2',
-      component: httpVueLoader('./page2.vue')
-    }]
+      component: httpVueLoader('./main.vue')
+    }
   });
   
   // point.1 Vueインスタンスの作成

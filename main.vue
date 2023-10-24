@@ -1,5 +1,5 @@
 <template>
-    <div>page1</div>
+    <div>ここにタスクリストを出すよ～</div>
   </template>
   
   <script>

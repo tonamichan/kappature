@@ -1,6 +1,6 @@
 <template>
     <div>
-      <div>Hello CDN Vue!</div>
+      <div>となみちゃんが頑張ってます</div>
       <router-view></router-view>
     </div>
   </template>
