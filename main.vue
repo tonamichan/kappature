@@ -1,12 +1,14 @@
 <template>
   <div>
     <div>ここタブにするよ～</div>
-    <!-- <div>
-      <span>test</span>
-      <span v-for="task in tasks" :key="task.id">{{ task.id }}: {{ task.name }}</span>
-    </div> -->
+    <div>
+      <template v-for="task in tasks" :key="task.id">
+        <div v-if="isDone(task.id)" :click="toggleDoneState">
+          {{ task.name }}
+        </div>
+      </template>
+    </div>
     <div>ここまでタスクリストのつもり</div>
-    <div>{{ exportTest }}</div>
   </div>
 </template>
 
@@ -1576,8 +1578,21 @@ module.exports = {
           owner: 8,
         },
       ],
-      exportTest: 'この文章が出ていればmodule.exports OK'
+      execList: []
     };
   },
+  methods: {
+    isDone: function(id) {
+      return this.execList.includes(id)
+    },
+    toggleDoneState: function(id) {
+      const index = this.execList.findIndex(el => el == id)
+      if (index === -1) {
+        this.execList.push(id)
+      } else {
+        this.execList.splice(index, 1)
+      }
+    },
+  }
 };
 </script>
