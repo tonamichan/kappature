@@ -68,7 +68,7 @@
                     'https://wikiwiki.jp/eft/' +
                     getPersonName(task.owner) +
                     '/' +
-                    task.name
+                    task.name.replace(/[?]/g, '%3F')
                   "
                   target="_blank"
                   rel="noopener noreferrer"
@@ -547,7 +547,7 @@ module.exports = {
         },
         {
           id: 88,
-          name: "What’s on the Flash Drive？",
+          name: "What’s on the Flash Drive?",
           owner: 4,
         },
         {
