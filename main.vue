@@ -8,7 +8,7 @@
     <div class="columns">
       <div class="column is-four-fifths task-list has-background-link">
         ここがタスクリストだよ～
-        <template v-for="task in tasks" :key="task.id">
+        <template v-for="task in kappaRequireTasks" :key="task.id">
           <div v-if="displayDoneTasks || !execList.includes(task.id)" class="box">
             <div class="task-name">{{ task.name }}</div>
 
@@ -1596,10 +1596,17 @@ module.exports = {
           owner: 8,
         },
       ],
+      not_require_tasks: ["LongLine", "Booze", "Thestylishone", "TextilePart", "TextilePart", "TheChoice", "Hunter", "TheHuntsmanPathRelentless", "Anappleadaykeepsthedoctoraway", "TheHuntsmanpathSadist", "SwiftOne", "CapturingOutposts", "Escort", "Loyaltybuyout", "Nooffence", "Trustregain", "Calibration", "Flint", "NightSweep", "TheCourier", "Mentor", "MutualInterest", "TopSecret", "OurOwnLand", "Trophies", "SpecialEquipment", "Counteraction", "TheHuntsmanPathAdministrator", "KingsoftheRooftops", "CeaseFire", "YourCarNeedsaService", "WorstJobintheWorld", "TestDrivePart", "HouseArrestPart", "NetworkProviderPart", "BestJobintheWorld", "Slaughterhouse", "NetworkProviderPart", "AssessmentPart", "AssessmentPart", "AssessmentPart", "KeytotheTower", "KnockKnock", "GettingAcquainted", "Lightkeepersquestchain", "InformationSource", "Missinginformant", "Snatch", "ReturntheFavor", "Payback", "Provocation", "FollowingtheBreadCrumbs", "Spotter", "MakeanImpression", "TroubleintheBigCity", "GendarmerieSchoolGuard", "GlorytoCPSUPart", "PetsWontNeedIt", "AmbulancesAgain", "OutofTime", "TheHuntsmanPathBigGame", "GendarmerieMallCop", "BeyondtheRedMeatPart", "GunsmithPart", "BroadcastPart", "BeyondtheRedMeatPart", "GendarmerieTicketsPlease", "GunsmithPart", "GendarmerieDistrictPatrol", "TestDrivePart", "GunsmithPart", "TheDoor", "BalladoftheRogues", "BalladoftheRoguesPart"],
       execList: [],
       displayDoneTasks: false,
       tradors: ['Dummy', 'Prapor', 'Therapist', 'Fence', 'Skier', 'Peacekeeper', 'Mechanic', 'Ragman', 'Jaeger', 'Lightkeeper']
     };
+  },
+  computed: {
+    kappaRequireTasks: function () {
+      tasks = this.tasks.filter(task => this.isKappaRequire(task.name))
+      return tasks
+    },
   },
   methods: {
     toggleDoneState: function(id) {
@@ -1616,6 +1623,10 @@ module.exports = {
     getPersonName: function(id) {
       // トレーダーに振ったidと添字が一致するようにしてる
       return this.tradors[id]
+    },
+    isKappaRequire: function(name) {
+      // nayose
+      return !this.not_require_tasks.includes(name.replace(/[^0-9a-zA-Z]/g, ''))
     }
   }
 };
