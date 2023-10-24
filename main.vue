@@ -127,7 +127,6 @@
         <div class="column is-four-fifths task-list has-background-link">
           <template v-for="task in displayTasks" :key="task.id">
             <div
-              v-if="displayDoneTasks || !execList.includes(task.id)"
               class="box"
             >
               <div class="task-name">{{ task.name }}</div>
@@ -1862,7 +1861,8 @@ module.exports = {
           (this.viewPeacekeeper || task.owner !== 5) &&
           (this.viewMechanic || task.owner !== 6) &&
           (this.viewRagman || task.owner !== 7) &&
-          (this.viewJaeger || task.owner !== 8);
+          (this.viewJaeger || task.owner !== 8) &&
+          (this.displayDoneTasks || !this.execList.includes(task.id));
       });
       return tasks;
     },
