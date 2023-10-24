@@ -1,13 +1,28 @@
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 
 <head>
-    <title>
-        tonami chan page!!!
-    </title>
+    <meta charset="utf-8">
+
+    <!-- point.1 各種VueのCDNを読み込む -->
+
+    <!-- Vue2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+    <!-- Vue Router CDN -->
+    <script src="https://unpkg.com/vue-router@3.0.0/dist/vue-router.js"></script>
+    <!-- Http Vue Loader CDN -->
+    <script src="https://unpkg.com/http-vue-loader"></script>
 </head>
 
 <body>
-    <h2>tonami_chan_is_kawaii</h2>
+    <h1>index</h1>
+    <!-- point.2 id="app"のタグを用意する -->
+    <div id="app">
+        <app-vue></app-vue>
+    </div>
 </body>
+
+<!-- point.3 main.jsを読み込む -->
+<script src="./main.js"></script>
 
 </html>
