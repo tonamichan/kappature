@@ -1839,7 +1839,7 @@ module.exports = {
         "Jaeger",
         "Lightkeeper",
       ],
-      viewParpor: false,
+      viewPrapor: false,
       viewTherapist: false,
       viewFence: false,
       viewSkier: false,
@@ -1863,7 +1863,7 @@ module.exports = {
     displayTasks: function () {
       // 計算量注意
       tasks = this.kappaRequireTasks.filter((task) => {
-        (this.viewParpor || task.owner !== 1) &&
+        (this.viewPrapor || task.owner !== 1) &&
           (this.viewTherapist || task.owner !== 2) &&
           (this.viewFence || task.owner !== 3) &&
           (this.viewSkier || task.owner !== 4) &&
