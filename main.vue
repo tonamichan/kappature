@@ -12,8 +12,8 @@
           <div v-if="displayDoneTasks || execList.includes(task.id)" class="box">
             <div class="task-name">{{ task.name }}</div>
 
-            <button v-if="displayDoneTasks" class="button is-info is-light" @click="toggleDoneState(id)">UNDONE</button>
-            <button v-else class="button is-primary" @click="toggleDoneState(id)">DONE!</button>
+            <button v-if="displayDoneTasks" class="button is-info is-light" @click="toggleDoneState(task.id)">UNDONE</button>
+            <button v-else class="button is-primary" @click="toggleDoneState(task.id)">DONE!</button>
           </div>
         </template>
         <span>ここまでタスクリストのつもり</span>
