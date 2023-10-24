@@ -1,16 +1,22 @@
 <template>
-  <div>
-    <div :click="toggleDisplayDoneTaks">完了済のやつ表示する</div>
-    <div>ここタブにするよ～</div>
-    <div>
-      <template v-for="task in tasks" :key="task.id">
-        <!-- <div v-if="isDone(task.id)" :click="toggleDoneState"> -->
-        <div>
-          {{ task.name }}
-        </div>
-      </template>
+  <div class="container">
+    <div class="container header has-background-danger">
+      <div :click="toggleDisplayDoneTaks">完了済のやつ表示する</div>
+      <div>ここタブにするよ～</div>
     </div>
-    <div>ここまでタスクリストのつもり</div>
+    <div class="columns">
+      <div class="is-four-fifths task-list has-background-link">
+        ここがタスクリストだよ～
+        <template v-for="task in tasks" :key="task.id">
+          <!-- <div v-if="isDone(task.id)" :click="toggleDoneState"> -->
+          <div>
+            {{ task.name }}
+          </div>
+        </template>
+        <div>ここまでタスクリストのつもり</div>
+      </div>
+    <div class="column side-menu has-background-warning">ここが横のおまけメニューだよ～</div>
+    </div>
   </div>
 </template>
 
@@ -1602,3 +1608,6 @@ module.exports = {
   }
 };
 </script>
+
+<style scoped>
+</style>
