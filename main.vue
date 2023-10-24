@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="header has-background-danger">
-      <div v-if="displayDoneTasks" @click="toggleDisplayDoneTaks">完了済のやつ表示する</div>
+      <div v-if="!displayDoneTasks" @click="toggleDisplayDoneTaks">完了済のやつ表示する</div>
       <div v-else @click="toggleDisplayDoneTaks">完了済のやつ隠す</div>
       <div>ここタブにするよ～</div>
     </div>
@@ -9,7 +9,7 @@
       <div class="column is-four-fifths task-list has-background-link">
         ここがタスクリストだよ～
         <template v-for="task in tasks" :key="task.id">
-          <span v-if="isDone(task.id)" @click="toggleDoneState">
+          <span v-if="displayDoneTasks || execList.includes(task.id)" @click="toggleDoneState">
             {{ task.name }}
           </span>
         </template>
@@ -1591,9 +1591,6 @@ module.exports = {
     };
   },
   methods: {
-    isDone: function(id) {
-      return this.execList.includes(id)
-    },
     toggleDoneState: function(id) {
       const index = this.execList.findIndex(el => el == id)
       if (index === -1) {
