@@ -1832,4 +1832,7 @@ module.exports = {
 .card-content {
   width: 8rem;
 }
+.card {
+  margin: 2px;
+}
 </style>
