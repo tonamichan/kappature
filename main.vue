@@ -12,11 +12,11 @@
           <div v-if="displayDoneTasks || !execList.includes(task.id)" class="box">
             <div class="task-name">{{ task.name }}</div>
 
-            <div>
-              <div>
+            <div class="flex">
+              <div class="wiki-link">
                 <a :href="'https://wikiwiki.jp/eft/' + getPersonName(task.owner) + '/' + task.name" class="has-text-link">日本語wiki</a>
               </div>
-              <div>
+              <div class="done-button">
                 <button v-if="execList.includes(task.id)" class="button is-info is-light" @click="toggleDoneState(task.id)">UNDONE</button>
                 <button v-else class="button is-primary" @click="toggleDoneState(task.id)">DONE!</button>
               </div>
@@ -1622,4 +1622,13 @@ module.exports = {
 </script>
 
 <style scoped>
+.done-button {
+  margin-left: auto;
+}
+.wiki-link {
+  margin-right: auto;
+}
+.flex {
+  display: flex;
+}
 </style>
