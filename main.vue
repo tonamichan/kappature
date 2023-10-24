@@ -9,7 +9,7 @@
       <div class="column is-four-fifths task-list has-background-link">
         ここがタスクリストだよ～
         <template v-for="task in tasks" :key="task.id">
-          <div v-if="displayDoneTasks || execList.includes(task.id)" class="box">
+          <div v-if="displayDoneTasks || !execList.includes(task.id)" class="box">
             <div class="task-name">{{ task.name }}</div>
 
             <button v-if="execList.includes(task.id)" class="button is-info is-light" @click="toggleDoneState(task.id)">UNDONE</button>
