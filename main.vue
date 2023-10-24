@@ -60,8 +60,8 @@
         </div>
       </div>
       <div>
-        <div v-if="!displayDoneTasks" @click="toggleDisplayDoneTaks">完了済のやつ表示する</div>
-        <div v-else @click="toggleDisplayDoneTaks">完了済のやつ隠す</div>
+        <div v-if="!displayDoneTasks" @click="toggleDisplayDoneTask">完了済のやつ表示する</div>
+        <div v-else @click="toggleDisplayDoneTask">完了済のやつ隠す</div>
       </div>
     </div>
     <div class="columns">
@@ -1694,7 +1694,7 @@ module.exports = {
 
       localStorage.execList = JSON.stringify(this.execList, undefined, 1)
     },
-    toggleDisplayDoneTaks: function() {
+    toggleDisplayDoneTask: function() {
       this.displayDoneTasks = !this.displayDoneTasks
     },
     getPersonName: function(id) {
@@ -1702,7 +1702,6 @@ module.exports = {
       return this.tradors[id]
     },
     isKappaRequire: function(name) {
-      // nayose
       return !this.not_require_tasks.includes(name.replace(/[^0-9a-zA-Z]/g, ''))
     }
   }
