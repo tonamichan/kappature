@@ -130,7 +130,7 @@
               <div class="task-name">{{ task.name }}</div>
 
               <div class="flex">
-                <div class="wiki-link">
+                <div class="card-content">
                   <div v-if="task.difficulty === 5" class="icon-on-card">
                     <span class="material-symbols-outlined">
                       skull
@@ -2557,9 +2557,10 @@ module.exports = {
 .side-menu {
   text-align: center;
 }
-.wiki-link {
+.card-content {
   margin-right: auto;
   padding-top: 1rem;
+  display: flex;
 }
 .task-name {
   font-weight: 600;
