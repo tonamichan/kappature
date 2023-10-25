@@ -127,15 +127,17 @@
         <div class="column is-four-fifths task-list has-background-link">
           <template v-for="task in displayTasks" :key="task.id">
             <div class="box">
-              <div class="task-name">{{ task.name }}</div>
+              <div class="card-name-line">
+                {{ task.name }}
+                <div v-if="task.difficulty === 5" class="icon-on-card">
+                  <span class="material-symbols-outlined">
+                    skull
+                  </span>
+                </div>
+              </div>
 
               <div class="flex">
                 <div class="card-content">
-                  <div v-if="task.difficulty === 5" class="icon-on-card">
-                    <span class="material-symbols-outlined">
-                      skull
-                    </span>
-                  </div>
                   <a
                     :href="generateWikiUrl(task)"
                     target="_blank"
@@ -2562,7 +2564,7 @@ module.exports = {
   padding-top: 1rem;
   display: flex;
 }
-.task-name {
+.card-name-line {
   font-weight: 600;
 }
 .flex {
@@ -2579,5 +2581,8 @@ module.exports = {
 }
 .box {
   margin-bottom: 0.5rem;
+}
+.icon-on-card {
+  margin-left: 2px;
 }
 </style>
