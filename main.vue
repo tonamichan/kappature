@@ -2566,6 +2566,7 @@ module.exports = {
 }
 .card-name-line {
   font-weight: 600;
+  display: flex;
 }
 .flex {
   display: flex;
