@@ -137,7 +137,7 @@
               </div>
 
               <div class="flex">
-                <div class="card-name-line">
+                <div class="card-info-line">
                   <a
                     :href="generateWikiUrl(task)"
                     target="_blank"
@@ -2559,7 +2559,7 @@ module.exports = {
 .side-menu {
   text-align: center;
 }
-.card-name-line {
+.card-info-line {
   margin-right: auto;
   padding-top: 1rem;
   display: flex;
