@@ -2138,7 +2138,8 @@ module.exports = {
     "TheHuntsmanPathAdministrator",
     "TheHuntsmanPathBigGame",
     "BroadcastPart5",
-    "HarleyForever"
+    "HarleyForever",
+    "TheChoice"
 ],
       execList: [],
       displayDoneTasks: false,
