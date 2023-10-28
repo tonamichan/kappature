@@ -1,3 +1,5 @@
 # kappa_chan
-KAPPAタスクいい感じにしたい
-トナミちゃんが書きました
+
+KAPPAタスクをいい感じにするためのアプリです。
+
+[Github pages](https://tonamichan.github.io/kappa_chan/#/)で公開しています。
