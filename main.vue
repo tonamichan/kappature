@@ -170,9 +170,15 @@
             </div>
           </template>
         </div>
-        <div class="column side-menu has-background-warning">
+        <div class="column side-menu has-background-warning" @click="changeProgressView()">
+          <template v-if="progressViewMode === 1">
           <h3 class="title is-3">進捗率</h3>
           <p class="title is-1">{{ progress }}</p>
+          </template>
+          <template v-else-if="progressViewMode === 2">
+            <h3 class="title is-3">進捗率</h3>
+            <p class="title is-1">{{ execList.length }} / {{ kappaRequireTasks.length }}</p>
+          </template>
         </div>
       </div>
     </div>
@@ -304,6 +310,7 @@ module.exports = {
       viewRagman: true,
       viewJaeger: true,
       viewLightkeeper: true,
+      progressViewMode: 1,
     };
   },
   mounted() {
@@ -336,7 +343,7 @@ module.exports = {
     },
     progress: function () {
       per = this.execList.length / this.kappaRequireTasks.length;
-      return Math.round(100 * per) + "%";
+      return isNaN(per) ? "" : Math.round(100 * per) + "%";
     },
   },
   methods: {
@@ -376,6 +383,10 @@ module.exports = {
         task.name.replace(/[?]/g, "%3F")
       );
     },
+    changeProgressView: function() {
+      this.progressViewMode = this.progressViewMode + 1
+      if (this.progressViewMode === 3) { this.progressViewMode = 1 }
+    }
   },
 };
 </script>
