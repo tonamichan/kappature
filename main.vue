@@ -171,14 +171,36 @@
           </template>
         </div>
         <div class="column side-menu has-background-warning" @click="changeProgressView()">
-          <template v-if="progressViewMode === 1">
           <h3 class="title is-3">進捗率</h3>
-          <p class="title is-1">{{ progress }}</p>
-          </template>
-          <template v-else-if="progressViewMode === 2">
-            <h3 class="title is-3">進捗率</h3>
-            <p class="title is-1">{{ execList.length }} / {{ kappaRequireTasks.length }}</p>
-          </template>
+          <div style="transform:rotate(-90deg)">
+            <svg
+              height="100%"
+              viewBox="0 0 20 20"
+              width="100%"
+              style="overflow: visible;"
+            >
+              <circle
+                cx="50%"
+                cy="50%"
+                fill="none"
+                stroke-width="2"
+                r="9"
+                stroke="#E6ECF0"
+              />
+              <circle
+                cx="50%"
+                cy="50%"
+                fill="none"
+                stroke-width="2"
+                r="9"
+                stroke="#1DA1F2"
+                style="stroke-dasharray: 56.5487;"
+                :style="{'stroke-dashoffset': 56.5487 - (progress * 0.565487)}"
+              />
+            </svg>
+          </div>
+          <p v-if="progressViewMode === 1" class="title is-1 progress-count">{{ progress }}%</p>
+          <p v-else-if="progressViewMode === 2" class="title is-1 progress-count">{{ execList.length }}/{{ kappaRequireTasks.length }}</p>
         </div>
       </div>
     </div>
@@ -343,7 +365,7 @@ module.exports = {
     },
     progress: function () {
       per = this.execList.length / this.kappaRequireTasks.length;
-      return isNaN(per) ? "" : Math.round(100 * per) + "%";
+      return isNaN(per) ? 0 : Math.round(100 * per);
     },
   },
   methods: {
@@ -424,5 +446,9 @@ module.exports = {
 }
 .icon-on-card {
   margin-left: 2px;
+}
+.progress-count {
+  position: relative;
+  bottom: 160px;
 }
 </style>
