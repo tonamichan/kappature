@@ -211,6 +211,18 @@
           >
             {{ execList.length }}/{{ kappaRequireTasks.length }}
           </p>
+          <a
+            target="_blank"
+            href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+            class="twitter-share-button"
+            data-size="large"
+            :data-text="tweetText"
+            data-url="https://tonamichan.github.io/kappa_chan/"
+            data-hashtags="トナちゃんツール"
+            data-dnt="true"
+            data-show-count="false"
+            >進捗を共有する</a
+          >
         </div>
       </div>
     </div>
@@ -376,6 +388,9 @@ module.exports = {
     progress: function () {
       per = this.execList.length / this.kappaRequireTasks.length;
       return isNaN(per) ? 0 : Math.round(100 * per);
+    },
+    tweetText: function () {
+      return `うおお！Kappa必須タスクが${this.progress}%終わったよ！`;
     },
   },
   methods: {
