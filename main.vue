@@ -170,14 +170,17 @@
             </div>
           </template>
         </div>
-        <div class="column side-menu has-background-warning" @click="changeProgressView()">
+        <div
+          class="column side-menu has-background-warning"
+          @click="changeProgressView()"
+        >
           <h3 class="title is-3">進捗率</h3>
-          <div style="transform:rotate(-90deg)">
+          <div style="transform: rotate(-90deg)">
             <svg
               height="100%"
               viewBox="0 0 20 20"
               width="100%"
-              style="overflow: visible;"
+              style="overflow: visible"
             >
               <circle
                 cx="50%"
@@ -194,13 +197,20 @@
                 stroke-width="2"
                 r="9"
                 stroke="#1DA1F2"
-                style="stroke-dasharray: 56.5487;"
-                :style="{'stroke-dashoffset': 56.5487 - (progress * 0.565487)}"
+                style="stroke-dasharray: 56.5487"
+                :style="{ 'stroke-dashoffset': 56.5487 - progress * 0.565487 }"
               />
             </svg>
           </div>
-          <p v-if="progressViewMode === 1" class="title is-1 progress-count">{{ progress }}%</p>
-          <p v-else-if="progressViewMode === 2" class="title is-1 progress-count">{{ execList.length }}/{{ kappaRequireTasks.length }}</p>
+          <p v-if="progressViewMode === 1" class="title is-1 progress-count">
+            {{ progress }}%
+          </p>
+          <p
+            v-else-if="progressViewMode === 2"
+            class="title is-1 progress-count"
+          >
+            {{ execList.length }}/{{ kappaRequireTasks.length }}
+          </p>
         </div>
       </div>
     </div>
