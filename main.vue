@@ -387,7 +387,7 @@ module.exports = {
     },
     progress: function () {
       per = this.execList.length / this.kappaRequireTasks.length;
-      return isNaN(per) ? 0 : Math.round(100 * per);
+      return isNaN(per) ? 0 : Math.floor(100 * per);
     },
     tweetText: function () {
       return `うおお！Kappa必須タスクが${this.progress}%終わったよ！`;
