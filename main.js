@@ -8,6 +8,8 @@ const router = new VueRouter({
   ],
 });
 
+// モーダル表示はライブラリに頼っている
+Vue.use(window["vue-js-modal"].default);
 // point.1 Vueインスタンスの作成
 const app = new Vue({
   el: "#app",

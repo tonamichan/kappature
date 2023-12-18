@@ -3,103 +3,117 @@
     <div class="container block">
       <div class="columns block">
         <div class="column is-four-fifths has-background-danger">
-          <div class="container flex">
-            <div
-              class="card"
-              :class="{
-                'card-active': viewPrapor,
-                'has-background-grey': !viewPrapor,
-              }"
-              @click="viewPrapor = !viewPrapor"
-            >
-              <div class="card-content">
-                <div class="content">Prapor</div>
+          <div class="columns">
+            <div class="column">
+              <div class="container flex">
+                <div
+                  class="card"
+                  :class="{
+                    'card-active': viewPrapor,
+                    'has-background-grey': !viewPrapor,
+                  }"
+                  @click="viewPrapor = !viewPrapor"
+                >
+                  <div class="card-content">
+                    <div class="content">Prapor</div>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                  :class="{
+                    'card-active': viewTherapist,
+                    'has-background-grey': !viewTherapist,
+                  }"
+                  @click="viewTherapist = !viewTherapist"
+                >
+                  <div class="card-content">
+                    <div class="content">Therapist</div>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                  :class="{
+                    'card-active': viewFence,
+                    'has-background-grey': !viewFence,
+                  }"
+                  @click="viewFence = !viewFence"
+                >
+                  <div class="card-content">
+                    <div class="content">Fence</div>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                  :class="{
+                    'card-active': viewSkier,
+                    'has-background-grey': !viewSkier,
+                  }"
+                  @click="viewSkier = !viewSkier"
+                >
+                  <div class="card-content">
+                    <div class="content">Skier</div>
+                  </div>
+                </div>
+              </div>
+              <div class="container flex">
+                <div
+                  class="card"
+                  :class="{
+                    'card-active': viewPeacekeeper,
+                    'has-background-grey': !viewPeacekeeper,
+                  }"
+                  @click="viewPeacekeeper = !viewPeacekeeper"
+                >
+                  <div class="card-content">
+                    <div class="content">Peacekeeper</div>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                  :class="{
+                    'card-active': viewMechanic,
+                    'has-background-grey': !viewMechanic,
+                  }"
+                  @click="viewMechanic = !viewMechanic"
+                >
+                  <div class="card-content">
+                    <div class="content">Mechanic</div>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                  :class="{
+                    'card-active': viewRagman,
+                    'has-background-grey': !viewRagman,
+                  }"
+                  @click="viewRagman = !viewRagman"
+                >
+                  <div class="card-content">
+                    <div class="content">Ragman</div>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                  :class="{
+                    'card-active': viewJaeger,
+                    'has-background-grey': !viewJaeger,
+                  }"
+                  @click="viewJaeger = !viewJaeger"
+                >
+                  <div class="card-content">
+                    <div class="content">Jaeger</div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div
-              class="card"
-              :class="{
-                'card-active': viewTherapist,
-                'has-background-grey': !viewTherapist,
-              }"
-              @click="viewTherapist = !viewTherapist"
-            >
-              <div class="card-content">
-                <div class="content">Therapist</div>
-              </div>
-            </div>
-            <div
-              class="card"
-              :class="{
-                'card-active': viewFence,
-                'has-background-grey': !viewFence,
-              }"
-              @click="viewFence = !viewFence"
-            >
-              <div class="card-content">
-                <div class="content">Fence</div>
-              </div>
-            </div>
-            <div
-              class="card"
-              :class="{
-                'card-active': viewSkier,
-                'has-background-grey': !viewSkier,
-              }"
-              @click="viewSkier = !viewSkier"
-            >
-              <div class="card-content">
-                <div class="content">Skier</div>
-              </div>
-            </div>
-          </div>
-          <div class="container flex">
-            <div
-              class="card"
-              :class="{
-                'card-active': viewPeacekeeper,
-                'has-background-grey': !viewPeacekeeper,
-              }"
-              @click="viewPeacekeeper = !viewPeacekeeper"
-            >
-              <div class="card-content">
-                <div class="content">Peacekeeper</div>
-              </div>
-            </div>
-            <div
-              class="card"
-              :class="{
-                'card-active': viewMechanic,
-                'has-background-grey': !viewMechanic,
-              }"
-              @click="viewMechanic = !viewMechanic"
-            >
-              <div class="card-content">
-                <div class="content">Mechanic</div>
-              </div>
-            </div>
-            <div
-              class="card"
-              :class="{
-                'card-active': viewRagman,
-                'has-background-grey': !viewRagman,
-              }"
-              @click="viewRagman = !viewRagman"
-            >
-              <div class="card-content">
-                <div class="content">Ragman</div>
-              </div>
-            </div>
-            <div
-              class="card"
-              :class="{
-                'card-active': viewJaeger,
-                'has-background-grey': !viewJaeger,
-              }"
-              @click="viewJaeger = !viewJaeger"
-            >
-              <div class="card-content">
-                <div class="content">Jaeger</div>
+            <div class="search-form column is-one-third">
+              <div>
+                <input
+                  v-model="searchText"
+                  class="input"
+                  type="text"
+                  placeholder="タスク検索"
+                />
               </div>
             </div>
           </div>
@@ -119,13 +133,16 @@
           >
             完了済を隠す
           </button>
+          <button class="level-item button is-info" @click="openModal">
+            その他
+          </button>
         </div>
       </div>
     </div>
     <div class="container">
       <div class="columns">
         <div class="column is-four-fifths task-list has-background-link">
-          <template v-for="task in displayTasks" :key="task.id">
+          <template v-for="task in filteredTasks" :key="task.id">
             <div class="box">
               <div class="card-name-line">
                 {{ task.name }}
@@ -226,6 +243,55 @@
         </div>
       </div>
     </div>
+    <modal name="modal">
+      <div class="modal-inner">
+        <div class="special-functions">
+          <div>
+            <button class="level-item button is-danger" @click="resetProgressAll">
+              進捗をリセットする
+            </button>
+          </div>
+          <div>
+            <button class="button">なんか特殊機能</button>
+          </div>
+        </div>
+        <div class="block"></div>
+        <div class="author-display content">
+          <h5>作った人</h5>
+          <div class="flex">
+            <div class="author-content">
+              <span class="has-text-weight-bold">トナミちゃん</span>
+            </div>
+            <div class="author-content">
+              <a
+                href="https://twitter.com/tonami_ch"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="has-text-link"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg>
+              </a>
+            </div>
+            <div class="author-content">
+              <a
+                href="https://www.twitch.tv/tonami_ch"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="has-text-link"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                  <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z"/>
+                  <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div>なんかあったらTwitterで連絡ください。</div>
+        </div>
+      </div>
+    </modal>
   </div>
 </template>
 
@@ -355,13 +421,15 @@ module.exports = {
       viewJaeger: true,
       viewLightkeeper: true,
       progressViewMode: 1,
+      searchText: "",
+      displayModal: false,
     };
   },
   mounted() {
     if (localStorage.execList) {
       this.execList = JSON.parse(localStorage.execList);
     }
-    this.setTaskData()
+    this.setTaskData();
   },
   computed: {
     kappaRequireTasks: function () {
@@ -385,6 +453,15 @@ module.exports = {
       });
       return tasks;
     },
+    filteredTasks: function () {
+      if (this.searchText === "") {
+        return this.displayTasks;
+      }
+
+      return this.displayTasks.filter((task) =>
+        task.name.toLowerCase().includes(this.searchText)
+      );
+    },
     progress: function () {
       per = this.execList.length / this.kappaRequireTasks.length;
       return isNaN(per) ? 0 : Math.floor(100 * per);
@@ -394,10 +471,66 @@ module.exports = {
     },
   },
   methods: {
-    setTaskData: function() {
+    test: async function () {
+      var limit = 50;
+      var offset = 0;
+      var result = [];
+      // 無限ループ保険
+      while (offset < 500) {
+        const getted_task = await fetch("https://api.tarkov.dev/graphql", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            query: `{
+              tasks(limit:${limit}, offset: ${offset}) {
+                id
+                tarkovDataId
+                name
+                trader {
+                  name
+                }
+                wikiLink
+                minPlayerLevel
+                taskRequirements {
+                  task {
+                    id
+                    name
+                  }
+                  status
+                }
+                factionName
+                kappaRequired
+                lightkeeperRequired
+                }
+              }`,
+          }),
+        })
+          .then((r) => r.json())
+          .then((data) => data.data.tasks);
+        console.log(getted_task);
+        if (getted_task.length < limit) {
+          break;
+        }
+        result = result.concat(getted_task);
+        offset += limit;
+      }
+      console.log(result);
+      const blob = new Blob([JSON.stringify(result, null, "  ")], {
+        type: "application/json",
+      });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = "exportData.json"; // 出力するファイルの名前
+      link.click();
+      link.remove();
+    },
+    setTaskData: function () {
       fetch("./task-data/tasks.json")
-      .then((response) => response.json())
-      .then((json) => this.tasks = json.data);
+        .then((response) => response.json())
+        .then((json) => (this.tasks = json.data));
     },
     toggleDoneState: function (id) {
       const index = this.execList.findIndex((el) => el == id);
@@ -411,6 +544,12 @@ module.exports = {
     },
     toggleDisplayDoneTask: function () {
       this.displayDoneTasks = !this.displayDoneTasks;
+    },
+    openModal: function () {
+      this.$modal.show('modal');
+    },
+    closeModal: function () {
+      this.$modal.hide('modal');
     },
     getPersonName: function (id) {
       // トレーダーに振ったidと添字が一致するようにしてる
@@ -430,10 +569,19 @@ module.exports = {
         task.name.replace(/[?]/g, "%3F")
       );
     },
-    changeProgressView: function() {
-      this.progressViewMode = this.progressViewMode + 1
-      if (this.progressViewMode === 3) { this.progressViewMode = 1 }
-    }
+    resetProgressAll: function () {
+      confirm("全ての進捗をリセットします。よろしいですか？")
+      .then(result => {
+        this.execList = [];
+        localStorage.execList = JSON.stringify(this.execList, undefined, 1);
+      });
+    },
+    changeProgressView: function () {
+      this.progressViewMode = this.progressViewMode + 1;
+      if (this.progressViewMode === 3) {
+        this.progressViewMode = 1;
+      }
+    },
   },
 };
 </script>
@@ -442,38 +590,61 @@ module.exports = {
 .done-button {
   margin-left: auto;
 }
+
 .side-menu {
   text-align: center;
 }
+
 .card-info-line {
   margin-right: auto;
   padding-top: 1rem;
   display: flex;
 }
+
 .card-name-line {
   font-weight: 600;
   display: flex;
 }
+
 .flex {
   display: flex;
 }
+
 .google-icon {
   vertical-align: -6px;
 }
+
 .card-content {
   width: 8rem;
 }
+
 .card {
   margin: 2px;
 }
+
 .box {
   margin-bottom: 0.5rem;
 }
+
 .icon-on-card {
   margin-left: 2px;
 }
+
 .progress-count {
   position: relative;
   bottom: 160px;
+}
+
+.modal-inner {
+  padding: 1rem
+}
+
+.author-display {
+  border-top: 1px solid;
+  padding-top: 1.5rem;
+}
+
+.author-content {
+  padding-right: 16px;
 }
 </style>
