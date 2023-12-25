@@ -1,0 +1,25 @@
+name: fetch-task-job
+on:
+  schedule: # ここは状況に応じて。[push]もよく使う
+    - cron: '0 1 * * *'
+  
+jobs:
+  fetch-task-job:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 書き込むために必要
+    steps:
+      - uses: actions/checkout@v3
+      - name: 最新のタスク情報を取得
+        run: python fetch_task.py
+      - name: commit & push
+        run: |
+          git add -N . # 新規ファイルを含める
+          if ! git diff --exit-code --quiet
+          then
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add .
+            git commit -m "Update"
+            git push
+          fi
