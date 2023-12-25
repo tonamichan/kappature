@@ -1,5 +1,6 @@
 // point.2 vue-router のルーティング
 const router = new VueRouter({
+  // mode: 'history', // 入れたいけどgithub pagesで公開した時壊れる。なんで～
   routes: [
     {
       path: "/",
@@ -8,9 +9,6 @@ const router = new VueRouter({
   ],
 });
 
-// モーダル表示はライブラリに頼っている
-Vue.use(window["vue-js-modal"].default);
-// point.1 Vueインスタンスの作成
 const app = new Vue({
   el: "#app",
   components: {
