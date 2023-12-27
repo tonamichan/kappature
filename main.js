@@ -1,14 +1,14 @@
 // point.2 vue-router のルーティング
 const router = new VueRouter({
+  mode: 'history',
   routes: [
     {
-      path: "/",
+      path: "/kappature",
       component: httpVueLoader("./main.vue"),
     },
   ],
 });
 
-// point.1 Vueインスタンスの作成
 const app = new Vue({
   el: "#app",
   components: {
