@@ -1,9 +1,9 @@
 // point.2 vue-router のルーティング
 const router = new VueRouter({
-  // mode: 'history', // 入れたいけどgithub pagesで公開した時壊れる。なんで～
+  mode: 'history',
   routes: [
     {
-      path: "/",
+      path: "/kappature",
       component: httpVueLoader("./main.vue"),
     },
   ],
