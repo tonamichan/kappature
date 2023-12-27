@@ -458,8 +458,10 @@ module.exports = {
       let tasks = []
       this.digRequirementsTasks(task.id, tasks)
       // 初動のタスクはDONEボタンの処理でDONEしているので省く
-      originalTaskIndex = tasks.findIndex((el) => el.id == task.id);
-      tasks.splice(originalTaskIndex, 1)
+      const originalTaskIndex = tasks.findIndex((el) => el.id == task.id);
+      if (originalTaskIndex > -1) {
+        tasks.splice(originalTaskIndex, 1)
+      } 
       // 頑張っていい感じにソートする。限界はある。
       this.RelatedUndoneTasks = tasks.sort((a, b) => {
         if (a.minPlayerLevel !== b.minPlayerLevel) {
