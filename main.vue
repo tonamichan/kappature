@@ -478,7 +478,6 @@ module.exports = {
         diggedTasks.push(targetTask)
       }
       targetTask.taskRequirements.forEach(requireInfo => {
-        console.log(requireInfo)
         if (requireInfo.status.length === 1 && requireInfo.status[0] === 'complete') {
           // completeにしないと一緒に出ただけのタスクを候補にしてしまう
           this.digRequirementsTasks(requireInfo.task.id, diggedTasks)
