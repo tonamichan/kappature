@@ -478,10 +478,11 @@ module.exports = {
         diggedTasks.push(targetTask)
       }
       targetTask.taskRequirements.forEach(requireInfo => {
-        if (requireInfo.status.length === 1 && requireInfo.status[0] === 'complete') {
-          // completeにしないと一緒に出ただけのタスクを候補にしてしまう
-          this.digRequirementsTasks(requireInfo.task.id, diggedTasks)
+        if (requireInfo.status.includes('complete') && requireInfo.status.includes('active')) {
+          // active + completeの場合は受注時に出ただけのタスクで前提ではなさそう
+          return
         } 
+        this.digRequirementsTasks(requireInfo.task.id, diggedTasks)
       })
     },
     autoDoneRelatedUndoneTasks: function() {
