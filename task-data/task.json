@@ -29,6 +29,30 @@
             "lightkeeperRequired": true
         },
         {
+            "id": "657315e1dccd301f1301416a",
+            "tarkovDataId": null,
+            "name": "Luxurious Life",
+            "trader": {
+                "name": "Prapor"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Luxurious_Life",
+            "minPlayerLevel": 1,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5936d90786f7742b1420ba5b",
+                        "name": "Debut"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
             "id": "5ac23c6186f7741247042bad",
             "tarkovDataId": 82,
             "name": "Gunsmith - Part 1",
@@ -45,11 +69,11 @@
         {
             "id": "5936da9e86f7742d65037edf",
             "tarkovDataId": 1,
-            "name": "Checking",
+            "name": "Background Check",
             "trader": {
                 "name": "Prapor"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Checking",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Background_Check",
             "minPlayerLevel": 2,
             "taskRequirements": [
                 {
@@ -690,7 +714,7 @@
                 {
                     "task": {
                         "id": "5936da9e86f7742d65037edf",
-                        "name": "Checking"
+                        "name": "Background Check"
                     },
                     "status": [
                         "complete"
@@ -776,7 +800,7 @@
                 {
                     "task": {
                         "id": "5936da9e86f7742d65037edf",
-                        "name": "Checking"
+                        "name": "Background Check"
                     },
                     "status": [
                         "complete"
@@ -1102,11 +1126,11 @@
         {
             "id": "5a27c99a86f7747d2c6bdd8e",
             "tarkovDataId": 46,
-            "name": "Friend from the West - Part 1",
+            "name": "Friend From the West - Part 1",
             "trader": {
                 "name": "Skier"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Friend_from_the_West_-_Part_1",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Friend_From_the_West_-_Part_1",
             "minPlayerLevel": 9,
             "taskRequirements": [
                 {
@@ -1150,17 +1174,17 @@
         {
             "id": "5a27d2af86f7744e1115b323",
             "tarkovDataId": 47,
-            "name": "Friend from the West - Part 2",
+            "name": "Friend From the West - Part 2",
             "trader": {
                 "name": "Skier"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Friend_from_the_West_-_Part_2",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Friend_From_the_West_-_Part_2",
             "minPlayerLevel": 9,
             "taskRequirements": [
                 {
                     "task": {
                         "id": "5a27c99a86f7747d2c6bdd8e",
-                        "name": "Friend from the West - Part 1"
+                        "name": "Friend From the West - Part 1"
                     },
                     "status": [
                         "complete"
@@ -1337,7 +1361,7 @@
                 {
                     "task": {
                         "id": "5a27c99a86f7747d2c6bdd8e",
-                        "name": "Friend from the West - Part 1"
+                        "name": "Friend From the West - Part 1"
                     },
                     "status": [
                         "complete"
@@ -2456,11 +2480,11 @@
         {
             "id": "64f731ab83cfca080a361e42",
             "tarkovDataId": null,
-            "name": "Pets Won't Need It",
+            "name": "Pets Won't Need It - Part 1",
             "trader": {
                 "name": "Therapist"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pets_Won't_Need_It",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pets_Won't_Need_It_-_Part_1",
             "minPlayerLevel": 12,
             "taskRequirements": [
                 {
@@ -2556,7 +2580,7 @@
                 {
                     "task": {
                         "id": "5a27d2af86f7744e1115b323",
-                        "name": "Friend from the West - Part 2"
+                        "name": "Friend From the West - Part 2"
                     },
                     "status": [
                         "complete"
@@ -2589,7 +2613,7 @@
                 {
                     "task": {
                         "id": "5a27d2af86f7744e1115b323",
-                        "name": "Friend from the West - Part 2"
+                        "name": "Friend From the West - Part 2"
                     },
                     "status": [
                         "complete"
@@ -3066,7 +3090,7 @@
                 {
                     "task": {
                         "id": "5a27d2af86f7744e1115b323",
-                        "name": "Friend from the West - Part 2"
+                        "name": "Friend From the West - Part 2"
                     },
                     "status": [
                         "complete"
@@ -4137,7 +4161,7 @@
                 {
                     "task": {
                         "id": "5a27d2af86f7744e1115b323",
-                        "name": "Friend from the West - Part 2"
+                        "name": "Friend From the West - Part 2"
                     },
                     "status": [
                         "complete"
@@ -4652,7 +4676,7 @@
                 {
                     "task": {
                         "id": "5a27d2af86f7744e1115b323",
-                        "name": "Friend from the West - Part 2"
+                        "name": "Friend From the West - Part 2"
                     },
                     "status": [
                         "complete"
@@ -5043,7 +5067,7 @@
                 {
                     "task": {
                         "id": "5a27d2af86f7744e1115b323",
-                        "name": "Friend from the West - Part 2"
+                        "name": "Friend From the West - Part 2"
                     },
                     "status": [
                         "complete"
@@ -5091,7 +5115,7 @@
                 {
                     "task": {
                         "id": "5a27d2af86f7744e1115b323",
-                        "name": "Friend from the West - Part 2"
+                        "name": "Friend From the West - Part 2"
                     },
                     "status": [
                         "complete"
@@ -8827,6 +8851,62 @@
                 "name": "Fence"
             },
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Compensation_for_Damage_-_Collection",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "657315df034d76585f032e01",
+            "tarkovDataId": null,
+            "name": "Shooting Cans",
+            "trader": {
+                "name": "Prapor"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shooting_Cans",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "657315ddab5a49b71f098853",
+            "tarkovDataId": null,
+            "name": "First in Line",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/First_in_Line",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "657315e4a6af4ab4b50f3459",
+            "tarkovDataId": null,
+            "name": "Saving the Mole",
+            "trader": {
+                "name": "Mechanic"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Saving_the_Mole",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "657315e270bb0b8dba00cc48",
+            "tarkovDataId": null,
+            "name": "Burning Rubber",
+            "trader": {
+                "name": "Skier"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Burning_Rubber",
             "minPlayerLevel": 0,
             "taskRequirements": [],
             "factionName": "Any",
