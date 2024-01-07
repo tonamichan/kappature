@@ -1,6 +1,62 @@
 {
     "data": [
         {
+            "id": "657315df034d76585f032e01",
+            "tarkovDataId": null,
+            "name": "Shooting Cans",
+            "trader": {
+                "name": "Prapor"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shooting_Cans",
+            "minPlayerLevel": 1,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
+        },
+        {
+            "id": "657315ddab5a49b71f098853",
+            "tarkovDataId": null,
+            "name": "First in Line",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/First_in_Line",
+            "minPlayerLevel": 1,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
+        },
+        {
+            "id": "657315e4a6af4ab4b50f3459",
+            "tarkovDataId": null,
+            "name": "Saving the Mole",
+            "trader": {
+                "name": "Mechanic"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Saving_the_Mole",
+            "minPlayerLevel": 1,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
+        },
+        {
+            "id": "657315e270bb0b8dba00cc48",
+            "tarkovDataId": null,
+            "name": "Burning Rubber",
+            "trader": {
+                "name": "Skier"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Burning_Rubber",
+            "minPlayerLevel": 1,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
+        },
+        {
             "id": "5936d90786f7742b1420ba5b",
             "tarkovDataId": 0,
             "name": "Debut",
@@ -9,7 +65,17 @@
             },
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Debut",
             "minPlayerLevel": 1,
-            "taskRequirements": [],
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "657315df034d76585f032e01",
+                        "name": "Shooting Cans"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true
@@ -23,7 +89,18 @@
             },
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shortage",
             "minPlayerLevel": 1,
-            "taskRequirements": [],
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "657315ddab5a49b71f098853",
+                        "name": "First in Line"
+                    },
+                    "status": [
+                        "complete",
+                        "failed"
+                    ]
+                }
+            ],
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true
@@ -53,20 +130,6 @@
             "lightkeeperRequired": false
         },
         {
-            "id": "5ac23c6186f7741247042bad",
-            "tarkovDataId": 82,
-            "name": "Gunsmith - Part 1",
-            "trader": {
-                "name": "Mechanic"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_1",
-            "minPlayerLevel": 2,
-            "taskRequirements": [],
-            "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": true
-        },
-        {
             "id": "5936da9e86f7742d65037edf",
             "tarkovDataId": 1,
             "name": "Background Check",
@@ -80,6 +143,30 @@
                     "task": {
                         "id": "5936d90786f7742b1420ba5b",
                         "name": "Debut"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
+        },
+        {
+            "id": "5ac23c6186f7741247042bad",
+            "tarkovDataId": 82,
+            "name": "Gunsmith - Part 1",
+            "trader": {
+                "name": "Mechanic"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_1",
+            "minPlayerLevel": 2,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "657315e4a6af4ab4b50f3459",
+                        "name": "Saving the Mole"
                     },
                     "status": [
                         "complete"
@@ -758,7 +845,17 @@
             },
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Supplier",
             "minPlayerLevel": 5,
-            "taskRequirements": [],
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "657315e270bb0b8dba00cc48",
+                        "name": "Burning Rubber"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true
@@ -1565,151 +1662,6 @@
             "lightkeeperRequired": true
         },
         {
-            "id": "5a68661a86f774500f48afb0",
-            "tarkovDataId": 28,
-            "name": "Health Care Privacy - Part 1",
-            "trader": {
-                "name": "Therapist"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_1",
-            "minPlayerLevel": 10,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "5969f9e986f7741dde183a50",
-                        "name": "Pharmacist"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": true
-        },
-        {
-            "id": "5a68663e86f774501078f78a",
-            "tarkovDataId": 29,
-            "name": "Health Care Privacy - Part 2",
-            "trader": {
-                "name": "Therapist"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_2",
-            "minPlayerLevel": 10,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "5a68661a86f774500f48afb0",
-                        "name": "Health Care Privacy - Part 1"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": true
-        },
-        {
-            "id": "5a68665c86f774255929b4c7",
-            "tarkovDataId": 30,
-            "name": "Health Care Privacy - Part 3",
-            "trader": {
-                "name": "Therapist"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_3",
-            "minPlayerLevel": 10,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "5a68663e86f774501078f78a",
-                        "name": "Health Care Privacy - Part 2"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": true
-        },
-        {
-            "id": "5a68667486f7742607157d28",
-            "tarkovDataId": 31,
-            "name": "Health Care Privacy - Part 4",
-            "trader": {
-                "name": "Therapist"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_4",
-            "minPlayerLevel": 10,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "5a68665c86f774255929b4c7",
-                        "name": "Health Care Privacy - Part 3"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": true
-        },
-        {
-            "id": "5a68669a86f774255929b4d4",
-            "tarkovDataId": 32,
-            "name": "Health Care Privacy - Part 5",
-            "trader": {
-                "name": "Therapist"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_5",
-            "minPlayerLevel": 10,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "5a68667486f7742607157d28",
-                        "name": "Health Care Privacy - Part 4"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": true
-        },
-        {
-            "id": "5d6fb2c086f77449da599c24",
-            "tarkovDataId": 197,
-            "name": "An Apple a Day Keeps the Doctor Away",
-            "trader": {
-                "name": "Therapist"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/An_Apple_a_Day_Keeps_the_Doctor_Away",
-            "minPlayerLevel": 10,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "5a68667486f7742607157d28",
-                        "name": "Health Care Privacy - Part 4"
-                    },
-                    "status": [
-                        "active",
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false
-        },
-        {
             "id": "6391359b9444fb141f4e6ee6",
             "tarkovDataId": null,
             "name": "You've Got Mail",
@@ -2491,6 +2443,30 @@
                     "task": {
                         "id": "639135d89444fb141f4e6eea",
                         "name": "Population Census"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "6573387d0b26ed4fde798de3",
+            "tarkovDataId": null,
+            "name": "Pets Won't Need It - Part 2",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pets_Won't_Need_It_-_Part_2",
+            "minPlayerLevel": 12,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "64f731ab83cfca080a361e42",
+                        "name": "Pets Won't Need It - Part 1"
                     },
                     "status": [
                         "complete"
@@ -3416,19 +3392,19 @@
             "lightkeeperRequired": false
         },
         {
-            "id": "6179afd0bca27a099552e040",
-            "tarkovDataId": 241,
-            "name": "Lost Contact",
+            "id": "6573397ef3f8344c4575cd87",
+            "tarkovDataId": null,
+            "name": "Properties All Around",
             "trader": {
-                "name": "Therapist"
+                "name": "Prapor"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lost_Contact",
-            "minPlayerLevel": 17,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Properties_All_Around",
+            "minPlayerLevel": 15,
             "taskRequirements": [
                 {
                     "task": {
-                        "id": "5a68663e86f774501078f78a",
-                        "name": "Health Care Privacy - Part 2"
+                        "id": "64f5aac4b63b74469b6c14c2",
+                        "name": "Glory to CPSU - Part 2"
                     },
                     "status": [
                         "complete"
@@ -3436,8 +3412,32 @@
                 }
             ],
             "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": true
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "6578ec473dbd035d04531a8d",
+            "tarkovDataId": null,
+            "name": "Steady Signal",
+            "trader": {
+                "name": "Mechanic"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Steady_Signal",
+            "minPlayerLevel": 15,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5ac346e886f7741d6118b99b",
+                        "name": "Signal - Part 4"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
         },
         {
             "id": "639135e0fa894f0a866afde6",
@@ -3754,30 +3754,6 @@
             "lightkeeperRequired": false
         },
         {
-            "id": "626bd75b05f287031503c7f6",
-            "tarkovDataId": 248,
-            "name": "Drug Trafficking",
-            "trader": {
-                "name": "Therapist"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Drug_Trafficking",
-            "minPlayerLevel": 17,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "6179afd0bca27a099552e040",
-                        "name": "Lost Contact"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": true
-        },
-        {
             "id": "64e7b971f9d6fa49d6769b44",
             "tarkovDataId": null,
             "name": "The Huntsman Path - Big Game",
@@ -3941,6 +3917,30 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false
+        },
+        {
+            "id": "5c1234c286f77406fa13baeb",
+            "tarkovDataId": 56,
+            "name": "Setup",
+            "trader": {
+                "name": "Skier"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Setup",
+            "minPlayerLevel": 18,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5a27d2af86f7744e1115b323",
+                        "name": "Friend From the West - Part 2"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
         },
         {
             "id": "59c50c8886f7745fed3193bf",
@@ -4173,6 +4173,30 @@
             "lightkeeperRequired": false
         },
         {
+            "id": "5a68661a86f774500f48afb0",
+            "tarkovDataId": 28,
+            "name": "Health Care Privacy - Part 1",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_1",
+            "minPlayerLevel": 20,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5969f9e986f7741dde183a50",
+                        "name": "Pharmacist"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
+        },
+        {
             "id": "5d25e48d86f77408251c4bfb",
             "tarkovDataId": 177,
             "name": "Shady Business",
@@ -4398,6 +4422,102 @@
             "lightkeeperRequired": true
         },
         {
+            "id": "5a68663e86f774501078f78a",
+            "tarkovDataId": 29,
+            "name": "Health Care Privacy - Part 2",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_2",
+            "minPlayerLevel": 20,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5a68661a86f774500f48afb0",
+                        "name": "Health Care Privacy - Part 1"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
+        },
+        {
+            "id": "5a68665c86f774255929b4c7",
+            "tarkovDataId": 30,
+            "name": "Health Care Privacy - Part 3",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_3",
+            "minPlayerLevel": 20,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5a68663e86f774501078f78a",
+                        "name": "Health Care Privacy - Part 2"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
+        },
+        {
+            "id": "5a68667486f7742607157d28",
+            "tarkovDataId": 31,
+            "name": "Health Care Privacy - Part 4",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_4",
+            "minPlayerLevel": 20,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5a68665c86f774255929b4c7",
+                        "name": "Health Care Privacy - Part 3"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
+        },
+        {
+            "id": "5a68669a86f774255929b4d4",
+            "tarkovDataId": 32,
+            "name": "Health Care Privacy - Part 5",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_5",
+            "minPlayerLevel": 20,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5a68667486f7742607157d28",
+                        "name": "Health Care Privacy - Part 4"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
+        },
+        {
             "id": "5d25e44f86f77443e625e385",
             "tarkovDataId": 166,
             "name": "The Huntsman Path - Eraser - Part 1",
@@ -4419,6 +4539,31 @@
             ],
             "factionName": "Any",
             "kappaRequired": true,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "5d6fb2c086f77449da599c24",
+            "tarkovDataId": 197,
+            "name": "An Apple a Day Keeps the Doctor Away",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/An_Apple_a_Day_Keeps_the_Doctor_Away",
+            "minPlayerLevel": 20,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5a68667486f7742607157d28",
+                        "name": "Health Care Privacy - Part 4"
+                    },
+                    "status": [
+                        "active",
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
             "lightkeeperRequired": false
         },
         {
@@ -4444,6 +4589,30 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false
+        },
+        {
+            "id": "6179afd0bca27a099552e040",
+            "tarkovDataId": 241,
+            "name": "Lost Contact",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lost_Contact",
+            "minPlayerLevel": 20,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5a68663e86f774501078f78a",
+                        "name": "Health Care Privacy - Part 2"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
         },
         {
             "id": "6179b5b06e9dd54ac275e409",
@@ -4494,6 +4663,30 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false
+        },
+        {
+            "id": "626bd75b05f287031503c7f6",
+            "tarkovDataId": 248,
+            "name": "Drug Trafficking",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Drug_Trafficking",
+            "minPlayerLevel": 20,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "6179afd0bca27a099552e040",
+                        "name": "Lost Contact"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
         },
         {
             "id": "5edab736cc183c769d778bc2",
@@ -5055,30 +5248,6 @@
             "lightkeeperRequired": false
         },
         {
-            "id": "5b47926a86f7747ccc057c15",
-            "tarkovDataId": 51,
-            "name": "Informed Means Armed",
-            "trader": {
-                "name": "Skier"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Informed_Means_Armed",
-            "minPlayerLevel": 24,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "5a27d2af86f7744e1115b323",
-                        "name": "Friend From the West - Part 2"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": true
-        },
-        {
             "id": "5b478d0f86f7744d190d91b5",
             "tarkovDataId": 123,
             "name": "Minibus",
@@ -5101,6 +5270,30 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false
+        },
+        {
+            "id": "5b47926a86f7747ccc057c15",
+            "tarkovDataId": 51,
+            "name": "Informed Means Armed",
+            "trader": {
+                "name": "Skier"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Informed_Means_Armed",
+            "minPlayerLevel": 24,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5c1234c286f77406fa13baeb",
+                        "name": "Setup"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
         },
         {
             "id": "5b4794cb86f774598100d5d4",
@@ -5341,6 +5534,54 @@
             ],
             "factionName": "Any",
             "kappaRequired": true,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "65733403eefc2c312a759ddb",
+            "tarkovDataId": null,
+            "name": "Developer's Secrets - Part 1",
+            "trader": {
+                "name": "Mechanic"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Developer's_Secrets_-_Part_1",
+            "minPlayerLevel": 25,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "639135e8c115f907b14700aa",
+                        "name": "Surveillance"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "6573382e557ff128bf3da536",
+            "tarkovDataId": null,
+            "name": "Developer's Secrets - Part 2",
+            "trader": {
+                "name": "Mechanic"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Developer's_Secrets_-_Part_2",
+            "minPlayerLevel": 25,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "65733403eefc2c312a759ddb",
+                        "name": "Developer's Secrets - Part 1"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
             "lightkeeperRequired": false
         },
         {
@@ -5872,30 +6113,6 @@
             "lightkeeperRequired": false
         },
         {
-            "id": "5c0d0d5086f774363760aef2",
-            "tarkovDataId": 35,
-            "name": "Athlete",
-            "trader": {
-                "name": "Therapist"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Athlete",
-            "minPlayerLevel": 30,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "5a68667486f7742607157d28",
-                        "name": "Health Care Privacy - Part 4"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": false
-        },
-        {
             "id": "6179b5eabca27a099552e052",
             "tarkovDataId": 244,
             "name": "Counteraction",
@@ -5981,6 +6198,30 @@
                     "task": {
                         "id": "5c0d190cd09282029f5390d8",
                         "name": "Grenadier"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "5c0d0d5086f774363760aef2",
+            "tarkovDataId": 35,
+            "name": "Athlete",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Athlete",
+            "minPlayerLevel": 30,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5a68667486f7742607157d28",
+                        "name": "Health Care Privacy - Part 4"
                     },
                     "status": [
                         "complete"
@@ -6117,7 +6358,7 @@
                 }
             ],
             "factionName": "Any",
-            "kappaRequired": true,
+            "kappaRequired": false,
             "lightkeeperRequired": true
         },
         {
@@ -6165,7 +6406,7 @@
                 }
             ],
             "factionName": "Any",
-            "kappaRequired": true,
+            "kappaRequired": false,
             "lightkeeperRequired": true
         },
         {
@@ -6191,30 +6432,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true
-        },
-        {
-            "id": "5c1234c286f77406fa13baeb",
-            "tarkovDataId": 56,
-            "name": "Setup",
-            "trader": {
-                "name": "Skier"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Setup",
-            "minPlayerLevel": 30,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "5c0bbaa886f7746941031d82",
-                        "name": "Bullshit"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": false
         },
         {
             "id": "63a5cf262964a7488f5243ce",
@@ -6534,30 +6751,6 @@
             "lightkeeperRequired": false
         },
         {
-            "id": "5c0be5fc86f774467a116593",
-            "tarkovDataId": 34,
-            "name": "Private Clinic",
-            "trader": {
-                "name": "Therapist"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Private_Clinic",
-            "minPlayerLevel": 35,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "5a68667486f7742607157d28",
-                        "name": "Health Care Privacy - Part 4"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": true
-        },
-        {
             "id": "639135534b15ca31f76bc317",
             "tarkovDataId": null,
             "name": "Your Car Needs a Service",
@@ -6652,6 +6845,30 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false
+        },
+        {
+            "id": "5c0be5fc86f774467a116593",
+            "tarkovDataId": 34,
+            "name": "Private Clinic",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Private_Clinic",
+            "minPlayerLevel": 35,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5a68667486f7742607157d28",
+                        "name": "Health Care Privacy - Part 4"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
         },
         {
             "id": "5c0bdb5286f774166e38eed4",
@@ -7254,39 +7471,6 @@
             "lightkeeperRequired": false
         },
         {
-            "id": "5c0d1c4cd0928202a02a6f5c",
-            "tarkovDataId": 33,
-            "name": "Decontamination Service",
-            "trader": {
-                "name": "Therapist"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Decontamination_Service",
-            "minPlayerLevel": 35,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "5a68669a86f774255929b4d4",
-                        "name": "Health Care Privacy - Part 5"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                },
-                {
-                    "task": {
-                        "id": "5c0be5fc86f774467a116593",
-                        "name": "Private Clinic"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": true
-        },
-        {
             "id": "626bdcc3a371ee3a7a3514c5",
             "tarkovDataId": 247,
             "name": "Stray Dogs",
@@ -7327,6 +7511,39 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false
+        },
+        {
+            "id": "5c0d1c4cd0928202a02a6f5c",
+            "tarkovDataId": 33,
+            "name": "Decontamination Service",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Decontamination_Service",
+            "minPlayerLevel": 35,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5a68669a86f774255929b4d4",
+                        "name": "Health Care Privacy - Part 5"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                },
+                {
+                    "task": {
+                        "id": "5c0be5fc86f774467a116593",
+                        "name": "Private Clinic"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true
         },
         {
             "id": "626bd75d5bef5d7d590bd415",
@@ -7410,8 +7627,8 @@
                 },
                 {
                     "task": {
-                        "id": "626bd75b05f287031503c7f6",
-                        "name": "Drug Trafficking"
+                        "id": "59ca29fb86f77445ab465c87",
+                        "name": "The Punisher - Part 5"
                     },
                     "status": [
                         "complete"
@@ -7419,8 +7636,8 @@
                 },
                 {
                     "task": {
-                        "id": "59ca29fb86f77445ab465c87",
-                        "name": "The Punisher - Part 5"
+                        "id": "626bd75b05f287031503c7f6",
+                        "name": "Drug Trafficking"
                     },
                     "status": [
                         "complete"
@@ -8211,15 +8428,6 @@
                 },
                 {
                     "task": {
-                        "id": "626bd75b05f287031503c7f6",
-                        "name": "Drug Trafficking"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                },
-                {
-                    "task": {
                         "id": "6179acbdc760af5ad2053585",
                         "name": "Easy Job - Part 2"
                     },
@@ -8240,6 +8448,15 @@
                     "task": {
                         "id": "61904daa7d0d857927447b9c",
                         "name": "The Hermit"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                },
+                {
+                    "task": {
+                        "id": "626bd75b05f287031503c7f6",
+                        "name": "Drug Trafficking"
                     },
                     "status": [
                         "complete"
@@ -8348,15 +8565,6 @@
                     "task": {
                         "id": "5c112d7e86f7740d6f647486",
                         "name": "Scavenger"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                },
-                {
-                    "task": {
-                        "id": "5c1234c286f77406fa13baeb",
-                        "name": "Setup"
                     },
                     "status": [
                         "complete"
@@ -8851,62 +9059,6 @@
                 "name": "Fence"
             },
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Compensation_for_Damage_-_Collection",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false
-        },
-        {
-            "id": "657315df034d76585f032e01",
-            "tarkovDataId": null,
-            "name": "Shooting Cans",
-            "trader": {
-                "name": "Prapor"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shooting_Cans",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false
-        },
-        {
-            "id": "657315ddab5a49b71f098853",
-            "tarkovDataId": null,
-            "name": "First in Line",
-            "trader": {
-                "name": "Therapist"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/First_in_Line",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false
-        },
-        {
-            "id": "657315e4a6af4ab4b50f3459",
-            "tarkovDataId": null,
-            "name": "Saving the Mole",
-            "trader": {
-                "name": "Mechanic"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Saving_the_Mole",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false
-        },
-        {
-            "id": "657315e270bb0b8dba00cc48",
-            "tarkovDataId": null,
-            "name": "Burning Rubber",
-            "trader": {
-                "name": "Skier"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Burning_Rubber",
             "minPlayerLevel": 0,
             "taskRequirements": [],
             "factionName": "Any",
