@@ -6572,6 +6572,30 @@
             "lightkeeperRequired": false
         },
         {
+            "id": "6574e0dedc0d635f633a5805",
+            "tarkovDataId": null,
+            "name": "Test Drive - Part 4",
+            "trader": {
+                "name": "Prapor"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Test_Drive_-_Part_4",
+            "minPlayerLevel": 30,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "64f5deac39e45b527a7c4232",
+                        "name": "Test Drive - Part 3"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
             "id": "5d25e2e286f77444001e2e48",
             "tarkovDataId": 164,
             "name": "The Huntsman Path - Sellout",
