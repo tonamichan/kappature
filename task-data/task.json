@@ -5502,7 +5502,7 @@
                 }
             ],
             "factionName": "Any",
-            "kappaRequired": false,
+            "kappaRequired": true,
             "lightkeeperRequired": true
         },
         {
@@ -6448,7 +6448,7 @@
                 }
             ],
             "factionName": "Any",
-            "kappaRequired": false,
+            "kappaRequired": true,
             "lightkeeperRequired": false
         },
         {
@@ -8757,6 +8757,15 @@
                     "task": {
                         "id": "5c0d4c12d09282029f539173",
                         "name": "Peacekeeping Mission"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                },
+                {
+                    "task": {
+                        "id": "5c0bc91486f7746ab41857a2",
+                        "name": "Silent Caliber"
                     },
                     "status": [
                         "complete"
