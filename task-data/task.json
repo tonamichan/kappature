@@ -6448,7 +6448,7 @@
                 }
             ],
             "factionName": "Any",
-            "kappaRequired": true,
+            "kappaRequired": false,
             "lightkeeperRequired": false
         },
         {
@@ -8674,6 +8674,15 @@
                 },
                 {
                     "task": {
+                        "id": "5c0bbaa886f7746941031d82",
+                        "name": "Bullshit"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                },
+                {
+                    "task": {
                         "id": "5ae449a586f7744bde357696",
                         "name": "No Fuss Needed"
                     },
@@ -8757,15 +8766,6 @@
                     "task": {
                         "id": "5c0d4c12d09282029f539173",
                         "name": "Peacekeeping Mission"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                },
-                {
-                    "task": {
-                        "id": "5c0bc91486f7746ab41857a2",
-                        "name": "Silent Caliber"
                     },
                     "status": [
                         "complete"
