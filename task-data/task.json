@@ -6169,39 +6169,6 @@
             "lightkeeperRequired": false
         },
         {
-            "id": "64edbb1317ab941a6f7cc247",
-            "tarkovDataId": null,
-            "name": "Out of Time",
-            "trader": {
-                "name": "Ragman"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Out_of_Time",
-            "minPlayerLevel": 29,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "639135a7e705511c8a4a1b78",
-                        "name": "Ballet Lover"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                },
-                {
-                    "task": {
-                        "id": "5c112d7e86f7740d6f647486",
-                        "name": "Scavenger"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false
-        },
-        {
             "id": "6179b5eabca27a099552e052",
             "tarkovDataId": 244,
             "name": "Counteraction",
