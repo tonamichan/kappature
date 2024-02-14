@@ -916,11 +916,11 @@
         {
             "id": "59674eb386f774539f14813a",
             "tarkovDataId": 3,
-            "name": "Delivery From the Past",
+            "name": "Delivery from the Past",
             "trader": {
                 "name": "Prapor"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Delivery_From_the_Past",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Delivery_from_the_Past",
             "minPlayerLevel": 5,
             "taskRequirements": [
                 {
@@ -974,7 +974,7 @@
                 {
                     "task": {
                         "id": "59674eb386f774539f14813a",
-                        "name": "Delivery From the Past"
+                        "name": "Delivery from the Past"
                     },
                     "status": [
                         "complete"
