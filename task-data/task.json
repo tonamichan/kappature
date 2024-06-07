@@ -785,6 +785,31 @@
             "lightkeeperRequired": false
         },
         {
+            "id": "6658a15615cbb1b2c6014d5b",
+            "tarkovDataId": null,
+            "name": "Hustle",
+            "trader": {
+                "name": "Jaeger"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hustle",
+            "minPlayerLevel": 2,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5d24b81486f77439c92d6ba8",
+                        "name": "Acquaintance"
+                    },
+                    "status": [
+                        "active",
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
             "id": "5d25e2b486f77409de05bba0",
             "tarkovDataId": 156,
             "name": "The Huntsman Path - Secured Perimeter",
@@ -7565,7 +7590,8 @@
                         "name": "Chemical - Part 4"
                     },
                     "status": [
-                        "complete"
+                        "complete",
+                        "failed"
                     ]
                 },
                 {
