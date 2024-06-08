@@ -131,31 +131,6 @@
             "lightkeeperRequired": true
         },
         {
-            "id": "6603fe74e773dcf3b0099f88",
-            "tarkovDataId": null,
-            "name": "The Tarkov Mystery",
-            "trader": {
-                "name": "Skier"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Mystery",
-            "minPlayerLevel": 1,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "657315e270bb0b8dba00cc48",
-                        "name": "Burning Rubber"
-                    },
-                    "status": [
-                        "complete",
-                        "failed"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false
-        },
-        {
             "id": "5936da9e86f7742d65037edf",
             "tarkovDataId": 1,
             "name": "Background Check",
@@ -843,6 +818,30 @@
             "lightkeeperRequired": true
         },
         {
+            "id": "66058cb22cee99303f1ba067",
+            "tarkovDataId": null,
+            "name": "Easy Money - Part 1",
+            "trader": {
+                "name": "Skier"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Easy_Money_-_Part_1",
+            "minPlayerLevel": 3,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "657315e270bb0b8dba00cc48",
+                        "name": "Burning Rubber"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
             "id": "59674cd986f7744ab26e32f2",
             "tarkovDataId": 2,
             "name": "Shootout Picnic",
@@ -856,6 +855,126 @@
                     "task": {
                         "id": "5936da9e86f7742d65037edf",
                         "name": "Background Check"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "66058cb5ae4719735349b9e8",
+            "tarkovDataId": null,
+            "name": "Easy Money - Part 2",
+            "trader": {
+                "name": "Ref"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Easy_Money_-_Part_2",
+            "minPlayerLevel": 3,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "66058cb22cee99303f1ba067",
+                        "name": "Easy Money - Part 1"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "66058cb7c7f3584787181476",
+            "tarkovDataId": null,
+            "name": "Balancing - Part 1",
+            "trader": {
+                "name": "Ref"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Balancing_-_Part_1",
+            "minPlayerLevel": 3,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "66058cb5ae4719735349b9e8",
+                        "name": "Easy Money - Part 2"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "66058cb9e8e4f17985230805",
+            "tarkovDataId": null,
+            "name": "Balancing - Part 2",
+            "trader": {
+                "name": "Ref"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Balancing_-_Part_2",
+            "minPlayerLevel": 3,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "66058cb7c7f3584787181476",
+                        "name": "Balancing - Part 1"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "66058cbb06ef1d50a60c1f46",
+            "tarkovDataId": null,
+            "name": "Surprise",
+            "trader": {
+                "name": "Ref"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Surprise",
+            "minPlayerLevel": 3,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "66058cb9e8e4f17985230805",
+                        "name": "Balancing - Part 2"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "66058cbd9f59e625462acc8e",
+            "tarkovDataId": null,
+            "name": "Create a Distraction - Part 1",
+            "trader": {
+                "name": "Ref"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Create_a_Distraction_-_Part_1",
+            "minPlayerLevel": 3,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "66058cbb06ef1d50a60c1f46",
+                        "name": "Surprise"
                     },
                     "status": [
                         "complete"
