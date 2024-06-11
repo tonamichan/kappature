@@ -986,6 +986,30 @@
             "lightkeeperRequired": false
         },
         {
+            "id": "66058cbf2f19c31a5a1337ec",
+            "tarkovDataId": null,
+            "name": "Create a Distraction - Part 2",
+            "trader": {
+                "name": "Ref"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Create_a_Distraction_-_Part_2",
+            "minPlayerLevel": 3,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "66058cbd9f59e625462acc8e",
+                        "name": "Create a Distraction - Part 1"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
             "id": "59689ee586f7740d1570bbd5",
             "tarkovDataId": 20,
             "name": "Sanitary Standards - Part 1",
