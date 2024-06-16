@@ -833,7 +833,8 @@
                         "name": "Burning Rubber"
                     },
                     "status": [
-                        "complete"
+                        "complete",
+                        "failed"
                     ]
                 }
             ],
@@ -1828,7 +1829,8 @@
                         "name": "Fishing Gear"
                     },
                     "status": [
-                        "complete"
+                        "complete",
+                        "failed"
                     ]
                 }
             ],
