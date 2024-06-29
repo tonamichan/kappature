@@ -1525,6 +1525,32 @@
             "lightkeeperRequired": true
         },
         {
+            "id": "6672ec2a2b6f3b71be794cc5",
+            "tarkovDataId": null,
+            "name": "A Key to Salvation",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/A_Key_to_Salvation",
+            "minPlayerLevel": 10,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "657315ddab5a49b71f098853",
+                        "name": "First in Line"
+                    },
+                    "status": [
+                        "active",
+                        "failed",
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
             "id": "5ede55112c95834b583f052a",
             "tarkovDataId": 191,
             "name": "The Bunker - Part 1",
