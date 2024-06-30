@@ -7655,54 +7655,6 @@
             "lightkeeperRequired": false
         },
         {
-            "id": "626148334149f1149b5b12ca",
-            "tarkovDataId": null,
-            "name": "Make Amends - Security",
-            "trader": {
-                "name": "Mechanic"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Security",
-            "minPlayerLevel": 33,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "6261482fa4eb80027c4f2e11",
-                        "name": "Make Amends - Equipment"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false
-        },
-        {
-            "id": "62614836f7308432be1d44cc",
-            "tarkovDataId": null,
-            "name": "Make Amends - Sweep Up",
-            "trader": {
-                "name": "Mechanic"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Sweep_Up",
-            "minPlayerLevel": 33,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "626148334149f1149b5b12ca",
-                        "name": "Make Amends - Security"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false
-        },
-        {
             "id": "626bd75d5bef5d7d590bd415",
             "tarkovDataId": 246,
             "name": "Top Secret",
