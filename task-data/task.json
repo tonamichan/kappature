@@ -760,31 +760,6 @@
             "lightkeeperRequired": false
         },
         {
-            "id": "6658a15615cbb1b2c6014d5b",
-            "tarkovDataId": null,
-            "name": "Hustle",
-            "trader": {
-                "name": "Jaeger"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hustle",
-            "minPlayerLevel": 2,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "5d24b81486f77439c92d6ba8",
-                        "name": "Acquaintance"
-                    },
-                    "status": [
-                        "active",
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false
-        },
-        {
             "id": "5d25e2b486f77409de05bba0",
             "tarkovDataId": 156,
             "name": "The Huntsman Path - Secured Perimeter",
@@ -1523,32 +1498,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true
-        },
-        {
-            "id": "6672ec2a2b6f3b71be794cc5",
-            "tarkovDataId": null,
-            "name": "A Key to Salvation",
-            "trader": {
-                "name": "Therapist"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/A_Key_to_Salvation",
-            "minPlayerLevel": 10,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "657315ddab5a49b71f098853",
-                        "name": "First in Line"
-                    },
-                    "status": [
-                        "active",
-                        "failed",
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false
         },
         {
             "id": "5ede55112c95834b583f052a",
