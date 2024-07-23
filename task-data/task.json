@@ -131,6 +131,32 @@
             "lightkeeperRequired": true
         },
         {
+            "id": "668bcccc167d507eb01a268b",
+            "tarkovDataId": null,
+            "name": "Import \u0421ontrol",
+            "trader": {
+                "name": "Mechanic"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Import_%D0%A1ontrol",
+            "minPlayerLevel": 1,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "657315e4a6af4ab4b50f3459",
+                        "name": "Saving the Mole"
+                    },
+                    "status": [
+                        "complete",
+                        "active",
+                        "failed"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
             "id": "5936da9e86f7742d65037edf",
             "tarkovDataId": 1,
             "name": "Background Check",
@@ -6115,6 +6141,31 @@
             "lightkeeperRequired": false
         },
         {
+            "id": "666314b4d7f171c4c20226c3",
+            "tarkovDataId": null,
+            "name": "The Good Times - Part 1",
+            "trader": {
+                "name": "Prapor"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Good_Times_-_Part_1",
+            "minPlayerLevel": 27,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "657315df034d76585f032e01",
+                        "name": "Shooting Cans"
+                    },
+                    "status": [
+                        "complete",
+                        "failed"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
             "id": "6391372c8ba6894d155e77d7",
             "tarkovDataId": null,
             "name": "Broadcast - Part 4",
@@ -7867,6 +7918,30 @@
             "lightkeeperRequired": false
         },
         {
+            "id": "6663149cfd5ca9577902e037",
+            "tarkovDataId": null,
+            "name": "The Invisible Hand",
+            "trader": {
+                "name": "Ragman"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Invisible_Hand",
+            "minPlayerLevel": 35,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "5ae448a386f7744d3730fff0",
+                        "name": "Only Business"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
             "id": "5c0be5fc86f774467a116593",
             "tarkovDataId": 34,
             "name": "Private Clinic",
@@ -9355,6 +9430,20 @@
                 "name": "Fence"
             },
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Compensation_for_Damage_-_Collection",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "6672d9def1c88688a707d042",
+            "tarkovDataId": null,
+            "name": "Establish Contact",
+            "trader": {
+                "name": "Fence"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Establish_Contact",
             "minPlayerLevel": 0,
             "taskRequirements": [],
             "factionName": "Any",
