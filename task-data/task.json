@@ -864,7 +864,7 @@
                 }
             ],
             "factionName": "Any",
-            "kappaRequired": false,
+            "kappaRequired": true,
             "lightkeeperRequired": false
         },
         {
@@ -8612,6 +8612,15 @@
                     "task": {
                         "id": "5d25e44386f77409453bce7b",
                         "name": "The Huntsman Path - Evil Watchman"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                },
+                {
+                    "task": {
+                        "id": "59674cd986f7744ab26e32f2",
+                        "name": "Shootout Picnic"
                     },
                     "status": [
                         "complete"
