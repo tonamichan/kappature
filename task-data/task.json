@@ -2822,6 +2822,54 @@
             ]
         },
         {
+            "id": "669fa39c64ea11e84c0642a6",
+            "tarkovDataId": null,
+            "name": "The Walls Have Eyes",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Walls_Have_Eyes",
+            "minPlayerLevel": 12,
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Skier"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "669fa395c4c5c04798002497",
+                        "name": "Exit Here"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "669fa39ee749756c920d02c8",
+            "tarkovDataId": null,
+            "name": "All Is Revealed",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/All_Is_Revealed",
+            "minPlayerLevel": 12,
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Therapist"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "669fa3a1c26f13bd04030f37",
+                        "name": "Capacity Check"
+                    }
+                }
+            ]
+        },
+        {
             "id": "60c0c018f7afb4354815096a",
             "tarkovDataId": 213,
             "name": "The Huntsman Path - Factory Chief",
@@ -2883,6 +2931,39 @@
                     "task": {
                         "id": "5ac3467986f7741d6224abc2",
                         "name": "Signal - Part 1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "669fa3a1c26f13bd04030f37",
+            "tarkovDataId": null,
+            "name": "Capacity Check",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capacity_Check",
+            "minPlayerLevel": 12,
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Mechanic"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "669fa394e0c9f9fafa082897",
+                        "name": "Forklift Certified"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5ac345dc86f774288030817f",
+                        "name": "Farming - Part 1"
                     }
                 }
             ]
@@ -3715,7 +3796,7 @@
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/One_Less_Loose_End",
             "minPlayerLevel": 15,
             "factionName": "Any",
-            "kappaRequired": false,
+            "kappaRequired": true,
             "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
@@ -3739,7 +3820,7 @@
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/A_Healthy_Alternative",
             "minPlayerLevel": 15,
             "factionName": "Any",
-            "kappaRequired": false,
+            "kappaRequired": true,
             "lightkeeperRequired": false,
             "trader": {
                 "name": "Therapist"
@@ -3748,6 +3829,31 @@
                 {
                     "status": [
                         "active"
+                    ],
+                    "task": {
+                        "id": "669fa38fad7f1eac2607ed46",
+                        "name": "One Less Loose End"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "669fa3a08b4a64b332041ff7",
+            "tarkovDataId": null,
+            "name": "Dragnet",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dragnet",
+            "minPlayerLevel": 15,
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Jaeger"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete",
+                        "failed"
                     ],
                     "task": {
                         "id": "669fa38fad7f1eac2607ed46",
@@ -9378,8 +9484,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "669fa394e0c9f9fafa082897",
-                        "name": "Forklift Certified"
+                        "id": "669fa39c64ea11e84c0642a6",
+                        "name": "The Walls Have Eyes"
                     }
                 },
                 {
@@ -9387,8 +9493,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "669fa395c4c5c04798002497",
-                        "name": "Exit Here"
+                        "id": "669fa39ee749756c920d02c8",
+                        "name": "All Is Revealed"
                     }
                 },
                 {
@@ -9441,8 +9547,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "6179aff8f57fb279792c60a1",
-                        "name": "Overpopulation"
+                        "id": "6089743983426423753cd58a",
+                        "name": "Safe Corridor"
                     }
                 },
                 {
@@ -9450,8 +9556,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "6089743983426423753cd58a",
-                        "name": "Safe Corridor"
+                        "id": "669fa3a08b4a64b332041ff7",
+                        "name": "Dragnet"
                     }
                 },
                 {
