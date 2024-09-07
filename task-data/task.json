@@ -3790,6 +3790,102 @@
             "lightkeeperRequired": false
         },
         {
+            "id": "665eec1f5e47a79f8605565a",
+            "tarkovDataId": null,
+            "name": "Thirsty - Breadwinner",
+            "trader": {
+                "name": "Skier"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Thirsty_-_Breadwinner",
+            "minPlayerLevel": 15,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "665eeacf5d86b6c8aa03c79b",
+                        "name": "Thirsty - Hounds"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "665eec4a4dfc83b0ed0a9dca",
+            "tarkovDataId": null,
+            "name": "Thirsty - Delivery",
+            "trader": {
+                "name": "Skier"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Thirsty_-_Delivery",
+            "minPlayerLevel": 15,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "665eec1f5e47a79f8605565a",
+                        "name": "Thirsty - Breadwinner"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "665eeca45d86b6c8aa03c79d",
+            "tarkovDataId": null,
+            "name": "Thirsty - Echo",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Thirsty_-_Echo",
+            "minPlayerLevel": 15,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "665eec4a4dfc83b0ed0a9dca",
+                        "name": "Thirsty - Delivery"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "665eeca92f7aedcc900b0437",
+            "tarkovDataId": null,
+            "name": "Thirsty - Secrets",
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Thirsty_-_Secrets",
+            "minPlayerLevel": 15,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "665eeca45d86b6c8aa03c79d",
+                        "name": "Thirsty - Echo"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
             "id": "669fa38fad7f1eac2607ed46",
             "tarkovDataId": null,
             "name": "One Less Loose End",
@@ -7414,7 +7510,7 @@
                 }
             ],
             "factionName": "Any",
-            "kappaRequired": false,
+            "kappaRequired": true,
             "lightkeeperRequired": false
         },
         {
@@ -7438,7 +7534,7 @@
                 }
             ],
             "factionName": "Any",
-            "kappaRequired": false,
+            "kappaRequired": true,
             "lightkeeperRequired": false
         },
         {
@@ -9006,7 +9102,31 @@
                 }
             ],
             "factionName": "Any",
-            "kappaRequired": false,
+            "kappaRequired": true,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "669fa3a40c828825de06d6a1",
+            "tarkovDataId": null,
+            "name": "Test Drive - Part 5",
+            "trader": {
+                "name": "Prapor"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Test_Drive_-_Part_5",
+            "minPlayerLevel": 40,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "6574e0dedc0d635f633a5805",
+                        "name": "Test Drive - Part 4"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": true,
             "lightkeeperRequired": false
         },
         {
@@ -9375,7 +9495,9 @@
                         "id": "66b38e144f2ab7cc530c3fe7",
                         "name": "Every Hunter Knows This"
                     },
-                    "status": []
+                    "status": [
+                        "complete"
+                    ]
                 },
                 {
                     "task": {
@@ -9775,15 +9897,6 @@
                 },
                 {
                     "task": {
-                        "id": "5c0bd94186f7747a727f09b2",
-                        "name": "Test Drive - Part 1"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                },
-                {
-                    "task": {
                         "id": "5d25e45e86f77408251c4bfa",
                         "name": "The Huntsman Path - Eraser - Part 2"
                     },
@@ -9894,6 +10007,15 @@
                     "task": {
                         "id": "5c0d4e61d09282029f53920e",
                         "name": "The Guide"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                },
+                {
+                    "task": {
+                        "id": "669fa3a40c828825de06d6a1",
+                        "name": "Test Drive - Part 5"
                     },
                     "status": [
                         "complete"
