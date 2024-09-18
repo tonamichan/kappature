@@ -10435,44 +10435,6 @@
             }
         },
         {
-            "id": "668bccf963acb16d63707043",
-            "tarkovDataId": null,
-            "name": "What\u2019s Your Evidence?",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/What%E2%80%99s_Your_Evidence%3F",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Peacekeeper"
-            }
-        },
-        {
-            "id": "668bcd1b194be70f18427a00",
-            "tarkovDataId": null,
-            "name": "Caught Red-Handed",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Caught_Red-Handed",
-            "minPlayerLevel": 0,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Peacekeeper"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "668bccf963acb16d63707043",
-                        "name": "What\u2019s Your Evidence?"
-                    }
-                }
-            ]
-        },
-        {
             "id": "61e6e60c5ca3b3783662be27",
             "tarkovDataId": null,
             "name": "Compensation for Damage - Wergild",
