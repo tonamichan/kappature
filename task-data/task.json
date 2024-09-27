@@ -832,6 +832,30 @@
             ]
         },
         {
+            "id": "66e01aca214f88109006a4b5",
+            "tarkovDataId": null,
+            "name": "Into the Inferno",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Into_the_Inferno",
+            "minPlayerLevel": 2,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Prapor"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5936da9e86f7742d65037edf",
+                        "name": "Background Check"
+                    }
+                }
+            ]
+        },
+        {
             "id": "5d25e2b486f77409de05bba0",
             "tarkovDataId": 156,
             "name": "The Huntsman Path - Secured Perimeter",
@@ -2870,6 +2894,54 @@
             ]
         },
         {
+            "id": "66aa74571e5e199ecd094f18",
+            "tarkovDataId": null,
+            "name": "Secrets of Polikhim",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Secrets_of_Polikhim",
+            "minPlayerLevel": 12,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Mechanic"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "669fa3a1c26f13bd04030f37",
+                        "name": "Capacity Check"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "66aba85403e0ee3101042877",
+            "tarkovDataId": null,
+            "name": "Beneath The Streets",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Beneath_The_Streets",
+            "minPlayerLevel": 12,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Therapist"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6573387d0b26ed4fde798de3",
+                        "name": "Pets Won't Need It - Part 2"
+                    }
+                }
+            ]
+        },
+        {
             "id": "60c0c018f7afb4354815096a",
             "tarkovDataId": 213,
             "name": "The Huntsman Path - Factory Chief",
@@ -3477,8 +3549,8 @@
         {
             "id": "5967725e86f774601a446662",
             "tarkovDataId": 8,
-            "name": "Shaking up the Teller",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shaking_up_the_Teller",
+            "name": "Shaking Up the Teller",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shaking_Up_the_Teller",
             "minPlayerLevel": 15,
             "factionName": "Any",
             "kappaRequired": true,
@@ -4050,7 +4122,7 @@
                     ],
                     "task": {
                         "id": "5967725e86f774601a446662",
-                        "name": "Shaking up the Teller"
+                        "name": "Shaking Up the Teller"
                     }
                 }
             ]
@@ -4340,6 +4412,30 @@
                     "task": {
                         "id": "5ae448e586f7744dcf0c2a67",
                         "name": "Big Sale"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "66aa58245ab22944110db6e9",
+            "tarkovDataId": null,
+            "name": "New Day, New Paths",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Day%2C_New_Paths",
+            "minPlayerLevel": 17,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Peacekeeper"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "639135f286e646067c176a87",
+                        "name": "Revision - Streets of Tarkov"
                     }
                 }
             ]
@@ -4721,6 +4817,30 @@
                     "task": {
                         "id": "59c50c8886f7745fed3193bf",
                         "name": "The Punisher - Part 2"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "66ab970848ddbe9d4a0c49a8",
+            "tarkovDataId": null,
+            "name": "Special Comms",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Special_Comms",
+            "minPlayerLevel": 19,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Prapor"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "60896b7bfa70fc097863b8f5",
+                        "name": "Documents"
                     }
                 }
             ]
@@ -5321,7 +5441,7 @@
                     ],
                     "task": {
                         "id": "5967725e86f774601a446662",
-                        "name": "Shaking up the Teller"
+                        "name": "Shaking Up the Teller"
                     }
                 }
             ]
@@ -6044,6 +6164,20 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "66d9cbb67b491f9d5304f6e6",
+            "tarkovDataId": null,
+            "name": "Is This a Reference?",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Is_This_a_Reference%3F",
+            "minPlayerLevel": 25,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            }
         },
         {
             "id": "5b4794cb86f774598100d5d4",
@@ -7120,6 +7254,30 @@
             ]
         },
         {
+            "id": "66ab9da7eb102b9bcd08591c",
+            "tarkovDataId": null,
+            "name": "Forester's Duty",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Forester's_Duty",
+            "minPlayerLevel": 28,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Jaeger"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5d25e4ad86f77443e625e387",
+                        "name": "Nostalgia"
+                    }
+                }
+            ]
+        },
+        {
             "id": "5b478b1886f7744d1b23c57d",
             "tarkovDataId": 120,
             "name": "Hot Delivery",
@@ -7557,6 +7715,30 @@
                     "task": {
                         "id": "63a5cf262964a7488f5243ce",
                         "name": "Test Drive - Part 2"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "66aa61663aa37705c5024277",
+            "tarkovDataId": null,
+            "name": "Know Your Place!",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Know_Your_Place!",
+            "minPlayerLevel": 30,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ragman"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5c10f94386f774227172c572",
+                        "name": "The Blood of War - Part 3"
                     }
                 }
             ]
@@ -8665,7 +8847,7 @@
                     ],
                     "task": {
                         "id": "5967725e86f774601a446662",
-                        "name": "Shaking up the Teller"
+                        "name": "Shaking Up the Teller"
                     }
                 }
             ]
@@ -10440,6 +10622,78 @@
                     "task": {
                         "id": "66631489acf8442f8b05319f",
                         "name": "Friend Among Strangers"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6663148ed7f171c4c20226c1",
+            "tarkovDataId": null,
+            "name": "Small Business - Part 1",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Small_Business_-_Part_1",
+            "minPlayerLevel": 0,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6663148ca9290f9e0806cca1",
+                        "name": "Immunity"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6663149196a9349baa021baa",
+            "tarkovDataId": null,
+            "name": "Small Business - Part 2",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Small_Business_-_Part_2",
+            "minPlayerLevel": 0,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6663148ed7f171c4c20226c1",
+                        "name": "Small Business - Part 1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "66631493312343839d032d22",
+            "tarkovDataId": null,
+            "name": "Small Business - Part 3",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Small_Business_-_Part_3",
+            "minPlayerLevel": 0,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6663149196a9349baa021baa",
+                        "name": "Small Business - Part 2"
                     }
                 }
             ]
