@@ -856,6 +856,126 @@
             ]
         },
         {
+            "id": "66e01ad15a8890455a0d9eea",
+            "tarkovDataId": null,
+            "name": "In and Out",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/In_and_Out",
+            "minPlayerLevel": 2,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Prapor"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66e01aca214f88109006a4b5",
+                        "name": "Into the Inferno"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "66e01ad6835f78499f049180",
+            "tarkovDataId": null,
+            "name": "Ours by Right",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ours_by_Right",
+            "minPlayerLevel": 2,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Prapor"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66e01ad15a8890455a0d9eea",
+                        "name": "In and Out"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "66e01adbd3d014f3ae061c12",
+            "tarkovDataId": null,
+            "name": "Provide Cover",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Provide_Cover",
+            "minPlayerLevel": 2,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Prapor"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66e01ad6835f78499f049180",
+                        "name": "Ours by Right"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "66e01ae0c391e4c94903d220",
+            "tarkovDataId": null,
+            "name": "Cream of the Crop",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cream_of_the_Crop",
+            "minPlayerLevel": 2,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Prapor"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66e01adbd3d014f3ae061c12",
+                        "name": "Provide Cover"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "66e01c4c475acf7e0102d296",
+            "tarkovDataId": null,
+            "name": "Before the Rain",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Before_the_Rain",
+            "minPlayerLevel": 2,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Prapor"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66e01ae0c391e4c94903d220",
+                        "name": "Cream of the Crop"
+                    }
+                }
+            ]
+        },
+        {
             "id": "5d25e2b486f77409de05bba0",
             "tarkovDataId": 156,
             "name": "The Huntsman Path - Secured Perimeter",
