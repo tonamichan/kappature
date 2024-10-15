@@ -832,6 +832,55 @@
             ]
         },
         {
+            "id": "66e3e2ee2136472d220bcb36",
+            "tarkovDataId": null,
+            "name": "Night of The Cult",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Night_of_The_Cult",
+            "minPlayerLevel": 2,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Jaeger"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "active",
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5d24b81486f77439c92d6ba8",
+                        "name": "Acquaintance"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "66e3e2fcb26de0e0790d3fe6",
+            "tarkovDataId": null,
+            "name": "The Graven Image",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Graven_Image",
+            "minPlayerLevel": 2,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Jaeger"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66e3e2ee2136472d220bcb36",
+                        "name": "Night of The Cult"
+                    }
+                }
+            ]
+        },
+        {
             "id": "5d25e2b486f77409de05bba0",
             "tarkovDataId": 156,
             "name": "The Huntsman Path - Secured Perimeter",
