@@ -10612,6 +10612,9 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -10622,10 +10625,7 @@
                         "name": "Establish Contact"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Fence"
-            }
+            ]
         },
         {
             "id": "6663148ca9290f9e0806cca1",
@@ -10636,6 +10636,9 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -10646,10 +10649,7 @@
                         "name": "Friend Among Strangers"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Fence"
-            }
+            ]
         },
         {
             "id": "6663148ed7f171c4c20226c1",
@@ -10660,6 +10660,9 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -10670,10 +10673,7 @@
                         "name": "Immunity"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Fence"
-            }
+            ]
         },
         {
             "id": "6663149196a9349baa021baa",
@@ -10684,6 +10684,9 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -10694,10 +10697,7 @@
                         "name": "Small Business - Part 1"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Fence"
-            }
+            ]
         },
         {
             "id": "66631493312343839d032d22",
@@ -10708,6 +10708,9 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -10718,10 +10721,7 @@
                         "name": "Small Business - Part 2"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Fence"
-            }
+            ]
         },
         {
             "id": "6672d9def1c88688a707d042",
