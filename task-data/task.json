@@ -1146,6 +1146,30 @@
             ]
         },
         {
+            "id": "67191048eddf081d340d4c6e",
+            "tarkovDataId": null,
+            "name": "Pressured by Circumstances",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pressured_by_Circumstances",
+            "minPlayerLevel": 2,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Mechanic"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "670404a2ea1caa8f2e0be106",
+                        "name": "Don\u2019t Believe Your Eyes"
+                    }
+                }
+            ]
+        },
+        {
             "id": "671910d5dbd4354ac10e9784",
             "tarkovDataId": null,
             "name": "Conservation Area",
