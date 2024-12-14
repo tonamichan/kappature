@@ -131,31 +131,6 @@
             ]
         },
         {
-            "id": "674647f38466ebb03408b291",
-            "tarkovDataId": null,
-            "name": "That\u2019s a Great Plan, Walter",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/That%E2%80%99s_a_Great_Plan%2C_Walter",
-            "minPlayerLevel": 1,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Skier"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "active",
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "657315e270bb0b8dba00cc48",
-                        "name": "Burning Rubber"
-                    }
-                }
-            ]
-        },
-        {
             "id": "5936da9e86f7742d65037edf",
             "tarkovDataId": 1,
             "name": "Background Check",
