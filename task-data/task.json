@@ -131,30 +131,6 @@
             ]
         },
         {
-            "id": "675031be899713ccad00060c",
-            "tarkovDataId": null,
-            "name": "Christmas Dinner",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Christmas_Dinner",
-            "minPlayerLevel": 1,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Prapor"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "657315df034d76585f032e01",
-                        "name": "Shooting Cans"
-                    }
-                }
-            ]
-        },
-        {
             "id": "675031e1f300496cc4104450",
             "tarkovDataId": null,
             "name": "Hide in Plain Sight",
@@ -198,54 +174,6 @@
                     "task": {
                         "id": "657315e270bb0b8dba00cc48",
                         "name": "Burning Rubber"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "6750320e23fc8fd9cc087d14",
-            "tarkovDataId": null,
-            "name": "Holiday Beyond the Means",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Holiday_Beyond_the_Means",
-            "minPlayerLevel": 1,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Skier"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "675031be899713ccad00060c",
-                        "name": "Christmas Dinner"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "67503247622398376d0b57cd",
-            "tarkovDataId": null,
-            "name": "Khorovod",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Khorovod",
-            "minPlayerLevel": 1,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Prapor"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "675031f57775aada6b0f96a1",
-                        "name": "Cheer Up"
                     }
                 }
             ]
@@ -971,30 +899,6 @@
                     "task": {
                         "id": "66b38c7bf85b8bf7250f9cb6",
                         "name": "Rough Tarkov"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "675031d3884e1da4a90b3bc9",
-            "tarkovDataId": null,
-            "name": "Chilly",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Chilly",
-            "minPlayerLevel": 2,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5d24b81486f77439c92d6ba8",
-                        "name": "Acquaintance"
                     }
                 }
             ]
