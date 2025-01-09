@@ -8508,11 +8508,12 @@
             "taskRequirements": [
                 {
                     "status": [
-                        "complete"
+                        "complete",
+                        "failed"
                     ],
                     "task": {
-                        "id": "625d7005a4eb80027c4f2e09",
-                        "name": "Knock-Knock"
+                        "id": "625d700cc48e6c62a440fab5",
+                        "name": "Getting Acquainted"
                     }
                 }
             ]
