@@ -8787,40 +8787,6 @@
             "lightkeeperRequired": false
         },
         {
-            "id": "5dc53acb86f77469c740c893",
-            "tarkovDataId": 194,
-            "name": "The Stylish One",
-            "trader": {
-                "name": "Ragman"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Stylish_One",
-            "minPlayerLevel": 30,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "5ae4498786f7744bde357695",
-                        "name": "The Key to Success"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                },
-                {
-                    "task": {
-                        "id": "5d25e2e286f77444001e2e48",
-                        "name": "The Huntsman Path - Sellout"
-                    },
-                    "status": [
-                        "active",
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false
-        },
-        {
             "id": "5c1141f386f77430ff393792",
             "tarkovDataId": 133,
             "name": "Living High is Not a Crime - Part 2",
