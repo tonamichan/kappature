@@ -9494,54 +9494,6 @@
             "lightkeeperRequired": false
         },
         {
-            "id": "64f1cc571a5f313cb144bf90",
-            "tarkovDataId": null,
-            "name": "Overseas Trust - Part 1",
-            "trader": {
-                "name": "Lightkeeper"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Overseas_Trust_-_Part_1",
-            "minPlayerLevel": 33,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "63967028c4a91c5cb76abd81",
-                        "name": "Trouble in the Big City"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false
-        },
-        {
-            "id": "64f1d6e732bed22c3e0c7423",
-            "tarkovDataId": null,
-            "name": "Overseas Trust - Part 2",
-            "trader": {
-                "name": "Ragman"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Overseas_Trust_-_Part_2",
-            "minPlayerLevel": 33,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "64f1cc571a5f313cb144bf90",
-                        "name": "Overseas Trust - Part 1"
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false
-        },
-        {
             "id": "6613f307fca4f2f386029409",
             "tarkovDataId": null,
             "name": "Drip-Out - Part 2",
