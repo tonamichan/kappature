@@ -9544,6 +9544,150 @@
             "lightkeeperRequired": false
         },
         {
+            "id": "626148334149f1149b5b12ca",
+            "tarkovDataId": null,
+            "name": "Make Amends - Security",
+            "trader": {
+                "name": "Mechanic"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Security",
+            "minPlayerLevel": 33,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "6391d90f4ed9512be67647df",
+                        "name": "Make Amends"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "62614836f7308432be1d44cc",
+            "tarkovDataId": null,
+            "name": "Make Amends - Sweep Up",
+            "trader": {
+                "name": "Mechanic"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Sweep_Up",
+            "minPlayerLevel": 33,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "626148334149f1149b5b12ca",
+                        "name": "Make Amends - Security"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "6391d912f8e5dd32bf4e3ab2",
+            "tarkovDataId": null,
+            "name": "Make Amends",
+            "trader": {
+                "name": "Mechanic"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends",
+            "minPlayerLevel": 33,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "62614836f7308432be1d44cc",
+                        "name": "Make Amends - Sweep Up"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "6261483ac48e6c62a440fab7",
+            "tarkovDataId": null,
+            "name": "Make Amends - Software",
+            "trader": {
+                "name": "Mechanic"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Software",
+            "minPlayerLevel": 33,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "6391d912f8e5dd32bf4e3ab2",
+                        "name": "Make Amends"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "6261483dc4874104f230c0cd",
+            "tarkovDataId": null,
+            "name": "Make Amends - Quarantine",
+            "trader": {
+                "name": "Mechanic"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Quarantine",
+            "minPlayerLevel": 33,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "6261483ac48e6c62a440fab7",
+                        "name": "Make Amends - Software"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
+            "id": "6391d9144b15ca31f76bc323",
+            "tarkovDataId": null,
+            "name": "Make Amends",
+            "trader": {
+                "name": "Mechanic"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends",
+            "minPlayerLevel": 33,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "6261483dc4874104f230c0cd",
+                        "name": "Make Amends - Quarantine"
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false
+        },
+        {
             "id": "626bd75d5bef5d7d590bd415",
             "tarkovDataId": 246,
             "name": "Top Secret",
