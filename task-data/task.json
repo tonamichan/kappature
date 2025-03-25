@@ -83,6 +83,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Prapor"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -93,10 +96,7 @@
                         "name": "Background Check"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Prapor"
-            }
+            ]
         },
         {
             "id": "5967530a86f77462ba22226b",
@@ -107,6 +107,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Prapor"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -117,10 +120,7 @@
                         "name": "BP Depot"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Prapor"
-            }
+            ]
         },
         {
             "id": "59675d6c86f7740a842fc482",
@@ -131,6 +131,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Prapor"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -141,10 +144,7 @@
                         "name": "Bad Rep Evidence"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Prapor"
-            }
+            ]
         },
         {
             "id": "59675ea386f77414b32bded2",
@@ -155,54 +155,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "59675d6c86f7740a842fc482",
-                        "name": "Ice Cream Cones"
-                    }
-                }
-            ],
-            "trader": {
-                "name": "Prapor"
-            }
-        },
-        {
-            "id": "596760e186f7741e11214d58",
-            "tarkovDataId": 178,
-            "name": "Postman Pat - Part 2",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Postman_Pat_-_Part_2",
-            "minPlayerLevel": 10,
-            "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": false,
-            "taskRequirements": [
-                {
-                    "status": [
-                        "active"
-                    ],
-                    "task": {
-                        "id": "59675ea386f77414b32bded2",
-                        "name": "Postman Pat - Part 1"
-                    }
-                }
-            ],
-            "trader": {
-                "name": "Therapist"
-            }
-        },
-        {
-            "id": "5967725e86f774601a446662",
-            "tarkovDataId": 8,
-            "name": "Shaking Up the Teller",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shaking_Up_the_Teller",
-            "minPlayerLevel": 15,
-            "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": true,
             "trader": {
                 "name": "Prapor"
             },
@@ -217,6 +169,54 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "596760e186f7741e11214d58",
+            "tarkovDataId": 178,
+            "name": "Postman Pat - Part 2",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Postman_Pat_-_Part_2",
+            "minPlayerLevel": 10,
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Therapist"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "active"
+                    ],
+                    "task": {
+                        "id": "59675ea386f77414b32bded2",
+                        "name": "Postman Pat - Part 1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "5967725e86f774601a446662",
+            "tarkovDataId": 8,
+            "name": "Shaking Up the Teller",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shaking_Up_the_Teller",
+            "minPlayerLevel": 15,
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "59675d6c86f7740a842fc482",
+                        "name": "Ice Cream Cones"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Prapor"
+            }
         },
         {
             "id": "5967733e86f774602332fc84",
@@ -252,6 +252,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Therapist"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -262,10 +265,7 @@
                         "name": "Shortage"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Therapist"
-            }
+            ]
         },
         {
             "id": "59689fbd86f7740d137ebfc4",
@@ -276,6 +276,9 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Therapist"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -286,10 +289,7 @@
                         "name": "Shortage"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Therapist"
-            }
+            ]
         },
         {
             "id": "5968eb3186f7741dde183a4d",
@@ -300,6 +300,9 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Therapist"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -310,10 +313,7 @@
                         "name": "Operation Aquarius - Part 1"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Therapist"
-            }
+            ]
         },
         {
             "id": "5969f90786f77420d2328015",
@@ -324,6 +324,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Therapist"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -334,10 +337,7 @@
                         "name": "Sanitary Standards - Part 2"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Therapist"
-            }
+            ]
         },
         {
             "id": "5969f9e986f7741dde183a50",
@@ -348,6 +348,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Therapist"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -358,10 +361,7 @@
                         "name": "Painkiller"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Therapist"
-            }
+            ]
         },
         {
             "id": "596a0e1686f7741ddf17dbee",
@@ -420,6 +420,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Therapist"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -430,10 +433,7 @@
                         "name": "Pharmacist"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Therapist"
-            }
+            ]
         },
         {
             "id": "596a204686f774576d4c95de",
@@ -444,6 +444,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Therapist"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -454,10 +457,7 @@
                         "name": "Sanitary Standards - Part 1"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Therapist"
-            }
+            ]
         },
         {
             "id": "596a218586f77420d232807c",
@@ -468,6 +468,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Therapist"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -478,10 +481,7 @@
                         "name": "Pharmacist"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Therapist"
-            }
+            ]
         },
         {
             "id": "596b36c586f77450d6045ad2",
@@ -492,6 +492,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Skier"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -503,10 +506,7 @@
                         "name": "Burning Rubber"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Skier"
-            }
+            ]
         },
         {
             "id": "596b43fb86f77457ca186186",
@@ -517,6 +517,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Skier"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -527,10 +530,7 @@
                         "name": "Supplier"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Skier"
-            }
+            ]
         },
         {
             "id": "596b455186f77457cb50eccb",
@@ -541,6 +541,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Skier"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -551,10 +554,7 @@
                         "name": "Supplier"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Skier"
-            }
+            ]
         },
         {
             "id": "5979ed3886f77431307dc512",
@@ -565,6 +565,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Skier"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -575,10 +578,7 @@
                         "name": "The Extortionist"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Skier"
-            }
+            ]
         },
         {
             "id": "5979eee086f774311955e614",
@@ -589,6 +589,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Skier"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -599,10 +602,7 @@
                         "name": "What\u2019s on the Flash Drive?"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Skier"
-            }
+            ]
         },
         {
             "id": "5979f8bb86f7743ec214c7a6",
@@ -613,6 +613,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Prapor"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -624,10 +627,7 @@
                         "name": "Chemical - Part 1"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Prapor"
-            }
+            ]
         },
         {
             "id": "5979f9ba86f7740f6c3fe9f2",
@@ -638,6 +638,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Skier"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -648,10 +651,7 @@
                         "name": "Golden Swag"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Skier"
-            }
+            ]
         },
         {
             "id": "597a0b2986f77426d66c0633",
@@ -662,6 +662,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Skier"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -672,10 +675,7 @@
                         "name": "Chemical - Part 1"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Skier"
-            }
+            ]
         },
         {
             "id": "597a0e5786f77426d66c0636",
@@ -686,6 +686,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Skier"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -696,10 +699,7 @@
                         "name": "Chemical - Part 2"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Skier"
-            }
+            ]
         },
         {
             "id": "597a0f5686f774273b74f676",
@@ -710,6 +710,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Skier"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -720,10 +723,7 @@
                         "name": "Chemical - Part 3"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Skier"
-            }
+            ]
         },
         {
             "id": "597a160786f77477531d39d2",
@@ -734,6 +734,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Therapist"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -744,10 +747,7 @@
                         "name": "Chemical - Part 4"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Therapist"
-            }
+            ]
         },
         {
             "id": "597a171586f77405ba6887d3",
@@ -758,6 +758,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Prapor"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -768,10 +771,7 @@
                         "name": "Chemical - Part 4"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Prapor"
-            }
+            ]
         },
         {
             "id": "59c124d686f774189b3c843f",
@@ -779,30 +779,6 @@
             "name": "BP Depot",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BP_Depot",
             "minPlayerLevel": 5,
-            "factionName": "Any",
-            "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "59674eb386f774539f14813a",
-                        "name": "Delivery From the Past"
-                    }
-                }
-            ],
-            "trader": {
-                "name": "Prapor"
-            }
-        },
-        {
-            "id": "59c50a9e86f7745fef66f4ff",
-            "tarkovDataId": 13,
-            "name": "The Punisher - Part 1",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_1",
-            "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
@@ -815,11 +791,35 @@
                         "complete"
                     ],
                     "task": {
+                        "id": "59674eb386f774539f14813a",
+                        "name": "Delivery From the Past"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "59c50a9e86f7745fef66f4ff",
+            "tarkovDataId": 13,
+            "name": "The Punisher - Part 1",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_1",
+            "minPlayerLevel": 17,
+            "factionName": "Any",
+            "kappaRequired": true,
+            "lightkeeperRequired": true,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
                         "id": "5967725e86f774601a446662",
                         "name": "Shaking Up the Teller"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Prapor"
+            }
         },
         {
             "id": "59c50c8886f7745fed3193bf",
@@ -878,6 +878,9 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Therapist"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -888,10 +891,7 @@
                         "name": "Out of Curiosity"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Therapist"
-            }
+            ]
         },
         {
             "id": "59c93e8e86f7742a406989c4",
@@ -902,6 +902,9 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Skier"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -912,10 +915,7 @@
                         "name": "Chemical - Part 4"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Skier"
-            }
+            ]
         },
         {
             "id": "59ca1a6286f774509a270942",
@@ -926,6 +926,9 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Prapor"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -936,10 +939,7 @@
                         "name": "Big Customer"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Prapor"
-            }
+            ]
         },
         {
             "id": "59ca264786f77445a80ed044",
@@ -1142,6 +1142,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Peacekeeper"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -1152,10 +1155,7 @@
                         "name": "Friend From the West - Part 2"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Peacekeeper"
-            }
+            ]
         },
         {
             "id": "5a27b7a786f774579c3eb376",
@@ -1166,6 +1166,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Peacekeeper"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -1177,10 +1180,7 @@
                         "name": "Fishing Gear"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Peacekeeper"
-            }
+            ]
         },
         {
             "id": "5a27b7d686f77460d847e6a6",
@@ -1191,6 +1191,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Peacekeeper"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -1201,10 +1204,7 @@
                         "name": "Tigr Safari"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Peacekeeper"
-            }
+            ]
         },
         {
             "id": "5a27b80086f774429a5d7e20",
@@ -1215,6 +1215,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Peacekeeper"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -1225,10 +1228,7 @@
                         "name": "Scrap Metal"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Peacekeeper"
-            }
+            ]
         },
         {
             "id": "5a27b87686f77460de0252a8",
@@ -1239,6 +1239,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Peacekeeper"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -1249,10 +1252,7 @@
                         "name": "Eagle Eye"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Peacekeeper"
-            }
+            ]
         },
         {
             "id": "5a27b9de86f77464e5044585",
@@ -1287,9 +1287,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Peacekeeper"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -1300,7 +1297,10 @@
                         "name": "The Cult - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Peacekeeper"
+            }
         },
         {
             "id": "5a27ba9586f7741b543d8e85",
@@ -1575,6 +1575,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Skier"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -1585,10 +1588,7 @@
                         "name": "Supplier"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Skier"
-            }
+            ]
         },
         {
             "id": "5a27d2af86f7744e1115b323",
@@ -1599,6 +1599,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Skier"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -1609,10 +1612,7 @@
                         "name": "Friend From the West - Part 1"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Skier"
-            }
+            ]
         },
         {
             "id": "5a68661a86f774500f48afb0",
@@ -1768,6 +1768,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Mechanic"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -1778,10 +1781,7 @@
                         "name": "Gunsmith - Part 1"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Mechanic"
-            }
+            ]
         },
         {
             "id": "5ac2428686f77412450b42bf",
@@ -1792,6 +1792,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Mechanic"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -1802,10 +1805,7 @@
                         "name": "Gunsmith - Part 1"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Mechanic"
-            }
+            ]
         },
         {
             "id": "5ac242ab86f77412464f68b4",
@@ -1864,9 +1864,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Mechanic"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -1877,7 +1874,10 @@
                         "name": "Gunsmith - Part 6"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
         },
         {
             "id": "5ac345dc86f774288030817f",
@@ -1888,6 +1888,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Mechanic"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -1898,10 +1901,7 @@
                         "name": "Gunsmith - Part 1"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Mechanic"
-            }
+            ]
         },
         {
             "id": "5ac3460c86f7742880308185",
@@ -1984,6 +1984,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Mechanic"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -1994,10 +1997,7 @@
                         "name": "Gunsmith - Part 2"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Mechanic"
-            }
+            ]
         },
         {
             "id": "5ac346a886f7744e1b083d67",
@@ -2032,9 +2032,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Mechanic"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -2045,7 +2042,10 @@
                         "name": "Signal - Part 2"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
         },
         {
             "id": "5ac346e886f7741d6118b99b",
@@ -2056,9 +2056,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Mechanic"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -2069,7 +2066,10 @@
                         "name": "Signal - Part 3"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
         },
         {
             "id": "5ac3475486f7741d6224abd3",
@@ -2161,6 +2161,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Mechanic"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -2171,10 +2174,7 @@
                         "name": "Gunsmith - Part 4"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Mechanic"
-            }
+            ]
         },
         {
             "id": "5ae3270f86f77445ba41d4dd",
@@ -2209,9 +2209,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Mechanic"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -2222,7 +2219,10 @@
                         "name": "Gunsmith - Part 7"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
         },
         {
             "id": "5ae327c886f7745c7b3f2f3f",
@@ -2295,9 +2295,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Ragman"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -2308,7 +2305,10 @@
                         "name": "Only Business"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ragman"
+            }
         },
         {
             "id": "5ae448e586f7744dcf0c2a67",
@@ -2319,9 +2319,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Ragman"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -2332,7 +2329,10 @@
                         "name": "Only Business"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ragman"
+            }
         },
         {
             "id": "5ae448f286f77448d73c0131",
@@ -2343,9 +2343,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Ragman"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -2365,7 +2362,10 @@
                         "name": "Make ULTRA Great Again"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ragman"
+            }
         },
         {
             "id": "5ae4490786f7744ca822adcc",
@@ -2376,9 +2376,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ragman"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -2389,7 +2386,10 @@
                         "name": "The Blood of War - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ragman"
+            }
         },
         {
             "id": "5ae4493486f7744efa289417",
@@ -2400,9 +2400,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Ragman"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -2422,7 +2419,10 @@
                         "name": "Make ULTRA Great Again"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ragman"
+            }
         },
         {
             "id": "5ae4493d86f7744b8e15aa8f",
@@ -2433,9 +2433,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Ragman"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -2446,7 +2443,10 @@
                         "name": "Database - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ragman"
+            }
         },
         {
             "id": "5ae4495086f77443c122bc40",
@@ -2634,9 +2634,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ragman"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -2656,7 +2653,10 @@
                         "name": "Database - Part 2"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ragman"
+            }
         },
         {
             "id": "5ae449c386f7744bde357697",
@@ -3711,9 +3711,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Skier"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -3724,7 +3721,10 @@
                         "name": "Friend From the West - Part 2"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Skier"
+            }
         },
         {
             "id": "5c12452c86f7744b83469073",
@@ -5556,6 +5556,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Prapor"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -5566,10 +5569,7 @@
                         "name": "BP Depot"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Prapor"
-            }
+            ]
         },
         {
             "id": "5ede567cfa6dc072ce15d6e3",
@@ -5580,9 +5580,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Prapor"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -5593,7 +5590,10 @@
                         "name": "The Bunker - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Prapor"
+            }
         },
         {
             "id": "5f04886a3937dc337a6b8238",
@@ -5637,6 +5637,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Prapor"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -5647,10 +5650,7 @@
                         "name": "Debut"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Prapor"
-            }
+            ]
         },
         {
             "id": "600302d73b897b11364cd161",
@@ -5758,9 +5758,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Prapor"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -5771,7 +5768,10 @@
                         "name": "The Bunker - Part 2"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Prapor"
+            }
         },
         {
             "id": "60896e28e4a85c72ef3fa301",
@@ -5782,9 +5782,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Therapist"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -5795,7 +5792,10 @@
                         "name": "Pharmacist"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Therapist"
+            }
         },
         {
             "id": "6089732b59b92115597ad789",
@@ -5854,9 +5854,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Skier"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -5868,7 +5865,10 @@
                         "name": "Chemical - Part 4"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Skier"
+            }
         },
         {
             "id": "608974af4b05530f55550c21",
@@ -5879,9 +5879,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ragman"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -5892,7 +5889,10 @@
                         "name": "A Fuel Matter"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ragman"
+            }
         },
         {
             "id": "608974d01a66564e74191fc0",
@@ -5903,9 +5903,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Ragman"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -5916,7 +5913,10 @@
                         "name": "The Blood of War - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ragman"
+            }
         },
         {
             "id": "608a768d82e40b3c727fd17d",
@@ -6472,9 +6472,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Therapist"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -6486,7 +6483,10 @@
                         "name": "Disease History"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Therapist"
+            }
         },
         {
             "id": "6179afd0bca27a099552e040",
@@ -6521,9 +6521,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Peacekeeper"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -6534,7 +6531,10 @@
                         "name": "Spa Tour - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Peacekeeper"
+            }
         },
         {
             "id": "6179b3a12153c15e937d52bc",
@@ -6570,9 +6570,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Mechanic"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -6583,7 +6580,10 @@
                         "name": "Farming - Part 3"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
         },
         {
             "id": "6179b4d1bca27a099552e04e",
@@ -7429,9 +7429,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ragman"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -7442,7 +7439,10 @@
                         "name": "Only Business"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ragman"
+            }
         },
         {
             "id": "639135534b15ca31f76bc317",
@@ -7477,9 +7477,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Prapor"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -7490,7 +7487,10 @@
                         "name": "Postman Pat - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Prapor"
+            }
         },
         {
             "id": "639135a7e705511c8a4a1b78",
@@ -7525,9 +7525,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Prapor"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -7538,7 +7535,10 @@
                         "name": "You've Got Mail"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Prapor"
+            }
         },
         {
             "id": "639135bbc115f907b14700a6",
@@ -7630,6 +7630,9 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Therapist"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -7640,10 +7643,7 @@
                         "name": "Pharmacist"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Therapist"
-            }
+            ]
         },
         {
             "id": "639135e0fa894f0a866afde6",
@@ -7654,9 +7654,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Therapist"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -7667,7 +7664,10 @@
                         "name": "Population Census"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Therapist"
+            }
         },
         {
             "id": "639135e8c115f907b14700aa",
@@ -7711,9 +7711,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Peacekeeper"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -7725,7 +7722,10 @@
                         "name": "Revision - Reserve"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Peacekeeper"
+            }
         },
         {
             "id": "639136d68ba6894d155e77cf",
@@ -7784,6 +7784,9 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Jaeger"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -7794,10 +7797,7 @@
                         "name": "The Delicious Sausage"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Jaeger"
-            }
+            ]
         },
         {
             "id": "639136f086e646067c176a8b",
@@ -7856,9 +7856,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Mechanic"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -7869,7 +7866,10 @@
                         "name": "Broadcast - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
         },
         {
             "id": "6391372c8ba6894d155e77d7",
@@ -8240,6 +8240,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
+            "trader": {
+                "name": "Mechanic"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -8259,10 +8262,7 @@
                         "name": "Gunsmith - Part 3"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Mechanic"
-            }
+            ]
         },
         {
             "id": "639872fa9b4fb827b200d8e5",
@@ -8465,6 +8465,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Jaeger"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -8475,10 +8478,7 @@
                         "name": "The Survivalist Path - Thrifty"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Jaeger"
-            }
+            ]
         },
         {
             "id": "63a9ae24009ffc6a551631a5",
@@ -8588,9 +8588,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Therapist"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -8602,7 +8599,10 @@
                         "name": "Supply Plans"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Therapist"
+            }
         },
         {
             "id": "64e7b971f9d6fa49d6769b44",
@@ -8613,9 +8613,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -8635,7 +8632,10 @@
                         "name": "Urban Medicine"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "64e7b99017ab941a6f7bf9d7",
@@ -8742,9 +8742,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Mechanic"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -8755,7 +8752,10 @@
                         "name": "Signal - Part 3"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
         },
         {
             "id": "64f3176921045e77405d63b5",
@@ -8766,9 +8766,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Therapist"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -8788,7 +8785,10 @@
                         "name": "Urban Medicine"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Therapist"
+            }
         },
         {
             "id": "64f5aac4b63b74469b6c14c2",
@@ -9263,9 +9263,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Mechanic"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9276,7 +9273,10 @@
                         "name": "Signal - Part 4"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
         },
         {
             "id": "658027799634223183395339",
@@ -9311,9 +9311,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ragman"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9324,7 +9321,10 @@
                         "name": "Big Sale"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ragman"
+            }
         },
         {
             "id": "66058cb22cee99303f1ba067",
@@ -9676,9 +9676,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9689,7 +9686,10 @@
                         "name": "The Delicious Sausage"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "665eec1f5e47a79f8605565a",
@@ -9700,9 +9700,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Skier"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9713,7 +9710,10 @@
                         "name": "Thirsty - Hounds"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Skier"
+            }
         },
         {
             "id": "665eec4a4dfc83b0ed0a9dca",
@@ -9724,9 +9724,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Skier"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9737,7 +9734,10 @@
                         "name": "Thirsty - Breadwinner"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Skier"
+            }
         },
         {
             "id": "665eeca45d86b6c8aa03c79d",
@@ -9748,9 +9748,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Therapist"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9761,7 +9758,10 @@
                         "name": "Thirsty - Delivery"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Therapist"
+            }
         },
         {
             "id": "665eeca92f7aedcc900b0437",
@@ -9772,9 +9772,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Therapist"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9785,7 +9782,10 @@
                         "name": "Thirsty - Echo"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Therapist"
+            }
         },
         {
             "id": "66631489acf8442f8b05319f",
@@ -9844,9 +9844,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Fence"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9857,7 +9854,10 @@
                         "name": "Immunity"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Fence"
+            }
         },
         {
             "id": "6663149196a9349baa021baa",
@@ -9868,9 +9868,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Fence"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9881,7 +9878,10 @@
                         "name": "Small Business - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Fence"
+            }
         },
         {
             "id": "66631493312343839d032d22",
@@ -9892,9 +9892,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Fence"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9905,7 +9902,10 @@
                         "name": "Small Business - Part 2"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Fence"
+            }
         },
         {
             "id": "6663149cfd5ca9577902e037",
@@ -10340,9 +10340,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Peacekeeper"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -10353,7 +10350,10 @@
                         "name": "Overpopulation"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Peacekeeper"
+            }
         },
         {
             "id": "669fa3910c828825de06d69f",
@@ -10364,9 +10364,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Therapist"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -10377,7 +10374,10 @@
                         "name": "One Less Loose End"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Therapist"
+            }
         },
         {
             "id": "669fa394e0c9f9fafa082897",
@@ -10460,6 +10460,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Prapor"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -10470,10 +10473,7 @@
                         "name": "Postman Pat - Part 1"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Prapor"
-            }
+            ]
         },
         {
             "id": "669fa39b91b0a8c9680fc467",
@@ -10556,9 +10556,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -10570,7 +10567,10 @@
                         "name": "One Less Loose End"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "669fa3a1c26f13bd04030f37",
@@ -10662,9 +10662,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Peacekeeper"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -10675,7 +10672,10 @@
                         "name": "Revision - Streets of Tarkov"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Peacekeeper"
+            }
         },
         {
             "id": "66aa61663aa37705c5024277",
@@ -11662,9 +11662,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Therapist"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -11675,7 +11672,10 @@
                         "name": "Seaside Vacation"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Therapist"
+            }
         },
         {
             "id": "675c047fa46173572a0bd878",
@@ -11686,9 +11686,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Therapist"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -11699,7 +11696,10 @@
                         "name": "Abandoned Cargo"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Therapist"
+            }
         },
         {
             "id": "675c04f4db8807b75d0f38e8",
@@ -11710,9 +11710,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Therapist"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -11723,7 +11720,10 @@
                         "name": "Shipment Tracking"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Therapist"
+            }
         },
         {
             "id": "675c085d59b0575973005f52",
@@ -11734,9 +11734,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ragman"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -11747,7 +11744,10 @@
                         "name": "Make ULTRA Great Again"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ragman"
+            }
         },
         {
             "id": "675c1570526ff496850895d9",
@@ -11806,6 +11806,9 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Peacekeeper"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -11816,10 +11819,7 @@
                         "name": "Humanitarian Supplies"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Peacekeeper"
-            }
+            ]
         },
         {
             "id": "675c1ec7a46173572a0bf20a",
@@ -11878,6 +11878,9 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
+            "trader": {
+                "name": "Prapor"
+            },
             "taskRequirements": [
                 {
                     "status": [
@@ -11888,10 +11891,7 @@
                         "name": "BP Depot"
                     }
                 }
-            ],
-            "trader": {
-                "name": "Prapor"
-            }
+            ]
         },
         {
             "id": "675c3582f6ddc329a90f9c6d",
@@ -11959,9 +11959,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Mechanic"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -11972,7 +11969,10 @@
                         "name": "Gunsmith - Part 7"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
         }
     ]
 }
