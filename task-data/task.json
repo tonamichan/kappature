@@ -8,10 +8,7 @@
             "minPlayerLevel": 1,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Prapor"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -23,7 +20,10 @@
                         "name": "Shooting Cans"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Prapor"
+            }
         },
         {
             "id": "5936da9e86f7742d65037edf",
@@ -33,10 +33,7 @@
             "minPlayerLevel": 2,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Prapor"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -48,7 +45,10 @@
                         "name": "Luxurious Life"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Prapor"
+            }
         },
         {
             "id": "59674cd986f7744ab26e32f2",
@@ -82,7 +82,7 @@
             "minPlayerLevel": 5,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Prapor"
             },
@@ -106,7 +106,7 @@
             "minPlayerLevel": 6,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Prapor"
             },
@@ -130,7 +130,7 @@
             "minPlayerLevel": 9,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Prapor"
             },
@@ -202,7 +202,7 @@
             "minPlayerLevel": 15,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Prapor"
             },
@@ -226,10 +226,7 @@
             "minPlayerLevel": 1,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Therapist"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -241,7 +238,10 @@
                         "name": "First in Line"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Therapist"
+            }
         },
         {
             "id": "59689ee586f7740d1570bbd5",
@@ -251,7 +251,7 @@
             "minPlayerLevel": 4,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Therapist"
             },
@@ -323,7 +323,7 @@
             "minPlayerLevel": 8,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Therapist"
             },
@@ -347,7 +347,7 @@
             "minPlayerLevel": 10,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Therapist"
             },
@@ -443,7 +443,7 @@
             "minPlayerLevel": 8,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Therapist"
             },
@@ -491,7 +491,7 @@
             "minPlayerLevel": 5,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             },
@@ -516,7 +516,7 @@
             "minPlayerLevel": 7,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             },
@@ -564,7 +564,7 @@
             "minPlayerLevel": 8,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             },
@@ -588,7 +588,7 @@
             "minPlayerLevel": 8,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             },
@@ -637,7 +637,7 @@
             "minPlayerLevel": 10,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             },
@@ -661,7 +661,7 @@
             "minPlayerLevel": 10,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             },
@@ -685,7 +685,7 @@
             "minPlayerLevel": 11,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             },
@@ -709,7 +709,7 @@
             "minPlayerLevel": 11,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             },
@@ -733,7 +733,7 @@
             "minPlayerLevel": 11,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Therapist"
             },
@@ -757,7 +757,7 @@
             "minPlayerLevel": 11,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Prapor"
             },
@@ -781,7 +781,7 @@
             "minPlayerLevel": 5,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Prapor"
             },
@@ -805,7 +805,7 @@
             "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Prapor"
             },
@@ -829,7 +829,7 @@
             "minPlayerLevel": 18,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Prapor"
             },
@@ -853,7 +853,7 @@
             "minPlayerLevel": 19,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Prapor"
             },
@@ -949,7 +949,7 @@
             "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Prapor"
             },
@@ -1021,7 +1021,7 @@
             "minPlayerLevel": 12,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1045,7 +1045,7 @@
             "minPlayerLevel": 12,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1069,7 +1069,7 @@
             "minPlayerLevel": 12,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1093,7 +1093,7 @@
             "minPlayerLevel": 12,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1117,7 +1117,7 @@
             "minPlayerLevel": 12,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1141,7 +1141,7 @@
             "minPlayerLevel": 10,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1165,7 +1165,7 @@
             "minPlayerLevel": 10,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1190,7 +1190,7 @@
             "minPlayerLevel": 10,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1214,7 +1214,7 @@
             "minPlayerLevel": 11,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1238,7 +1238,7 @@
             "minPlayerLevel": 11,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1262,7 +1262,7 @@
             "minPlayerLevel": 12,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1286,7 +1286,7 @@
             "minPlayerLevel": 18,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1310,7 +1310,7 @@
             "minPlayerLevel": 12,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1334,7 +1334,7 @@
             "minPlayerLevel": 12,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1358,7 +1358,7 @@
             "minPlayerLevel": 12,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1382,7 +1382,7 @@
             "minPlayerLevel": 12,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1406,7 +1406,7 @@
             "minPlayerLevel": 12,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -1574,7 +1574,7 @@
             "minPlayerLevel": 9,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             },
@@ -1598,7 +1598,7 @@
             "minPlayerLevel": 9,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             },
@@ -1622,7 +1622,7 @@
             "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Therapist"
             },
@@ -1646,7 +1646,7 @@
             "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Therapist"
             },
@@ -1742,10 +1742,7 @@
             "minPlayerLevel": 2,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Mechanic"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -1757,7 +1754,10 @@
                         "name": "Saving the Mole"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
         },
         {
             "id": "5ac2426c86f774138762edfe",
@@ -1767,7 +1767,7 @@
             "minPlayerLevel": 5,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -1791,7 +1791,7 @@
             "minPlayerLevel": 7,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -1863,7 +1863,7 @@
             "minPlayerLevel": 15,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -1887,7 +1887,7 @@
             "minPlayerLevel": 12,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -1911,7 +1911,7 @@
             "minPlayerLevel": 12,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -2160,7 +2160,7 @@
             "minPlayerLevel": 10,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -2184,7 +2184,7 @@
             "minPlayerLevel": 14,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -2208,7 +2208,7 @@
             "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -2232,7 +2232,7 @@
             "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -2281,7 +2281,7 @@
             "taskRequirements": [],
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Ragman"
             }
@@ -2294,7 +2294,7 @@
             "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Ragman"
             },
@@ -2318,7 +2318,7 @@
             "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Ragman"
             },
@@ -2342,7 +2342,7 @@
             "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Ragman"
             },
@@ -2399,7 +2399,7 @@
             "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Ragman"
             },
@@ -2432,7 +2432,7 @@
             "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Ragman"
             },
@@ -3005,7 +3005,7 @@
             "minPlayerLevel": 24,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             },
@@ -3053,7 +3053,7 @@
             "minPlayerLevel": 24,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             },
@@ -3077,10 +3077,7 @@
             "minPlayerLevel": 2,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -3091,7 +3088,10 @@
                         "name": "Acquaintance"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5bc479e586f7747f376c7da3",
@@ -3101,10 +3101,7 @@
             "minPlayerLevel": 2,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -3116,7 +3113,10 @@
                         "name": "The Tarkov Shooter - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5bc47dbf86f7741ee74e93b9",
@@ -3126,10 +3126,7 @@
             "minPlayerLevel": 2,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -3140,7 +3137,10 @@
                         "name": "The Tarkov Shooter - Part 2"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5bc480a686f7741af0342e29",
@@ -3151,9 +3151,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -3164,7 +3161,10 @@
                         "name": "The Tarkov Shooter - Part 3"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5bc4826c86f774106d22d88b",
@@ -3175,9 +3175,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -3188,7 +3185,10 @@
                         "name": "The Tarkov Shooter - Part 4"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5bc4836986f7740c0152911c",
@@ -3199,9 +3199,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -3212,7 +3209,10 @@
                         "name": "The Tarkov Shooter - Part 5"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5bc4856986f77454c317bea7",
@@ -3223,9 +3223,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -3236,7 +3233,10 @@
                         "name": "The Tarkov Shooter - Part 6"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5bc4893c86f774626f5ebf3e",
@@ -3247,9 +3247,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -3260,7 +3257,10 @@
                         "name": "The Tarkov Shooter - Part 7"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5c0bbaa886f7746941031d82",
@@ -3710,7 +3710,7 @@
             "minPlayerLevel": 18,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             },
@@ -4436,10 +4436,7 @@
             "minPlayerLevel": 2,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Mechanic"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -4451,7 +4448,10 @@
                         "name": "Gunsmith - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
         },
         {
             "id": "5d24b81486f77439c92d6ba8",
@@ -4461,10 +4461,7 @@
             "minPlayerLevel": 2,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -4475,7 +4472,10 @@
                         "name": "Introduction"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25aed386f77442734d25d2",
@@ -4485,10 +4485,7 @@
             "minPlayerLevel": 2,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -4499,7 +4496,10 @@
                         "name": "Acquaintance"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25b6be86f77444001e1b89",
@@ -4509,10 +4509,7 @@
             "minPlayerLevel": 2,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -4523,7 +4520,10 @@
                         "name": "The Survivalist Path - Unprotected but Dangerous"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25bfd086f77442734d3007",
@@ -4533,10 +4533,7 @@
             "minPlayerLevel": 2,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -4547,7 +4544,10 @@
                         "name": "The Survivalist Path - Thrifty"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25c81b86f77443e625dd71",
@@ -4557,10 +4557,7 @@
             "minPlayerLevel": 2,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -4571,7 +4568,10 @@
                         "name": "The Survivalist Path - Zhivchik"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25cf2686f77443e75488d4",
@@ -4581,10 +4581,7 @@
             "minPlayerLevel": 2,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -4595,7 +4592,10 @@
                         "name": "The Survivalist Path - Wounded Beast"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25d2c186f77443e35162e5",
@@ -4606,9 +4606,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4619,7 +4616,10 @@
                         "name": "The Survivalist Path - Wounded Beast"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e29d86f7740a22516326",
@@ -4630,9 +4630,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4643,7 +4640,10 @@
                         "name": "The Survivalist Path - Tough Guy"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e2a986f77409dd5cdf2a",
@@ -4654,9 +4654,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4667,7 +4664,10 @@
                         "name": "The Survivalist Path - Eagle-Owl"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e2b486f77409de05bba0",
@@ -4677,7 +4677,7 @@
             "minPlayerLevel": 2,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Jaeger"
             },
@@ -4711,9 +4711,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4724,7 +4721,10 @@
                         "name": "The Huntsman Path - Secured Perimeter"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e2cc86f77443e47ae019",
@@ -4734,10 +4734,7 @@
             "minPlayerLevel": 2,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -4748,7 +4745,10 @@
                         "name": "The Huntsman Path - Secured Perimeter"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e2d886f77442734d335e",
@@ -4759,9 +4759,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4772,7 +4769,10 @@
                         "name": "The Huntsman Path - Forest Cleaning"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e2e286f77444001e2e48",
@@ -4850,9 +4850,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4864,7 +4861,10 @@
                         "name": "The Huntsman Path - Trophy"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e44386f77409453bce7b",
@@ -4875,9 +4875,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4888,7 +4885,10 @@
                         "name": "The Huntsman Path - Forest Cleaning"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e44f86f77443e625e385",
@@ -4979,7 +4979,7 @@
             "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Jaeger"
             },
@@ -5303,9 +5303,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -5316,7 +5313,10 @@
                         "name": "The Survivalist Path - Combat Medic"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5eda19f0edce541157209cee",
@@ -5781,7 +5781,7 @@
             "minPlayerLevel": 15,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Therapist"
             },
@@ -5902,7 +5902,7 @@
             "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Ragman"
             },
@@ -6471,7 +6471,7 @@
             "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Therapist"
             },
@@ -6496,7 +6496,7 @@
             "minPlayerLevel": 26,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Therapist"
             },
@@ -6740,7 +6740,7 @@
             "minPlayerLevel": 12,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Peacekeeper"
             },
@@ -6834,7 +6834,7 @@
             "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -6967,7 +6967,7 @@
             "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -6991,7 +6991,7 @@
             "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -7015,7 +7015,7 @@
             "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -7039,7 +7039,7 @@
             "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -7063,7 +7063,7 @@
             "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -7084,31 +7084,21 @@
             "tarkovDataId": null,
             "name": "Knock-Knock",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Knock-Knock",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": true,
             "trader": {
                 "name": "Mechanic"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "625d70031ed3bb5bcc5bd9e5",
-                        "name": "Key to the Tower"
-                    }
-                }
-            ]
+            }
         },
         {
             "id": "625d700cc48e6c62a440fab5",
             "tarkovDataId": null,
             "name": "Getting Acquainted",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Getting_Acquainted",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7132,7 +7122,7 @@
             "tarkovDataId": null,
             "name": "Make Amends - Buyout",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Buyout",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7157,7 +7147,7 @@
             "tarkovDataId": null,
             "name": "Make Amends - Equipment",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Equipment",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7181,7 +7171,7 @@
             "tarkovDataId": null,
             "name": "Make Amends - Security",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Security",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7205,7 +7195,7 @@
             "tarkovDataId": null,
             "name": "Make Amends - Sweep Up",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Sweep_Up",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7229,7 +7219,7 @@
             "tarkovDataId": null,
             "name": "Make Amends - Software",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Software",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7253,7 +7243,7 @@
             "tarkovDataId": null,
             "name": "Make Amends - Quarantine",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Quarantine",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7325,7 +7315,7 @@
             "tarkovDataId": 246,
             "name": "Top Secret",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Top_Secret",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 30,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7335,21 +7325,21 @@
             "taskRequirements": [
                 {
                     "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "6179b4f16e9dd54ac275e407",
-                        "name": "Missing Cargo"
-                    }
-                },
-                {
-                    "status": [
                         "complete",
                         "failed"
                     ],
                     "task": {
                         "id": "625d700cc48e6c62a440fab5",
                         "name": "Getting Acquainted"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6179b4f16e9dd54ac275e407",
+                        "name": "Missing Cargo"
                     }
                 }
             ]
@@ -7362,7 +7352,7 @@
             "minPlayerLevel": 12,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -7581,7 +7571,7 @@
             "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             },
@@ -7855,7 +7845,7 @@
             "minPlayerLevel": 15,
             "factionName": "Any",
             "kappaRequired": false,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -7900,7 +7890,7 @@
             "tarkovDataId": null,
             "name": "Make Amends",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7924,7 +7914,7 @@
             "tarkovDataId": null,
             "name": "Make Amends",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7948,7 +7938,7 @@
             "tarkovDataId": null,
             "name": "Make Amends",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7996,7 +7986,7 @@
             "tarkovDataId": null,
             "name": "Information Source",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Information_Source",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8020,7 +8010,7 @@
             "tarkovDataId": null,
             "name": "Missing Informant",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Missing_Informant",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8044,7 +8034,7 @@
             "tarkovDataId": null,
             "name": "Snatch",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Snatch",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8068,7 +8058,7 @@
             "tarkovDataId": null,
             "name": "Payback",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Payback",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8092,7 +8082,7 @@
             "tarkovDataId": null,
             "name": "Return the Favor",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Return_the_Favor",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8116,7 +8106,7 @@
             "tarkovDataId": null,
             "name": "Provocation",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Provocation",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8140,7 +8130,7 @@
             "tarkovDataId": null,
             "name": "Following the Bread Crumbs",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Following_the_Bread_Crumbs",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8164,7 +8154,7 @@
             "tarkovDataId": null,
             "name": "Spotter",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spotter",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8188,7 +8178,7 @@
             "tarkovDataId": null,
             "name": "Make an Impression",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_an_Impression",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8212,7 +8202,7 @@
             "tarkovDataId": null,
             "name": "Trouble in the Big City",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Trouble_in_the_Big_City",
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8239,7 +8229,7 @@
             "minPlayerLevel": 9,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -8272,7 +8262,7 @@
             "minPlayerLevel": 19,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             },
@@ -8392,7 +8382,7 @@
             "minPlayerLevel": 31,
             "factionName": "Any",
             "kappaRequired": false,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             },
@@ -9015,7 +9005,7 @@
             "taskRequirements": [],
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Therapist"
             }
@@ -9029,7 +9019,7 @@
             "taskRequirements": [],
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Prapor"
             }
@@ -9042,10 +9032,7 @@
             "minPlayerLevel": 1,
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
-            "trader": {
-                "name": "Prapor"
-            },
+            "lightkeeperRequired": false,
             "taskRequirements": [
                 {
                     "status": [
@@ -9056,7 +9043,10 @@
                         "name": "Debut"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Prapor"
+            }
         },
         {
             "id": "657315e270bb0b8dba00cc48",
@@ -9067,7 +9057,7 @@
             "taskRequirements": [],
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Skier"
             }
@@ -9081,7 +9071,7 @@
             "taskRequirements": [],
             "factionName": "Any",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "trader": {
                 "name": "Mechanic"
             }
@@ -10436,9 +10426,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -10449,7 +10436,10 @@
                         "name": "The Huntsman Path - Forest Cleaning"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "669fa399033a3ce9870338a8",
@@ -10806,9 +10796,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -10819,7 +10806,10 @@
                         "name": "Acquaintance"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "66b38e144f2ab7cc530c3fe7",
@@ -11490,7 +11480,6 @@
             "taskRequirements": [
                 {
                     "status": [
-                        "active",
                         "complete"
                     ],
                     "task": {
@@ -11973,6 +11962,430 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "67a09636b8725511260bc421",
+            "tarkovDataId": null,
+            "name": "Shady Contractor",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shady_Contractor",
+            "minPlayerLevel": 1,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "active",
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "657315e4a6af4ab4b50f3459",
+                        "name": "Saving the Mole"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
+        },
+        {
+            "id": "67a0964e972c11a3f507731b",
+            "tarkovDataId": null,
+            "name": "Needle in a Haystack",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Needle_in_a_Haystack",
+            "minPlayerLevel": 1,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a09636b8725511260bc421",
+                        "name": "Shady Contractor"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
+        },
+        {
+            "id": "67a096577e86e067eb045733",
+            "tarkovDataId": null,
+            "name": "Hidden Layer",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hidden_Layer",
+            "minPlayerLevel": 1,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0964e972c11a3f507731b",
+                        "name": "Needle in a Haystack"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
+        },
+        {
+            "id": "67a0966817e34930e500754c",
+            "tarkovDataId": null,
+            "name": "Forced Alliance",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Forced_Alliance",
+            "minPlayerLevel": 1,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a096577e86e067eb045733",
+                        "name": "Hidden Layer"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
+        },
+        {
+            "id": "67a09673972c11a3f507731d",
+            "tarkovDataId": null,
+            "name": "The Tarkov Butcher",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Butcher",
+            "minPlayerLevel": 1,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "active"
+                    ],
+                    "task": {
+                        "id": "67a0966817e34930e500754c",
+                        "name": "Forced Alliance"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Therapist"
+            }
+        },
+        {
+            "id": "67a0967c003a9986cb0f5ac1",
+            "tarkovDataId": null,
+            "name": "Sensory Analysis - Part 1",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sensory_Analysis_-_Part_1",
+            "minPlayerLevel": 1,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a096577e86e067eb045733",
+                        "name": "Hidden Layer"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Ragman"
+            }
+        },
+        {
+            "id": "67a096ed77dd677f600804ba",
+            "tarkovDataId": null,
+            "name": "Sensory Analysis - Part 2",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sensory_Analysis_-_Part_2",
+            "minPlayerLevel": 1,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "active"
+                    ],
+                    "task": {
+                        "id": "67a0967c003a9986cb0f5ac1",
+                        "name": "Sensory Analysis - Part 1"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "BTR Driver"
+            }
+        },
+        {
+            "id": "67a096f605d1611ed90be75a",
+            "tarkovDataId": null,
+            "name": "Hot Zone",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hot_Zone",
+            "minPlayerLevel": 1,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0967c003a9986cb0f5ac1",
+                        "name": "Sensory Analysis - Part 1"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Ragman"
+            }
+        },
+        {
+            "id": "67a0970744893b9f3f0d9b68",
+            "tarkovDataId": null,
+            "name": "Offensive Reconnaissance",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Offensive_Reconnaissance",
+            "minPlayerLevel": 1,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0966817e34930e500754c",
+                        "name": "Forced Alliance"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
+        },
+        {
+            "id": "67a0970f05d1611ed90be75d",
+            "tarkovDataId": null,
+            "name": "Hypotheses Testing",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hypotheses_Testing",
+            "minPlayerLevel": 1,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0970744893b9f3f0d9b68",
+                        "name": "Offensive Reconnaissance"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
+        },
+        {
+            "id": "67a09724972c11a3f5077324",
+            "tarkovDataId": null,
+            "name": "Confidential Info",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Confidential_Info",
+            "minPlayerLevel": 1,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0970744893b9f3f0d9b68",
+                        "name": "Offensive Reconnaissance"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Peacekeeper"
+            }
+        },
+        {
+            "id": "67a0972e77dd677f600804bd",
+            "tarkovDataId": null,
+            "name": "This Tape Sucks",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/This_Tape_Sucks",
+            "minPlayerLevel": 1,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0970744893b9f3f0d9b68",
+                        "name": "Offensive Reconnaissance"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Therapist"
+            }
+        },
+        {
+            "id": "67a097379f2068e74603c6ac",
+            "tarkovDataId": null,
+            "name": "Indisputable Authority",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Indisputable_Authority",
+            "minPlayerLevel": 1,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0970744893b9f3f0d9b68",
+                        "name": "Offensive Reconnaissance"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Skier"
+            }
+        },
+        {
+            "id": "67a09761e720611a6a01f288",
+            "tarkovDataId": null,
+            "name": "Keeper's Word",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Keeper's_Word",
+            "minPlayerLevel": 1,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a096ed77dd677f600804ba",
+                        "name": "Sensory Analysis - Part 2"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a096f605d1611ed90be75a",
+                        "name": "Hot Zone"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a09673972c11a3f507731d",
+                        "name": "The Tarkov Butcher"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0970f05d1611ed90be75d",
+                        "name": "Hypotheses Testing"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67d03be712fb5f8fd2096332",
+                        "name": "Vacate the Premises"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a09724972c11a3f5077324",
+                        "name": "Confidential Info"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a097379f2068e74603c6ac",
+                        "name": "Indisputable Authority"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0972e77dd677f600804bd",
+                        "name": "This Tape Sucks"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Lightkeeper"
+            }
+        },
+        {
+            "id": "67d03be712fb5f8fd2096332",
+            "tarkovDataId": null,
+            "name": "Vacate the Premises",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Vacate_the_Premises",
+            "minPlayerLevel": 1,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0970744893b9f3f0d9b68",
+                        "name": "Offensive Reconnaissance"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Ragman"
+            }
         }
     ]
 }
