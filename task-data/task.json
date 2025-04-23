@@ -5204,7 +5204,7 @@
             "name": "Textile - Part 1",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Textile_-_Part_1",
             "minPlayerLevel": 42,
-            "factionName": "USEC",
+            "factionName": "BEAR",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "trader": {
@@ -5228,7 +5228,7 @@
             "name": "Textile - Part 1",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Textile_-_Part_1",
             "minPlayerLevel": 42,
-            "factionName": "BEAR",
+            "factionName": "USEC",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "trader": {
@@ -5252,7 +5252,7 @@
             "name": "Textile - Part 2",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Textile_-_Part_2",
             "minPlayerLevel": 42,
-            "factionName": "USEC",
+            "factionName": "BEAR",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "trader": {
@@ -5276,7 +5276,7 @@
             "name": "Textile - Part 2",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Textile_-_Part_2",
             "minPlayerLevel": 42,
-            "factionName": "BEAR",
+            "factionName": "USEC",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "trader": {
