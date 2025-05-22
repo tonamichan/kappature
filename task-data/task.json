@@ -12388,6 +12388,150 @@
             }
         },
         {
+            "id": "67af4c169d95ad16e004fd86",
+            "tarkovDataId": null,
+            "name": "Safety Guarantee",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Safety_Guarantee",
+            "minPlayerLevel": 61,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Skier"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67af4c1405c58dc6f7056667",
+                        "name": "Profitable Venture"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "67af4c17f4f1fb58a907f8f6",
+            "tarkovDataId": null,
+            "name": "Never Too Late To Learn",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Never_Too_Late_To_Learn",
+            "minPlayerLevel": 61,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Skier"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67af4c169d95ad16e004fd86",
+                        "name": "Safety Guarantee"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "67af4c1991ee75c6d7060a16",
+            "tarkovDataId": null,
+            "name": "Get a Foothold",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Get_a_Foothold",
+            "minPlayerLevel": 61,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Skier"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67af4c17f4f1fb58a907f8f6",
+                        "name": "Never Too Late To Learn"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "67af4c1a6c3ebfd8e6034916",
+            "tarkovDataId": null,
+            "name": "Profit Retention",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Profit_Retention",
+            "minPlayerLevel": 61,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Skier"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67af4c1991ee75c6d7060a16",
+                        "name": "Get a Foothold"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "67af4c1cc0e59d55e2010b97",
+            "tarkovDataId": null,
+            "name": "A Life Lesson",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/A_Life_Lesson",
+            "minPlayerLevel": 61,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Skier"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67af4c1a6c3ebfd8e6034916",
+                        "name": "Profit Retention"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "67af4c1d8c9482eca103e477",
+            "tarkovDataId": null,
+            "name": "Consolation Prize",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Consolation_Prize",
+            "minPlayerLevel": 61,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Skier"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67af4c1cc0e59d55e2010b97",
+                        "name": "A Life Lesson"
+                    }
+                }
+            ]
+        },
+        {
             "id": "67b45467814ab0ffa000c7e7",
             "tarkovDataId": null,
             "name": "The Art of Explosion",
