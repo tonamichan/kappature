@@ -9,9 +9,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Prapor"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -23,7 +20,10 @@
                         "name": "Shooting Cans"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Prapor"
+            }
         },
         {
             "id": "5936da9e86f7742d65037edf",
@@ -34,9 +34,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Prapor"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -48,7 +45,10 @@
                         "name": "Luxurious Life"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Prapor"
+            }
         },
         {
             "id": "59674cd986f7744ab26e32f2",
@@ -59,9 +59,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Prapor"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -72,7 +69,10 @@
                         "name": "Background Check"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Prapor"
+            }
         },
         {
             "id": "59674eb386f774539f14813a",
@@ -227,9 +227,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Therapist"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -241,7 +238,10 @@
                         "name": "First in Line"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Therapist"
+            }
         },
         {
             "id": "59689ee586f7740d1570bbd5",
@@ -1743,9 +1743,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Mechanic"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -1757,7 +1754,10 @@
                         "name": "Saving the Mole"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
         },
         {
             "id": "5ac2426c86f774138762edfe",
@@ -3078,9 +3078,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -3091,7 +3088,10 @@
                         "name": "Acquaintance"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5bc479e586f7747f376c7da3",
@@ -3102,9 +3102,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -3116,7 +3113,10 @@
                         "name": "The Tarkov Shooter - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5bc47dbf86f7741ee74e93b9",
@@ -3127,9 +3127,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -3140,7 +3137,10 @@
                         "name": "The Tarkov Shooter - Part 2"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5bc480a686f7741af0342e29",
@@ -3151,9 +3151,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -3164,7 +3161,10 @@
                         "name": "The Tarkov Shooter - Part 3"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5bc4826c86f774106d22d88b",
@@ -3175,9 +3175,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -3188,7 +3185,10 @@
                         "name": "The Tarkov Shooter - Part 4"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5bc4836986f7740c0152911c",
@@ -3199,9 +3199,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -3212,7 +3209,10 @@
                         "name": "The Tarkov Shooter - Part 5"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5bc4856986f77454c317bea7",
@@ -3223,9 +3223,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -3236,7 +3233,10 @@
                         "name": "The Tarkov Shooter - Part 6"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5bc4893c86f774626f5ebf3e",
@@ -3247,9 +3247,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -3260,7 +3257,10 @@
                         "name": "The Tarkov Shooter - Part 7"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5c0bbaa886f7746941031d82",
@@ -4437,9 +4437,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Mechanic"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4451,7 +4448,10 @@
                         "name": "Gunsmith - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Mechanic"
+            }
         },
         {
             "id": "5d24b81486f77439c92d6ba8",
@@ -4462,9 +4462,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4475,7 +4472,10 @@
                         "name": "Introduction"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25aed386f77442734d25d2",
@@ -4486,9 +4486,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4499,7 +4496,10 @@
                         "name": "Acquaintance"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25b6be86f77444001e1b89",
@@ -4510,9 +4510,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4523,7 +4520,10 @@
                         "name": "The Survivalist Path - Unprotected but Dangerous"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25bfd086f77442734d3007",
@@ -4534,9 +4534,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4547,7 +4544,10 @@
                         "name": "The Survivalist Path - Thrifty"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25c81b86f77443e625dd71",
@@ -4558,9 +4558,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4571,7 +4568,10 @@
                         "name": "The Survivalist Path - Zhivchik"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25cf2686f77443e75488d4",
@@ -4582,9 +4582,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4595,7 +4592,10 @@
                         "name": "The Survivalist Path - Wounded Beast"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25d2c186f77443e35162e5",
@@ -4606,9 +4606,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4619,7 +4616,10 @@
                         "name": "The Survivalist Path - Wounded Beast"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e29d86f7740a22516326",
@@ -4630,9 +4630,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4643,7 +4640,10 @@
                         "name": "The Survivalist Path - Tough Guy"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e2a986f77409dd5cdf2a",
@@ -4654,9 +4654,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4667,7 +4664,10 @@
                         "name": "The Survivalist Path - Eagle-Owl"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e2b486f77409de05bba0",
@@ -4678,9 +4678,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4700,7 +4697,10 @@
                         "name": "The Survivalist Path - Tough Guy"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e2c386f77443e7549029",
@@ -4711,9 +4711,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4724,7 +4721,10 @@
                         "name": "The Huntsman Path - Secured Perimeter"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e2cc86f77443e47ae019",
@@ -4735,9 +4735,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4748,7 +4745,10 @@
                         "name": "The Huntsman Path - Secured Perimeter"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e2d886f77442734d335e",
@@ -4759,9 +4759,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4772,7 +4769,10 @@
                         "name": "The Huntsman Path - Forest Cleaning"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e2e286f77444001e2e48",
@@ -4850,9 +4850,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4864,7 +4861,10 @@
                         "name": "The Huntsman Path - Trophy"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e44386f77409453bce7b",
@@ -4875,9 +4875,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -4888,7 +4885,10 @@
                         "name": "The Huntsman Path - Forest Cleaning"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5d25e44f86f77443e625e385",
@@ -5303,9 +5303,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -5316,7 +5313,10 @@
                         "name": "The Survivalist Path - Combat Medic"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "5eda19f0edce541157209cee",
@@ -9043,9 +9043,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
-            "trader": {
-                "name": "Prapor"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9056,7 +9053,10 @@
                         "name": "Debut"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Prapor"
+            }
         },
         {
             "id": "657315e270bb0b8dba00cc48",
@@ -9335,9 +9335,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Skier"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9349,7 +9346,10 @@
                         "name": "Burning Rubber"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Skier"
+            }
         },
         {
             "id": "66058cb5ae4719735349b9e8",
@@ -9360,9 +9360,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ref"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9373,7 +9370,10 @@
                         "name": "Easy Money - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ref"
+            }
         },
         {
             "id": "66058cb7c7f3584787181476",
@@ -9384,9 +9384,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ref"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9397,7 +9394,10 @@
                         "name": "Easy Money - Part 2"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ref"
+            }
         },
         {
             "id": "66058cb9e8e4f17985230805",
@@ -9408,9 +9408,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ref"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9421,7 +9418,10 @@
                         "name": "Balancing - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ref"
+            }
         },
         {
             "id": "66058cbb06ef1d50a60c1f46",
@@ -9432,9 +9432,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ref"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9445,7 +9442,10 @@
                         "name": "Balancing - Part 2"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ref"
+            }
         },
         {
             "id": "66058cbd9f59e625462acc8e",
@@ -9456,9 +9456,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ref"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9469,7 +9466,10 @@
                         "name": "Surprise"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ref"
+            }
         },
         {
             "id": "66058cbf2f19c31a5a1337ec",
@@ -9480,9 +9480,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ref"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9493,7 +9490,10 @@
                         "name": "Create a Distraction - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ref"
+            }
         },
         {
             "id": "66058cc1da30b620a34e6e86",
@@ -9504,9 +9504,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ref"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9517,7 +9514,10 @@
                         "name": "Create a Distraction - Part 2"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ref"
+            }
         },
         {
             "id": "66058cc208308761cf390993",
@@ -9528,9 +9528,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ref"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9541,7 +9538,10 @@
                         "name": "To Great Heights! - Part 1"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ref"
+            }
         },
         {
             "id": "66058cc5bb83da7ba474aba9",
@@ -9552,9 +9552,6 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ref"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -9565,7 +9562,10 @@
                         "name": "To Great Heights! - Part 2"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Ref"
+            }
         },
         {
             "id": "6613f3007f6666d56807c929",
@@ -10436,9 +10436,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -10449,7 +10446,10 @@
                         "name": "The Huntsman Path - Forest Cleaning"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "669fa399033a3ce9870338a8",
@@ -10806,9 +10806,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -10819,7 +10816,10 @@
                         "name": "Acquaintance"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "66b38e144f2ab7cc530c3fe7",
@@ -10830,9 +10830,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -10843,7 +10840,10 @@
                         "name": "Rough Tarkov"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "66d9cbb67b491f9d5304f6e6",
@@ -11781,9 +11781,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -11794,7 +11791,10 @@
                         "name": "Acquaintance"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "675c1d6d59b0575973008fc7",
@@ -11829,9 +11829,6 @@
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "trader": {
-                "name": "Jaeger"
-            },
             "taskRequirements": [
                 {
                     "status": [
@@ -11842,7 +11839,10 @@
                         "name": "Work Smarter"
                     }
                 }
-            ]
+            ],
+            "trader": {
+                "name": "Jaeger"
+            }
         },
         {
             "id": "675c1ff1a757ddd00404f0aa",
