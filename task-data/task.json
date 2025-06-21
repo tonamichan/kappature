@@ -9569,6 +9569,87 @@
             ]
         },
         {
+            "id": "66058cc72cee99303f1ba069",
+            "tarkovDataId": null,
+            "name": "To Great Heights! - Part 4",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_4",
+            "minPlayerLevel": 3,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ref"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66058cc5bb83da7ba474aba9",
+                        "name": "To Great Heights! - Part 3"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "66058cc9ae4719735349b9ea",
+            "tarkovDataId": null,
+            "name": "To Great Heights! - Part 5",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_5",
+            "minPlayerLevel": 3,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ref"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66058cc72cee99303f1ba069",
+                        "name": "To Great Heights! - Part 4"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "66058ccbc7f3584787181478",
+            "tarkovDataId": null,
+            "name": "Against the Conscience - Part 1",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Against_the_Conscience_-_Part_1",
+            "minPlayerLevel": 3,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ref"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66058cbd9f59e625462acc8e",
+                        "name": "Create a Distraction - Part 1"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66058cc9ae4719735349b9ea",
+                        "name": "To Great Heights! - Part 5"
+                    }
+                }
+            ]
+        },
+        {
             "id": "6613f3007f6666d56807c929",
             "tarkovDataId": null,
             "name": "Drip-Out - Part 1",
