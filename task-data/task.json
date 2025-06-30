@@ -9650,6 +9650,78 @@
             ]
         },
         {
+            "id": "66058ccde8e4f17985230807",
+            "tarkovDataId": null,
+            "name": "Against the Conscience - Part 2",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Against_the_Conscience_-_Part_2",
+            "minPlayerLevel": 3,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ref"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66058ccbc7f3584787181478",
+                        "name": "Against the Conscience - Part 1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "66058ccf06ef1d50a60c1f48",
+            "tarkovDataId": null,
+            "name": "Between Two Fires",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Between_Two_Fires",
+            "minPlayerLevel": 3,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66058ccde8e4f17985230807",
+                        "name": "Against the Conscience - Part 2"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "66058cd19f59e625462acc90",
+            "tarkovDataId": null,
+            "name": "Decisions, Decisions",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Decisions%2C_Decisions",
+            "minPlayerLevel": 3,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ref"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "active"
+                    ],
+                    "task": {
+                        "id": "66058ccf06ef1d50a60c1f48",
+                        "name": "Between Two Fires"
+                    }
+                }
+            ]
+        },
+        {
             "id": "6613f3007f6666d56807c929",
             "tarkovDataId": null,
             "name": "Drip-Out - Part 1",
@@ -12682,6 +12754,30 @@
                     "task": {
                         "id": "67a0970744893b9f3f0d9b68",
                         "name": "Offensive Reconnaissance"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "67e993b1ac26bf29380a320b",
+            "tarkovDataId": null,
+            "name": "Surprise Gift",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Surprise_Gift",
+            "minPlayerLevel": 35,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Lightkeeper"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "active"
+                    ],
+                    "task": {
+                        "id": "66058ccf06ef1d50a60c1f48",
+                        "name": "Between Two Fires"
                     }
                 }
             ]
