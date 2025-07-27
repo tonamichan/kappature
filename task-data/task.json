@@ -2291,7 +2291,7 @@
             "tarkovDataId": 122,
             "name": "Make ULTRA Great Again",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_ULTRA_Great_Again",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
@@ -2315,7 +2315,7 @@
             "tarkovDataId": 112,
             "name": "Big Sale",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Big_Sale",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
@@ -2339,7 +2339,7 @@
             "tarkovDataId": 113,
             "name": "The Blood of War - Part 1",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Blood_of_War_-_Part_1",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
@@ -2372,7 +2372,7 @@
             "tarkovDataId": 114,
             "name": "Dressed to Kill",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dressed_to_Kill",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -2396,7 +2396,7 @@
             "tarkovDataId": 115,
             "name": "Database - Part 1",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Database_-_Part_1",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
@@ -2429,7 +2429,7 @@
             "tarkovDataId": 116,
             "name": "Database - Part 2",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Database_-_Part_2",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
@@ -2453,7 +2453,7 @@
             "tarkovDataId": 124,
             "name": "Sew it Good - Part 1",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sew_it_Good_-_Part_1",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 25,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -2477,7 +2477,7 @@
             "tarkovDataId": 125,
             "name": "Sew it Good - Part 2",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sew_it_Good_-_Part_2",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 25,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -2501,7 +2501,7 @@
             "tarkovDataId": 126,
             "name": "Sew it Good - Part 3",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sew_it_Good_-_Part_3",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 25,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -2525,7 +2525,7 @@
             "tarkovDataId": 127,
             "name": "Sew it Good - Part 4",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sew_it_Good_-_Part_4",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 25,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -2549,7 +2549,7 @@
             "tarkovDataId": 176,
             "name": "The Key to Success",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Key_to_Success",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 26,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -2573,7 +2573,7 @@
             "tarkovDataId": 128,
             "name": "Charisma Brings Success",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Charisma_Brings_Success",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 25,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -2586,8 +2586,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "5ae4497b86f7744cf402ed00",
-                        "name": "Sew it Good - Part 4"
+                        "id": "5ae448f286f77448d73c0131",
+                        "name": "The Blood of War - Part 1"
                     }
                 },
                 {
@@ -2595,8 +2595,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "5ae448f286f77448d73c0131",
-                        "name": "The Blood of War - Part 1"
+                        "id": "5ae4497b86f7744cf402ed00",
+                        "name": "Sew it Good - Part 4"
                     }
                 }
             ]
@@ -2606,7 +2606,7 @@
             "tarkovDataId": 129,
             "name": "No Fuss Needed",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/No_Fuss_Needed",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 26,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -2630,7 +2630,7 @@
             "tarkovDataId": 117,
             "name": "Gratitude",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gratitude",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -2663,7 +2663,7 @@
             "tarkovDataId": 118,
             "name": "Sales Night",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sales_Night",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 30,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -2687,7 +2687,7 @@
             "tarkovDataId": 119,
             "name": "Supervisor",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Supervisor",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 40,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -2700,8 +2700,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "5ae449c386f7744bde357697",
-                        "name": "Sales Night"
+                        "id": "5ae4498786f7744bde357695",
+                        "name": "The Key to Success"
                     }
                 },
                 {
@@ -2709,8 +2709,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "5ae4498786f7744bde357695",
-                        "name": "The Key to Success"
+                        "id": "5ae449c386f7744bde357697",
+                        "name": "Sales Night"
                     }
                 }
             ]
@@ -2840,7 +2840,7 @@
             "tarkovDataId": 130,
             "name": "The Blood of War - Part 2",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Blood_of_War_-_Part_2",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 25,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -2873,7 +2873,7 @@
             "tarkovDataId": 132,
             "name": "Living High is Not a Crime - Part 1",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Living_High_is_Not_a_Crime_-_Part_1",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 27,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -2886,8 +2886,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "5ae4496986f774459e77beb6",
-                        "name": "Sew it Good - Part 3"
+                        "id": "5ae448f286f77448d73c0131",
+                        "name": "The Blood of War - Part 1"
                     }
                 },
                 {
@@ -2895,8 +2895,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "5ae448f286f77448d73c0131",
-                        "name": "The Blood of War - Part 1"
+                        "id": "5ae4496986f774459e77beb6",
+                        "name": "Sew it Good - Part 3"
                     }
                 }
             ]
@@ -2906,7 +2906,7 @@
             "tarkovDataId": 120,
             "name": "Hot Delivery",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hot_Delivery",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 29,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -2930,7 +2930,7 @@
             "tarkovDataId": 123,
             "name": "Minibus",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Minibus",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 24,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -3602,7 +3602,7 @@
             "tarkovDataId": 131,
             "name": "The Blood of War - Part 3",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Blood_of_War_-_Part_3",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 30,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -3650,7 +3650,7 @@
             "tarkovDataId": 121,
             "name": "Scavenger",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Scavenger",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 29,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -3674,7 +3674,7 @@
             "tarkovDataId": 133,
             "name": "Living High is Not a Crime - Part 2",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Living_High_is_Not_a_Crime_-_Part_2",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 30,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -3687,8 +3687,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "5c10f94386f774227172c572",
-                        "name": "The Blood of War - Part 3"
+                        "id": "5b47891f86f7744d1b23c571",
+                        "name": "Living High is Not a Crime - Part 1"
                     }
                 },
                 {
@@ -3696,8 +3696,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "5b47891f86f7744d1b23c571",
-                        "name": "Living High is Not a Crime - Part 1"
+                        "id": "5c10f94386f774227172c572",
+                        "name": "The Blood of War - Part 3"
                     }
                 }
             ]
@@ -4062,8 +4062,26 @@
                         "complete"
                     ],
                     "task": {
+                        "id": "608974af4b05530f55550c21",
+                        "name": "Inventory Check"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
                         "id": "6179b3bdc7560e13d23eeb8d",
                         "name": "Corporate Secrets"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "675c085d59b0575973005f52",
+                        "name": "Break the Deal"
                     }
                 },
                 {
@@ -4161,6 +4179,15 @@
                         "complete"
                     ],
                     "task": {
+                        "id": "5b478d0f86f7744d190d91b5",
+                        "name": "Minibus"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
                         "id": "675c3582f6ddc329a90f9c6d",
                         "name": "Private Club"
                     }
@@ -4197,8 +4224,26 @@
                         "complete"
                     ],
                     "task": {
+                        "id": "5ae4499a86f77449783815db",
+                        "name": "Charisma Brings Success"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
                         "id": "5d4bec3486f7743cac246665",
                         "name": "Regulated Materials"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5ae449a586f7744bde357696",
+                        "name": "No Fuss Needed"
                     }
                 },
                 {
@@ -4217,6 +4262,24 @@
                     "task": {
                         "id": "5d25e4b786f77408251c4bfc",
                         "name": "Fishing Place"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5c112d7e86f7740d6f647486",
+                        "name": "Scavenger"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5c1141f386f77430ff393792",
+                        "name": "Living High is Not a Crime - Part 2"
                     }
                 },
                 {
@@ -4314,8 +4377,26 @@
                         "complete"
                     ],
                     "task": {
+                        "id": "626bdcc3a371ee3a7a3514c5",
+                        "name": "Stray Dogs"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
                         "id": "5b47825886f77468074618d3",
                         "name": "Gunsmith - Part 22"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5ae449d986f774453a54a7e1",
+                        "name": "Supervisor"
                     }
                 },
                 {
@@ -4352,87 +4433,6 @@
                     "task": {
                         "id": "60e71c48c1bfa3050473b8e5",
                         "name": "Crisis"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5ae449a586f7744bde357696",
-                        "name": "No Fuss Needed"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5ae449d986f774453a54a7e1",
-                        "name": "Supervisor"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5b478d0f86f7744d190d91b5",
-                        "name": "Minibus"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5c1141f386f77430ff393792",
-                        "name": "Living High is Not a Crime - Part 2"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5c112d7e86f7740d6f647486",
-                        "name": "Scavenger"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "608974af4b05530f55550c21",
-                        "name": "Inventory Check"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "626bdcc3a371ee3a7a3514c5",
-                        "name": "Stray Dogs"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5ae4499a86f77449783815db",
-                        "name": "Charisma Brings Success"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "675c085d59b0575973005f52",
-                        "name": "Break the Deal"
                     }
                 }
             ]
@@ -4788,7 +4788,7 @@
             "tarkovDataId": 164,
             "name": "The Huntsman Path - Sellout",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Sellout",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 30,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -5884,7 +5884,7 @@
             "tarkovDataId": 209,
             "name": "Inventory Check",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Inventory_Check",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -5908,7 +5908,7 @@
             "tarkovDataId": 204,
             "name": "A Fuel Matter",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/A_Fuel_Matter",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": true,
@@ -6238,7 +6238,7 @@
             "tarkovDataId": 224,
             "name": "Long Line",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Long_Line",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 45,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -6262,7 +6262,7 @@
             "tarkovDataId": 226,
             "name": "Booze",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Booze",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 50,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -6286,7 +6286,7 @@
             "tarkovDataId": 225,
             "name": "The Huntsman Path - Relentless",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Relentless",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 65,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -6839,7 +6839,7 @@
             "tarkovDataId": null,
             "name": "Network Provider - Part 1",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Network_Provider_-_Part_1",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": true,
@@ -6882,6 +6882,24 @@
                     "task": {
                         "id": "63913715f8e5dd32bf4e3aaa",
                         "name": "Broadcast - Part 2"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "608974d01a66564e74191fc0",
+                        "name": "A Fuel Matter"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5ae4493d86f7744b8e15aa8f",
+                        "name": "Database - Part 2"
                     }
                 },
                 {
@@ -6946,24 +6964,6 @@
                         "id": "639135c3744e452011470807",
                         "name": "House Arrest - Part 1"
                     }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "608974d01a66564e74191fc0",
-                        "name": "A Fuel Matter"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5ae4493d86f7744b8e15aa8f",
-                        "name": "Database - Part 2"
-                    }
                 }
             ]
         },
@@ -6972,7 +6972,7 @@
             "tarkovDataId": null,
             "name": "Network Provider - Part 2",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Network_Provider_-_Part_2",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": true,
@@ -6996,7 +6996,7 @@
             "tarkovDataId": null,
             "name": "Assessment - Part 1",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Assessment_-_Part_1",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": true,
@@ -7020,7 +7020,7 @@
             "tarkovDataId": null,
             "name": "Assessment - Part 2",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Assessment_-_Part_2",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": true,
@@ -7044,7 +7044,7 @@
             "tarkovDataId": null,
             "name": "Assessment - Part 3",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Assessment_-_Part_3",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": true,
@@ -7068,7 +7068,7 @@
             "tarkovDataId": null,
             "name": "Key to the Tower",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Key_to_the_Tower",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": true,
@@ -7092,7 +7092,7 @@
             "tarkovDataId": null,
             "name": "Knock-Knock",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Knock-Knock",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": true,
@@ -7116,7 +7116,7 @@
             "tarkovDataId": null,
             "name": "Getting Acquainted",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Getting_Acquainted",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7140,7 +7140,7 @@
             "tarkovDataId": null,
             "name": "Make Amends - Buyout",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Buyout",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7165,7 +7165,7 @@
             "tarkovDataId": null,
             "name": "Make Amends - Equipment",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Equipment",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7189,7 +7189,7 @@
             "tarkovDataId": null,
             "name": "Make Amends - Security",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Security",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7213,7 +7213,7 @@
             "tarkovDataId": null,
             "name": "Make Amends - Sweep Up",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Sweep_Up",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7237,7 +7237,7 @@
             "tarkovDataId": null,
             "name": "Make Amends - Software",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Software",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7261,7 +7261,7 @@
             "tarkovDataId": null,
             "name": "Make Amends - Quarantine",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends_-_Quarantine",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7333,7 +7333,7 @@
             "tarkovDataId": 246,
             "name": "Top Secret",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Top_Secret",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7391,7 +7391,7 @@
             "tarkovDataId": 247,
             "name": "Stray Dogs",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Stray_Dogs",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 35,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -7433,7 +7433,7 @@
             "tarkovDataId": null,
             "name": "Audit",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Audit",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7505,7 +7505,7 @@
             "tarkovDataId": null,
             "name": "Ballet Lover",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ballet_Lover",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7553,7 +7553,7 @@
             "tarkovDataId": null,
             "name": "Audiophile",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Audiophile",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 25,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7908,7 +7908,7 @@
             "tarkovDataId": null,
             "name": "Make Amends",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7932,7 +7932,7 @@
             "tarkovDataId": null,
             "name": "Make Amends",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -7956,7 +7956,7 @@
             "tarkovDataId": null,
             "name": "Make Amends",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8004,7 +8004,7 @@
             "tarkovDataId": null,
             "name": "Information Source",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Information_Source",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8028,7 +8028,7 @@
             "tarkovDataId": null,
             "name": "Missing Informant",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Missing_Informant",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8052,7 +8052,7 @@
             "tarkovDataId": null,
             "name": "Snatch",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Snatch",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8076,7 +8076,7 @@
             "tarkovDataId": null,
             "name": "Payback",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Payback",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8100,7 +8100,7 @@
             "tarkovDataId": null,
             "name": "Return the Favor",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Return_the_Favor",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8124,7 +8124,7 @@
             "tarkovDataId": null,
             "name": "Provocation",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Provocation",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8148,7 +8148,7 @@
             "tarkovDataId": null,
             "name": "Following the Bread Crumbs",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Following_the_Bread_Crumbs",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8172,7 +8172,7 @@
             "tarkovDataId": null,
             "name": "Spotter",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spotter",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8196,7 +8196,7 @@
             "tarkovDataId": null,
             "name": "Make an Impression",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_an_Impression",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -8220,7 +8220,7 @@
             "tarkovDataId": null,
             "name": "Trouble in the Big City",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Trouble_in_the_Big_City",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9195,7 +9195,7 @@
             "tarkovDataId": null,
             "name": "Dandies",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dandies",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9315,7 +9315,7 @@
             "tarkovDataId": null,
             "name": "Nothing Fishy About This",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Nothing_Fishy_About_This",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9339,7 +9339,7 @@
             "tarkovDataId": null,
             "name": "Easy Money - Part 1",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Easy_Money_-_Part_1",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9365,7 +9365,7 @@
             "tarkovDataId": null,
             "name": "Easy Money - Part 2",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Easy_Money_-_Part_2",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9389,7 +9389,7 @@
             "tarkovDataId": null,
             "name": "Balancing - Part 1",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Balancing_-_Part_1",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9413,7 +9413,7 @@
             "tarkovDataId": null,
             "name": "Balancing - Part 2",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Balancing_-_Part_2",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9437,7 +9437,7 @@
             "tarkovDataId": null,
             "name": "Surprise",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Surprise",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9461,7 +9461,7 @@
             "tarkovDataId": null,
             "name": "Create a Distraction - Part 1",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Create_a_Distraction_-_Part_1",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9485,7 +9485,7 @@
             "tarkovDataId": null,
             "name": "Create a Distraction - Part 2",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Create_a_Distraction_-_Part_2",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9509,7 +9509,7 @@
             "tarkovDataId": null,
             "name": "To Great Heights! - Part 1",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_1",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9533,7 +9533,7 @@
             "tarkovDataId": null,
             "name": "To Great Heights! - Part 2",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_2",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9557,7 +9557,7 @@
             "tarkovDataId": null,
             "name": "To Great Heights! - Part 3",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_3",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9581,7 +9581,7 @@
             "tarkovDataId": null,
             "name": "To Great Heights! - Part 4",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_4",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9605,7 +9605,7 @@
             "tarkovDataId": null,
             "name": "To Great Heights! - Part 5",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_5",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9629,7 +9629,7 @@
             "tarkovDataId": null,
             "name": "Against the Conscience - Part 1",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Against_the_Conscience_-_Part_1",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9662,7 +9662,7 @@
             "tarkovDataId": null,
             "name": "Against the Conscience - Part 2",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Against_the_Conscience_-_Part_2",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9686,7 +9686,7 @@
             "tarkovDataId": null,
             "name": "Between Two Fires",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Between_Two_Fires",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9710,7 +9710,7 @@
             "tarkovDataId": null,
             "name": "Decisions, Decisions",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Decisions%2C_Decisions",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9734,7 +9734,7 @@
             "tarkovDataId": null,
             "name": "Drip-Out - Part 1",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Drip-Out_-_Part_1",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 24,
             "factionName": "BEAR",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9759,7 +9759,7 @@
             "tarkovDataId": null,
             "name": "Drip-Out - Part 2",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Drip-Out_-_Part_2",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "BEAR",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9784,7 +9784,7 @@
             "tarkovDataId": null,
             "name": "Drip-Out - Part 1",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Drip-Out_-_Part_1",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 24,
             "factionName": "USEC",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -9809,7 +9809,7 @@
             "tarkovDataId": null,
             "name": "Drip-Out - Part 2",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Drip-Out_-_Part_2",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 33,
             "factionName": "USEC",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -10074,7 +10074,7 @@
             "tarkovDataId": null,
             "name": "The Invisible Hand",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Invisible_Hand",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 35,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -10098,7 +10098,7 @@
             "tarkovDataId": null,
             "name": "Circulate",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Circulate",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 35,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -10122,7 +10122,7 @@
             "tarkovDataId": null,
             "name": "Special Offer",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Special_Offer",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 35,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -10146,7 +10146,7 @@
             "tarkovDataId": null,
             "name": "Combat Proven",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Combat_Proven",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 35,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -10170,7 +10170,7 @@
             "tarkovDataId": null,
             "name": "Old Patterns",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Old_Patterns",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 35,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -10844,7 +10844,7 @@
             "tarkovDataId": null,
             "name": "Know Your Place!",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Know_Your_Place!",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 30,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -11891,7 +11891,7 @@
             "tarkovDataId": null,
             "name": "Break the Deal",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Break_the_Deal",
-            "minPlayerLevel": 80,
+            "minPlayerLevel": 17,
             "factionName": "Any",
             "kappaRequired": true,
             "lightkeeperRequired": false,
@@ -11939,7 +11939,7 @@
             "tarkovDataId": null,
             "name": "Provide Viewership",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Provide_Viewership",
-            "minPlayerLevel": 3,
+            "minPlayerLevel": 20,
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
