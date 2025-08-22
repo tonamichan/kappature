@@ -6793,20 +6793,6 @@
             }
         },
         {
-            "id": "61e6e60c5ca3b3783662be27",
-            "tarkovDataId": null,
-            "name": "Compensation for Damage - Wergild",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Compensation_for_Damage_-_Wergild",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Fence"
-            }
-        },
-        {
             "id": "61e6e615eea2935bc018a2c5",
             "tarkovDataId": null,
             "name": "Compensation for Damage - Barkeep",
@@ -10480,20 +10466,6 @@
             ]
         },
         {
-            "id": "6672d9def1c88688a707d042",
-            "tarkovDataId": null,
-            "name": "Establish Contact",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Establish_Contact",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Fence"
-            }
-        },
-        {
             "id": "669fa38fad7f1eac2607ed46",
             "tarkovDataId": null,
             "name": "One Less Loose End",
@@ -11935,31 +11907,6 @@
             ]
         },
         {
-            "id": "675c15fbf7da9792a4059871",
-            "tarkovDataId": null,
-            "name": "Provide Viewership",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Provide_Viewership",
-            "minPlayerLevel": 20,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ref"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "active",
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "66058cb5ae4719735349b9e8",
-                        "name": "Easy Money - Part 2 [PVP ZONE]"
-                    }
-                }
-            ]
-        },
-        {
             "id": "675c1cf4a757ddd00404f0a3",
             "tarkovDataId": null,
             "name": "Work Smarter",
@@ -12791,6 +12738,200 @@
             ]
         },
         {
+            "id": "6834145ebc1f443d7603c8a7",
+            "tarkovDataId": null,
+            "name": "Easy Money - Part 1 [PVE ZONE]",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Easy_Money_-_Part_1_%5BPVE_ZONE%5D",
+            "minPlayerLevel": 3,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Skier"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete",
+                        "failed",
+                        "active"
+                    ],
+                    "task": {
+                        "id": "657315e270bb0b8dba00cc48",
+                        "name": "Burning Rubber"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6834158f2f0e2a7eb90b62c8",
+            "tarkovDataId": null,
+            "name": "Easy Money - Part 2 [PVE ZONE]",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Easy_Money_-_Part_2_%5BPVE_ZONE%5D",
+            "minPlayerLevel": 3,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ref"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6834145ebc1f443d7603c8a7",
+                        "name": "Easy Money - Part 1 [PVE ZONE]"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "68341846186efa3c5b07f989",
+            "tarkovDataId": null,
+            "name": "Balancing - Part 1 [PVE ZONE]",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Balancing_-_Part_1_%5BPVE_ZONE%5D",
+            "minPlayerLevel": 3,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ref"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6834158f2f0e2a7eb90b62c8",
+                        "name": "Easy Money - Part 2 [PVE ZONE]"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "68341a0b2f0e2a7eb90b62d4",
+            "tarkovDataId": null,
+            "name": "Balancing - Part 2 [PVE ZONE]",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Balancing_-_Part_2_%5BPVE_ZONE%5D",
+            "minPlayerLevel": 3,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ref"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "68341846186efa3c5b07f989",
+                        "name": "Balancing - Part 1 [PVE ZONE]"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "68341b407559f4e6d50bc0ce",
+            "tarkovDataId": null,
+            "name": "Surprise [PVE ZONE]",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Surprise_%5BPVE_ZONE%5D",
+            "minPlayerLevel": 3,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ref"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "68341a0b2f0e2a7eb90b62d4",
+                        "name": "Balancing - Part 2 [PVE ZONE]"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "68341c4babec72d95d0c1260",
+            "tarkovDataId": null,
+            "name": "Create a Distraction - Part 1 [PVE ZONE]",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Create_a_Distraction_-_Part_1_%5BPVE_ZONE%5D",
+            "minPlayerLevel": 3,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ref"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "68341b407559f4e6d50bc0ce",
+                        "name": "Surprise [PVE ZONE]"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "68341d7d7559f4e6d50bc0db",
+            "tarkovDataId": null,
+            "name": "Create a Distraction - Part 2 [PVE ZONE]",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Create_a_Distraction_-_Part_2_%5BPVE_ZONE%5D",
+            "minPlayerLevel": 3,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ref"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "68341c4babec72d95d0c1260",
+                        "name": "Create a Distraction - Part 1 [PVE ZONE]"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "68341eb25619c8e2a9031501",
+            "tarkovDataId": null,
+            "name": "To Great Heights! - Part 1 [PVE ZONE]",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_1_%5BPVE_ZONE%5D",
+            "minPlayerLevel": 3,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ref"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "68341846186efa3c5b07f989",
+                        "name": "Balancing - Part 1 [PVE ZONE]"
+                    }
+                }
+            ]
+        },
+        {
             "id": "684009026ceedc792c09b2a7",
             "tarkovDataId": null,
             "name": "Hobby Club",
@@ -12860,6 +13001,150 @@
                     "task": {
                         "id": "68400926706e0a55e90b0007",
                         "name": "Fair Price - Part 1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6863cf925eaeb676d50a9651",
+            "tarkovDataId": null,
+            "name": "Friend from Norvinsk - Part 1",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Friend_from_Norvinsk_-_Part_1",
+            "minPlayerLevel": 5,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Mechanic"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5d2495a886f77425cd51e403",
+                        "name": "Introduction"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6863d9bcd3bfdcb2bc075956",
+            "tarkovDataId": null,
+            "name": "Friend from Norvinsk - Part 2",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Friend_from_Norvinsk_-_Part_2",
+            "minPlayerLevel": 5,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Mechanic"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6863cf925eaeb676d50a9651",
+                        "name": "Friend from Norvinsk - Part 1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6863e09a5f4d17fd3e01feee",
+            "tarkovDataId": null,
+            "name": "Friend from Norvinsk - Part 3",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Friend_from_Norvinsk_-_Part_3",
+            "minPlayerLevel": 5,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Mechanic"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6863d9bcd3bfdcb2bc075956",
+                        "name": "Friend from Norvinsk - Part 2"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "686403eeb4aaef121c0f0f06",
+            "tarkovDataId": null,
+            "name": "Friend from Norvinsk - Part 4",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Friend_from_Norvinsk_-_Part_4",
+            "minPlayerLevel": 5,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Mechanic"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6863e09a5f4d17fd3e01feee",
+                        "name": "Friend from Norvinsk - Part 3"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "686404d348e7bb4146002cac",
+            "tarkovDataId": null,
+            "name": "Friend from Norvinsk - Part 5",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Friend_from_Norvinsk_-_Part_5",
+            "minPlayerLevel": 5,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Mechanic"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "686403eeb4aaef121c0f0f06",
+                        "name": "Friend from Norvinsk - Part 4"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6894bc838bbdab4ab109929c",
+            "tarkovDataId": null,
+            "name": "Friend from Norvinsk - Alternative Solution",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Friend_from_Norvinsk_-_Alternative_Solution",
+            "minPlayerLevel": 5,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Mechanic"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6863e09a5f4d17fd3e01feee",
+                        "name": "Friend from Norvinsk - Part 3"
                     }
                 }
             ]
