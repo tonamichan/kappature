@@ -6793,20 +6793,6 @@
             }
         },
         {
-            "id": "61e6e60c5ca3b3783662be27",
-            "tarkovDataId": null,
-            "name": "Compensation for Damage - Wergild",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Compensation_for_Damage_-_Wergild",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Fence"
-            }
-        },
-        {
             "id": "61e6e615eea2935bc018a2c5",
             "tarkovDataId": null,
             "name": "Compensation for Damage - Barkeep",
@@ -10480,20 +10466,6 @@
             ]
         },
         {
-            "id": "6672d9def1c88688a707d042",
-            "tarkovDataId": null,
-            "name": "Establish Contact",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Establish_Contact",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Fence"
-            }
-        },
-        {
             "id": "669fa38fad7f1eac2607ed46",
             "tarkovDataId": null,
             "name": "One Less Loose End",
@@ -11935,20 +11907,6 @@
             ]
         },
         {
-            "id": "675c15fbf7da9792a4059871",
-            "tarkovDataId": null,
-            "name": "Provide Viewership",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Provide_Viewership",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Ref"
-            }
-        },
-        {
             "id": "675c1cf4a757ddd00404f0a3",
             "tarkovDataId": null,
             "name": "Work Smarter",
@@ -13046,6 +13004,54 @@
             ]
         },
         {
+            "id": "686530ba9ed06113720e2c37",
+            "tarkovDataId": null,
+            "name": "External Interest",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/External_Interest",
+            "minPlayerLevel": 5,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "686524fe9809a149400dd301",
+                        "name": "Progression Difficulties - Part 2"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "686531bc87eb213a8e078e99",
+            "tarkovDataId": null,
+            "name": "Last Spurt - Pioneer",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Last_Spurt_-_Pioneer",
+            "minPlayerLevel": 5,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Mechanic"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "68973efb9e616ec3130d2c69",
+                        "name": "Game Review - Part 2"
+                    }
+                }
+            ]
+        },
+        {
             "id": "6894bc838bbdab4ab109929c",
             "tarkovDataId": null,
             "name": "Friend from Norvinsk - Alternative Solution",
@@ -13089,6 +13095,54 @@
                     "task": {
                         "id": "6864fcef9809a149400dd2ee",
                         "name": "Breathing Room"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "68973efb9e616ec3130d2c69",
+            "tarkovDataId": null,
+            "name": "Game Review - Part 2",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Game_Review_-_Part_2",
+            "minPlayerLevel": 5,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Mechanic"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "686524fe9809a149400dd301",
+                        "name": "Progression Difficulties - Part 2"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6897401030d0c0235c051b2c",
+            "tarkovDataId": null,
+            "name": "Game Review - Part 3",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Game_Review_-_Part_3",
+            "minPlayerLevel": 5,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Mechanic"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "686531bc87eb213a8e078e99",
+                        "name": "Last Spurt - Pioneer"
                     }
                 }
             ]
