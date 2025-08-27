@@ -6793,34 +6793,6 @@
             }
         },
         {
-            "id": "61e6e615eea2935bc018a2c5",
-            "tarkovDataId": null,
-            "name": "Compensation for Damage - Barkeep",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Compensation_for_Damage_-_Barkeep",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Fence"
-            }
-        },
-        {
-            "id": "61e6e621bfeab00251576265",
-            "tarkovDataId": null,
-            "name": "Compensation for Damage - Collection",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Compensation_for_Damage_-_Collection",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Fence"
-            }
-        },
-        {
             "id": "625d6ff5ddc94657c21a1625",
             "tarkovDataId": null,
             "name": "Network Provider - Part 1",
@@ -10466,6 +10438,20 @@
             ]
         },
         {
+            "id": "6672d9def1c88688a707d042",
+            "tarkovDataId": null,
+            "name": "Establish Contact",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Establish_Contact",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            }
+        },
+        {
             "id": "669fa38fad7f1eac2607ed46",
             "tarkovDataId": null,
             "name": "One Less Loose End",
@@ -11905,6 +11891,20 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "675c15fbf7da9792a4059871",
+            "tarkovDataId": null,
+            "name": "Provide Viewership",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Provide_Viewership",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ref"
+            }
         },
         {
             "id": "675c1cf4a757ddd00404f0a3",
