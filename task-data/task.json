@@ -9936,102 +9936,6 @@
             ]
         },
         {
-            "id": "66631489acf8442f8b05319f",
-            "tarkovDataId": null,
-            "name": "Friend Among Strangers",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Friend_Among_Strangers",
-            "minPlayerLevel": 0,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Fence"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "6672d9def1c88688a707d042",
-                        "name": "Establish Contact"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "6663148ca9290f9e0806cca1",
-            "tarkovDataId": null,
-            "name": "Immunity",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Immunity",
-            "minPlayerLevel": 0,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Fence"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "66631489acf8442f8b05319f",
-                        "name": "Friend Among Strangers"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "6663148ed7f171c4c20226c1",
-            "tarkovDataId": null,
-            "name": "Small Business - Part 1",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Small_Business_-_Part_1",
-            "minPlayerLevel": 0,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Fence"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "6663148ca9290f9e0806cca1",
-                        "name": "Immunity"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "6663149196a9349baa021baa",
-            "tarkovDataId": null,
-            "name": "Small Business - Part 2",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Small_Business_-_Part_2",
-            "minPlayerLevel": 0,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Fence"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "6663148ed7f171c4c20226c1",
-                        "name": "Small Business - Part 1"
-                    }
-                }
-            ]
-        },
-        {
             "id": "6663149cfd5ca9577902e037",
             "tarkovDataId": null,
             "name": "The Invisible Hand",
@@ -12052,6 +11956,34 @@
             ]
         },
         {
+            "id": "6761f28a022f60bb320f3e95",
+            "tarkovDataId": null,
+            "name": "New Beginning",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning",
+            "minPlayerLevel": 55,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ragman"
+            }
+        },
+        {
+            "id": "6761ff17cdc36bd66102e9d0",
+            "tarkovDataId": null,
+            "name": "New Beginning",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning",
+            "minPlayerLevel": 55,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ragman"
+            }
+        },
+        {
             "id": "6764174c86addd02bc033d68",
             "tarkovDataId": null,
             "name": "Connections Up North",
@@ -12811,6 +12743,34 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "6848100b00afffa81f09e365",
+            "tarkovDataId": null,
+            "name": "New Beginning",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning",
+            "minPlayerLevel": 55,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ragman"
+            }
+        },
+        {
+            "id": "68481881f43abfdda2058369",
+            "tarkovDataId": null,
+            "name": "New Beginning",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning",
+            "minPlayerLevel": 55,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Ragman"
+            }
         },
         {
             "id": "6863cf925eaeb676d50a9651",
