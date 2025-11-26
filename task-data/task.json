@@ -6793,10 +6793,38 @@
             }
         },
         {
+            "id": "61e6e60c5ca3b3783662be27",
+            "tarkovDataId": null,
+            "name": "Compensation for Damage - Wergild",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Compensation_for_Damage_-_Wergild",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            }
+        },
+        {
             "id": "61e6e615eea2935bc018a2c5",
             "tarkovDataId": null,
             "name": "Compensation for Damage - Barkeep",
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Compensation_for_Damage_-_Barkeep",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            }
+        },
+        {
+            "id": "61e6e621bfeab00251576265",
+            "tarkovDataId": null,
+            "name": "Compensation for Damage - Collection",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Compensation_for_Damage_-_Collection",
             "minPlayerLevel": 0,
             "taskRequirements": [],
             "factionName": "Any",
@@ -9922,6 +9950,126 @@
             ]
         },
         {
+            "id": "66631489acf8442f8b05319f",
+            "tarkovDataId": null,
+            "name": "Friend Among Strangers",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Friend_Among_Strangers",
+            "minPlayerLevel": 0,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6672d9def1c88688a707d042",
+                        "name": "Establish Contact"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6663148ca9290f9e0806cca1",
+            "tarkovDataId": null,
+            "name": "Immunity",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Immunity",
+            "minPlayerLevel": 0,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66631489acf8442f8b05319f",
+                        "name": "Friend Among Strangers"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6663148ed7f171c4c20226c1",
+            "tarkovDataId": null,
+            "name": "Small Business - Part 1",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Small_Business_-_Part_1",
+            "minPlayerLevel": 0,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6663148ca9290f9e0806cca1",
+                        "name": "Immunity"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6663149196a9349baa021baa",
+            "tarkovDataId": null,
+            "name": "Small Business - Part 2",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Small_Business_-_Part_2",
+            "minPlayerLevel": 0,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6663148ed7f171c4c20226c1",
+                        "name": "Small Business - Part 1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "66631493312343839d032d22",
+            "tarkovDataId": null,
+            "name": "Small Business - Part 3",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Small_Business_-_Part_3",
+            "minPlayerLevel": 0,
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6663149196a9349baa021baa",
+                        "name": "Small Business - Part 2"
+                    }
+                }
+            ]
+        },
+        {
             "id": "6663149cfd5ca9577902e037",
             "tarkovDataId": null,
             "name": "The Invisible Hand",
@@ -10330,6 +10478,20 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "6672d9def1c88688a707d042",
+            "tarkovDataId": null,
+            "name": "Establish Contact",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Establish_Contact",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "trader": {
+                "name": "Fence"
+            }
         },
         {
             "id": "669fa38fad7f1eac2607ed46",
@@ -12922,198 +13084,6 @@
                     "task": {
                         "id": "686404d348e7bb4146002cac",
                         "name": "Friend from Norvinsk - Part 5"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "68650d08a1f188f84d0f5993",
-            "tarkovDataId": null,
-            "name": "Progression Difficulties - Part 1",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Progression_Difficulties_-_Part_1",
-            "minPlayerLevel": 5,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Mechanic"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "689610e431dc963a7205a121",
-                        "name": "Game Review - Part 1"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "686524fe9809a149400dd301",
-            "tarkovDataId": null,
-            "name": "Progression Difficulties - Part 2",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Progression_Difficulties_-_Part_2",
-            "minPlayerLevel": 5,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Mechanic"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "68650d08a1f188f84d0f5993",
-                        "name": "Progression Difficulties - Part 1"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "686530ba9ed06113720e2c37",
-            "tarkovDataId": null,
-            "name": "External Interest",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/External_Interest",
-            "minPlayerLevel": 5,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Fence"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "686524fe9809a149400dd301",
-                        "name": "Progression Difficulties - Part 2"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "686531bc87eb213a8e078e99",
-            "tarkovDataId": null,
-            "name": "Last Spurt - Pioneer",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Last_Spurt_-_Pioneer",
-            "minPlayerLevel": 5,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Mechanic"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "68973efb9e616ec3130d2c69",
-                        "name": "Game Review - Part 2"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "6894bc838bbdab4ab109929c",
-            "tarkovDataId": null,
-            "name": "Friend from Norvinsk - Alternative Solution",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Friend_from_Norvinsk_-_Alternative_Solution",
-            "minPlayerLevel": 5,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Mechanic"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "6863e09a5f4d17fd3e01feee",
-                        "name": "Friend from Norvinsk - Part 3"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "689610e431dc963a7205a121",
-            "tarkovDataId": null,
-            "name": "Game Review - Part 1",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Game_Review_-_Part_1",
-            "minPlayerLevel": 5,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Mechanic"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "6864fcef9809a149400dd2ee",
-                        "name": "Breathing Room"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "68973efb9e616ec3130d2c69",
-            "tarkovDataId": null,
-            "name": "Game Review - Part 2",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Game_Review_-_Part_2",
-            "minPlayerLevel": 5,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Mechanic"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "686524fe9809a149400dd301",
-                        "name": "Progression Difficulties - Part 2"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "6897401030d0c0235c051b2c",
-            "tarkovDataId": null,
-            "name": "Game Review - Part 3",
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Game_Review_-_Part_3",
-            "minPlayerLevel": 5,
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "trader": {
-                "name": "Mechanic"
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "686531bc87eb213a8e078e99",
-                        "name": "Last Spurt - Pioneer"
                     }
                 }
             ]
