@@ -5,8 +5,7 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
-    minify: 'terser',
+    assetsDir: 'assets'
   },
   server: {
     port: 5173,
