@@ -56,4 +56,4 @@ while offset < 500: # 無限ループ予防で適当に500
 sorted_tasks = sorted(tasks, key=lambda x:x["id"])
 
 with open('task-data/task.json', 'w') as f:
-    json.dump({"data": sorted_tasks}, f, indent=4)
+    json.dump({"data": sorted_tasks}, f, indent=4, sort_keys=True)
