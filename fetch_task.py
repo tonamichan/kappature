@@ -55,5 +55,5 @@ while offset < 500: # 無限ループ予防で適当に500
 # クエリ結果が並び順だけ変わる事があり、差分扱いされると面倒なのでid順にしておく
 sorted_tasks = sorted(tasks, key=lambda x:x["id"])
 
-with open('task-data/task.json', 'w') as f:
+with open('public/task-data/task.json', 'w') as f:
     json.dump({"data": sorted_tasks}, f, indent=4, sort_keys=True)

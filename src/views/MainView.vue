@@ -430,7 +430,7 @@ export default {
   },
   methods: {
     setTaskData: function() {
-      fetch("/task-data/task.json")
+      fetch("./task-data/task.json")
       .then((response) => response.json())
       .then((json) => this.tasks = json.data);
     },
