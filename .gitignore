@@ -1,5 +1,4 @@
 # Vite & Build
-dist/
 node_modules/
 
 # Local env files
