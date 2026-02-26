@@ -53,7 +53,7 @@
         {
             "factionName": "Any",
             "id": "59674cd986f7744ab26e32f2",
-            "kappaRequired": true,
+            "kappaRequired": false,
             "lightkeeperRequired": false,
             "minPlayerLevel": 3,
             "name": "Shootout Picnic",
@@ -270,7 +270,7 @@
         {
             "factionName": "Any",
             "id": "59689fbd86f7740d137ebfc4",
-            "kappaRequired": true,
+            "kappaRequired": false,
             "lightkeeperRequired": false,
             "minPlayerLevel": 6,
             "name": "Operation Aquarius - Part 1",
@@ -294,7 +294,7 @@
         {
             "factionName": "Any",
             "id": "5968eb3186f7741dde183a4d",
-            "kappaRequired": true,
+            "kappaRequired": false,
             "lightkeeperRequired": false,
             "minPlayerLevel": 6,
             "name": "Operation Aquarius - Part 2",
@@ -3510,7 +3510,17 @@
             "minPlayerLevel": 10,
             "name": "Grenadier",
             "tarkovDataId": 10,
-            "taskRequirements": [],
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "657315df034d76585f032e01",
+                        "name": "Shooting Cans"
+                    }
+                }
+            ],
             "trader": {
                 "name": "Prapor"
             },
@@ -3578,7 +3588,7 @@
             "id": "5c0d4e61d09282029f53920e",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 40,
+            "minPlayerLevel": 32,
             "name": "The Guide",
             "tarkovDataId": 81,
             "taskRequirements": [
@@ -3860,15 +3870,6 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "59674cd986f7744ab26e32f2",
-                        "name": "Shootout Picnic"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
                         "id": "5fd9fad9c1ce6b1a3b486d00",
                         "name": "Search Mission"
                     }
@@ -3880,15 +3881,6 @@
                     "task": {
                         "id": "675c3507a06634b5110e3c18",
                         "name": "Belka and Strelka"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5968eb3186f7741dde183a4d",
-                        "name": "Operation Aquarius - Part 2"
                     }
                 },
                 {
@@ -4319,6 +4311,15 @@
                         "complete"
                     ],
                     "task": {
+                        "id": "5c0d4e61d09282029f53920e",
+                        "name": "The Guide"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
                         "id": "5d25e4ca86f77409dd5cdf2c",
                         "name": "Hunting Trip"
                     }
@@ -4411,15 +4412,6 @@
                     "task": {
                         "id": "5ae449d986f774453a54a7e1",
                         "name": "Supervisor"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5c0d4e61d09282029f53920e",
-                        "name": "The Guide"
                     }
                 },
                 {
@@ -5989,7 +5981,7 @@
             "id": "60e71b62a0beca400d69efc4",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 60,
+            "minPlayerLevel": 46,
             "name": "Escort",
             "tarkovDataId": 221,
             "taskRequirements": [
@@ -6286,7 +6278,7 @@
             "id": "60e71e8ed54b755a3b53eb67",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 65,
+            "minPlayerLevel": 55,
             "name": "The Huntsman Path - Relentless",
             "tarkovDataId": 225,
             "taskRequirements": [
@@ -12263,30 +12255,6 @@
         },
         {
             "factionName": "Any",
-            "id": "67a0966817e34930e500754c",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "minPlayerLevel": 15,
-            "name": "Forced Alliance",
-            "tarkovDataId": null,
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "67a096577e86e067eb045733",
-                        "name": "Hidden Layer"
-                    }
-                }
-            ],
-            "trader": {
-                "name": "Mechanic"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Forced_Alliance"
-        },
-        {
-            "factionName": "Any",
             "id": "67a0967c003a9986cb0f5ac1",
             "kappaRequired": false,
             "lightkeeperRequired": false,
@@ -12347,8 +12315,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "67a0966817e34930e500754c",
-                        "name": "Forced Alliance"
+                        "id": "67a096577e86e067eb045733",
+                        "name": "Hidden Layer"
                     }
                 }
             ],
@@ -12452,6 +12420,75 @@
                 "name": "Skier"
             },
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Indisputable_Authority"
+        },
+        {
+            "factionName": "Any",
+            "id": "67a09761e720611a6a01f288",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "minPlayerLevel": 15,
+            "name": "Keeper's Word",
+            "tarkovDataId": null,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a096ed77dd677f600804ba",
+                        "name": "Sensory Analysis - Part 2"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0970f05d1611ed90be75d",
+                        "name": "Hypotheses Testing"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67d03be712fb5f8fd2096332",
+                        "name": "Vacate the Premises"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a09724972c11a3f5077324",
+                        "name": "Confidential Info"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a097379f2068e74603c6ac",
+                        "name": "Indisputable Authority"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0972e77dd677f600804bd",
+                        "name": "This Tape Sucks"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Lightkeeper"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Keeper's_Word"
         },
         {
             "factionName": "Any",
@@ -12808,6 +12845,63 @@
                 "name": "Ragman"
             },
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning"
+        },
+        {
+            "factionName": "Any",
+            "id": "68db9c7557bc51a8c804c14b",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "minPlayerLevel": 33,
+            "name": "Goals and Means",
+            "tarkovDataId": null,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5ae3280386f7742a41359364",
+                        "name": "Gunsmith - Part 15"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "625d700cc48e6c62a440fab5",
+                        "name": "Getting Acquainted"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Mechanic"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Goals_and_Means"
+        },
+        {
+            "factionName": "Any",
+            "id": "68ee1c18b4e5bc9a68018cd7",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "minPlayerLevel": 21,
+            "name": "No Questions Asked",
+            "tarkovDataId": null,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "59ca2eb686f77445a80ed049",
+                        "name": "The Punisher - Part 6"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Prapor"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/No_Questions_Asked"
         }
     ]
 }
