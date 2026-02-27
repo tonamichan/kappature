@@ -12902,6 +12902,39 @@
                 "name": "Prapor"
             },
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/No_Questions_Asked"
+        },
+        {
+            "factionName": "Any",
+            "id": "6942b44f891369fc790e385a",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "minPlayerLevel": 37,
+            "name": "Setting Priorities",
+            "tarkovDataId": null,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "61958c366726521dd96828ec",
+                        "name": "Cargo X - Part 4"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5c0bde0986f77479cf22c2f8",
+                        "name": "A Shooter Born in Heaven"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Mechanic"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Setting_Priorities"
         }
     ]
 }
