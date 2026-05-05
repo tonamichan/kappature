@@ -11123,8 +11123,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "6752f6d83038f7df520c83e8",
-                        "name": "A Helping Hand"
+                        "id": "673f348dd3346c21670217e7",
+                        "name": "Shipping Delay - Part 1"
                     }
                 }
             ],
@@ -11217,11 +11217,12 @@
             "taskRequirements": [
                 {
                     "status": [
-                        "complete"
+                        "complete",
+                        "failed"
                     ],
                     "task": {
-                        "id": "6752f6d83038f7df520c83e8",
-                        "name": "A Helping Hand"
+                        "id": "6745fcded0fbbc74ca0f721d",
+                        "name": "Swift Retribution"
                     }
                 }
             ],
@@ -11469,10 +11470,21 @@
             "id": "6744ab1def61d56e020b5c56",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 0,
+            "minPlayerLevel": 20,
             "name": "Protect the Sky",
             "tarkovDataId": null,
-            "taskRequirements": [],
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete",
+                        "failed"
+                    ],
+                    "task": {
+                        "id": "6744a728352b4da8e003eda9",
+                        "name": "Battery Change"
+                    }
+                }
+            ],
             "trader": {
                 "name": "BTR Driver"
             },
@@ -11483,7 +11495,7 @@
             "id": "6744aca8d3346c216702c583",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 0,
+            "minPlayerLevel": 20,
             "name": "Discombobulate",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11516,8 +11528,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "6744aca8d3346c216702c583",
-                        "name": "Discombobulate"
+                        "id": "6744a728352b4da8e003eda9",
+                        "name": "Battery Change"
                     }
                 },
                 {
@@ -11525,8 +11537,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "6744a728352b4da8e003eda9",
-                        "name": "Battery Change"
+                        "id": "6744aca8d3346c216702c583",
+                        "name": "Discombobulate"
                     }
                 }
             ],
@@ -11549,8 +11561,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "6744aca8d3346c216702c583",
-                        "name": "Discombobulate"
+                        "id": "6744a9dfef61d56e020b5c4a",
+                        "name": "Battery Change"
                     }
                 },
                 {
@@ -11558,8 +11570,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "6744a9dfef61d56e020b5c4a",
-                        "name": "Battery Change"
+                        "id": "6744aca8d3346c216702c583",
+                        "name": "Discombobulate"
                     }
                 }
             ],
@@ -11579,11 +11591,12 @@
             "taskRequirements": [
                 {
                     "status": [
+                        "active",
                         "complete"
                     ],
                     "task": {
-                        "id": "6752f6d83038f7df520c83e8",
-                        "name": "A Helping Hand"
+                        "id": "673f629c5b555b53460cf827",
+                        "name": "Building Foundations"
                     }
                 }
             ],
@@ -11750,8 +11763,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "6744aca8d3346c216702c583",
-                        "name": "Discombobulate"
+                        "id": "674605df60a98cad1b0ec799",
+                        "name": "Killer Argument"
                     }
                 },
                 {
@@ -11759,8 +11772,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "674605df60a98cad1b0ec799",
-                        "name": "Killer Argument"
+                        "id": "6744aca8d3346c216702c583",
+                        "name": "Discombobulate"
                     }
                 }
             ],
@@ -12413,10 +12426,65 @@
             "id": "67a09761e720611a6a01f288",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 0,
+            "minPlayerLevel": 15,
             "name": "Keeper's Word",
             "tarkovDataId": null,
-            "taskRequirements": [],
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a096ed77dd677f600804ba",
+                        "name": "Sensory Analysis - Part 2"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0970f05d1611ed90be75d",
+                        "name": "Hypotheses Testing"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67d03be712fb5f8fd2096332",
+                        "name": "Vacate the Premises"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a09724972c11a3f5077324",
+                        "name": "Confidential Info"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a097379f2068e74603c6ac",
+                        "name": "Indisputable Authority"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0972e77dd677f600804bd",
+                        "name": "This Tape Sucks"
+                    }
+                }
+            ],
             "trader": {
                 "name": "Lightkeeper"
             },
