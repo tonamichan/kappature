@@ -9510,8 +9510,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "66058cb7c7f3584787181476",
-                        "name": "Balancing - Part 1 [PVP ZONE]"
+                        "id": "69788db3878a4385d10c0718",
+                        "name": "Professional Fitness - Part 2 [PVP ZONE]"
                     }
                 }
             ],
@@ -9639,8 +9639,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "66058cc9ae4719735349b9ea",
-                        "name": "To Great Heights! - Part 5 [PVP ZONE]"
+                        "id": "697895b6c639962b2e0cf268",
+                        "name": "Hold the Lead[PVP ZONE]"
                     }
                 }
             ],
@@ -12935,6 +12935,126 @@
                 "name": "Mechanic"
             },
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Setting_Priorities"
+        },
+        {
+            "factionName": "Any",
+            "id": "697877e0c639962b2e0cf24f",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "minPlayerLevel": 10,
+            "name": "Arena Business [PVP ZONE]",
+            "tarkovDataId": null,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66058cb7c7f3584787181476",
+                        "name": "Balancing - Part 1 [PVP ZONE]"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Ref"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Arena_Business"
+        },
+        {
+            "factionName": "Any",
+            "id": "69788c2bac719606e40b4e77",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "minPlayerLevel": 10,
+            "name": "Professional Fitness - Part 1 [PVP ZONE]",
+            "tarkovDataId": null,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66058cb7c7f3584787181476",
+                        "name": "Balancing - Part 1 [PVP ZONE]"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Ref"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Professional_Fitness_-_Part_1"
+        },
+        {
+            "factionName": "Any",
+            "id": "69788db3878a4385d10c0718",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "minPlayerLevel": 10,
+            "name": "Professional Fitness - Part 2 [PVP ZONE]",
+            "tarkovDataId": null,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "69788c2bac719606e40b4e77",
+                        "name": "Professional Fitness - Part 1 [PVP ZONE]"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Ref"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Professional_Fitness_-_Part_2"
+        },
+        {
+            "factionName": "Any",
+            "id": "69789418b2187365e70bb947",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "minPlayerLevel": 10,
+            "name": "To Great Heights! - Part 6 [PVP ZONE]",
+            "tarkovDataId": null,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66058cc9ae4719735349b9ea",
+                        "name": "To Great Heights! - Part 5 [PVP ZONE]"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Ref"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_6"
+        },
+        {
+            "factionName": "Any",
+            "id": "697895b6c639962b2e0cf268",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "minPlayerLevel": 10,
+            "name": "Hold the Lead[PVP ZONE]",
+            "tarkovDataId": null,
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "69789418b2187365e70bb947",
+                        "name": "To Great Heights! - Part 6 [PVP ZONE]"
+                    }
+                }
+            ],
+            "trader": {
+                "name": "Ref"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hold_the_Lead%5BPVP_ZONE%5D"
         }
     ]
 }
