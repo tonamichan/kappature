@@ -9640,7 +9640,7 @@
                     ],
                     "task": {
                         "id": "697895b6c639962b2e0cf268",
-                        "name": "Hold the Lead[PVP ZONE]"
+                        "name": "Hold the Lead [PVP ZONE]"
                     }
                 }
             ],
@@ -12107,7 +12107,7 @@
             "trader": {
                 "name": "Ragman"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning"
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning_(Prestige_1)"
         },
         {
             "factionName": "Any",
@@ -12121,7 +12121,7 @@
             "trader": {
                 "name": "Ragman"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning"
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning_(Prestige_2)"
         },
         {
             "factionName": "Any",
@@ -12830,7 +12830,7 @@
             "trader": {
                 "name": "Ragman"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning"
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning_(Prestige_3)"
         },
         {
             "factionName": "Any",
@@ -12844,7 +12844,7 @@
             "trader": {
                 "name": "Ragman"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning"
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning_(Prestige_4)"
         },
         {
             "factionName": "Any",
@@ -13038,7 +13038,7 @@
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "minPlayerLevel": 10,
-            "name": "Hold the Lead[PVP ZONE]",
+            "name": "Hold the Lead [PVP ZONE]",
             "tarkovDataId": null,
             "taskRequirements": [
                 {
@@ -13054,7 +13054,7 @@
             "trader": {
                 "name": "Ref"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hold_the_Lead%5BPVP_ZONE%5D"
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hold_the_Lead"
         }
     ]
 }
