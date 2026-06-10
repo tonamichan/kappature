@@ -13055,6 +13055,20 @@
                 "name": "Ref"
             },
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hold_the_Lead"
+        },
+        {
+            "factionName": "Any",
+            "id": "69ce204c8702b378f9091e4b",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "minPlayerLevel": 0,
+            "name": "War Never Changes",
+            "tarkovDataId": null,
+            "taskRequirements": [],
+            "trader": {
+                "name": "Therapist"
+            },
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/War_Never_Changes"
         }
     ]
 }
