@@ -13058,17 +13058,17 @@
         },
         {
             "factionName": "Any",
-            "id": "69ce204c8702b378f9091e4b",
+            "id": "69ce1de03e15cd80bd06f6c9",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "minPlayerLevel": 0,
-            "name": "War Never Changes",
+            "name": "Oil Change",
             "tarkovDataId": null,
             "taskRequirements": [],
             "trader": {
-                "name": "Therapist"
+                "name": "Prapor"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/War_Never_Changes"
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Oil_Change"
         }
     ]
 }
