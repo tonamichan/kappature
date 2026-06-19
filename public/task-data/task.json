@@ -12100,28 +12100,28 @@
             "id": "6761f28a022f60bb320f3e95",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 55,
-            "name": "New Beginning",
+            "minPlayerLevel": 25,
+            "name": "Neuanfang",
             "tarkovDataId": null,
             "taskRequirements": [],
             "trader": {
                 "name": "Ragman"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning_(Prestige_1)"
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Neuanfang"
         },
         {
             "factionName": "Any",
             "id": "6761ff17cdc36bd66102e9d0",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 55,
-            "name": "New Beginning",
+            "minPlayerLevel": 30,
+            "name": "Neuanfang",
             "tarkovDataId": null,
             "taskRequirements": [],
             "trader": {
                 "name": "Ragman"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning_(Prestige_2)"
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Neuanfang"
         },
         {
             "factionName": "Any",
@@ -12823,28 +12823,28 @@
             "id": "6848100b00afffa81f09e365",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 55,
-            "name": "New Beginning",
+            "minPlayerLevel": 35,
+            "name": "Neuanfang",
             "tarkovDataId": null,
             "taskRequirements": [],
             "trader": {
                 "name": "Ragman"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning_(Prestige_3)"
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Neuanfang"
         },
         {
             "factionName": "Any",
             "id": "68481881f43abfdda2058369",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 55,
-            "name": "New Beginning",
+            "minPlayerLevel": 40,
+            "name": "Neuanfang",
             "tarkovDataId": null,
             "taskRequirements": [],
             "trader": {
                 "name": "Ragman"
             },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning_(Prestige_4)"
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Neuanfang"
         },
         {
             "factionName": "Any",
