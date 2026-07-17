@@ -14,12 +14,20 @@
           <div class="level-item title-info">
             Escape from Tarkovのアシストツールです。
             <a
-                      href="https://twitter.com/tonami_ch"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="has-text-link"
-                    >
+              href="https://twitter.com/tonami_ch"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="has-text-link"
+            >
               作者
+            </a>
+            <a
+              href="#"
+              class="has-text-link"
+              @click.prevent="openOneTimeModal"
+              style="margin-left: 0.5rem;"
+            >
+              メッセージを見る
             </a>
           </div>
         </div>
@@ -533,6 +541,12 @@ export default {
     changeProgressView: function() {
       this.progressViewMode = this.progressViewMode + 1
       if (this.progressViewMode === 3) { this.progressViewMode = 1 }
+    }
+    ,
+    openOneTimeModal: function() {
+      if (this.$root && this.$root.$emit) {
+        this.$root.$emit('open-one-time-modal');
+      }
     }
   },
 };
