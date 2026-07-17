@@ -7,7 +7,7 @@
       </header>
       <section class="modal-card-body">
         <p>
-        EscapeFromTarkov日本語公式アカウントより <a href="https://x.com/jp_tarkov/status/2077759293336519144?s=20" target="_blank">Kappa要求タスクの大幅な緩和がアナウンス</a> されました。
+        EscapeFromTarkov日本語公式アカウントより <a href="https://x.com/jp_tarkov/status/2077759293336519144?s=20" target="_blank">Kappa要求タスクの大幅な緩和</a> がアナウンスされました。
         </br>
         今後のアップデート次第ではありますが、恐らく本ツールは役目を終えると思います。
         </br>
