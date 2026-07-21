@@ -4,7 +4,7 @@
             "factionName": "Any",
             "id": "5936d90786f7742b1420ba5b",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 1,
             "name": "Debut",
             "tarkovDataId": 0,
@@ -29,7 +29,7 @@
             "factionName": "Any",
             "id": "5936da9e86f7742d65037edf",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 2,
             "name": "Background Check",
             "tarkovDataId": 1,
@@ -78,7 +78,7 @@
             "factionName": "Any",
             "id": "59674eb386f774539f14813a",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 5,
             "name": "Delivery From the Past",
             "tarkovDataId": 3,
@@ -102,7 +102,7 @@
             "factionName": "Any",
             "id": "5967530a86f77462ba22226b",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 6,
             "name": "Bad Rep Evidence",
             "tarkovDataId": 5,
@@ -126,7 +126,7 @@
             "factionName": "Any",
             "id": "59675d6c86f7740a842fc482",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 9,
             "name": "Ice Cream Cones",
             "tarkovDataId": 6,
@@ -198,7 +198,7 @@
             "factionName": "Any",
             "id": "5967725e86f774601a446662",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 15,
             "name": "Shaking Up the Teller",
             "tarkovDataId": 8,
@@ -222,7 +222,7 @@
             "factionName": "Any",
             "id": "5967733e86f774602332fc84",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 1,
             "name": "Shortage",
             "tarkovDataId": 19,
@@ -247,7 +247,7 @@
             "factionName": "Any",
             "id": "59689ee586f7740d1570bbd5",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 4,
             "name": "Sanitary Standards - Part 1",
             "tarkovDataId": 20,
@@ -319,7 +319,7 @@
             "factionName": "Any",
             "id": "5969f90786f77420d2328015",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 8,
             "name": "Painkiller",
             "tarkovDataId": 22,
@@ -343,7 +343,7 @@
             "factionName": "Any",
             "id": "5969f9e986f7741dde183a50",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 10,
             "name": "Pharmacist",
             "tarkovDataId": 23,
@@ -439,7 +439,7 @@
             "factionName": "Any",
             "id": "596a204686f774576d4c95de",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 8,
             "name": "Sanitary Standards - Part 2",
             "tarkovDataId": 21,
@@ -487,7 +487,7 @@
             "factionName": "Any",
             "id": "596b36c586f77450d6045ad2",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 5,
             "name": "Supplier",
             "tarkovDataId": 36,
@@ -512,7 +512,7 @@
             "factionName": "Any",
             "id": "596b43fb86f77457ca186186",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 7,
             "name": "The Extortionist",
             "tarkovDataId": 37,
@@ -560,7 +560,7 @@
             "factionName": "Any",
             "id": "5979ed3886f77431307dc512",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 8,
             "name": "What\u2019s on the Flash Drive?",
             "tarkovDataId": 38,
@@ -584,7 +584,7 @@
             "factionName": "Any",
             "id": "5979eee086f774311955e614",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 8,
             "name": "Golden Swag",
             "tarkovDataId": 39,
@@ -633,7 +633,7 @@
             "factionName": "Any",
             "id": "5979f9ba86f7740f6c3fe9f2",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 10,
             "name": "Chemical - Part 1",
             "tarkovDataId": 40,
@@ -657,7 +657,7 @@
             "factionName": "Any",
             "id": "597a0b2986f77426d66c0633",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 10,
             "name": "Chemical - Part 2",
             "tarkovDataId": 41,
@@ -681,7 +681,7 @@
             "factionName": "Any",
             "id": "597a0e5786f77426d66c0636",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 11,
             "name": "Chemical - Part 3",
             "tarkovDataId": 42,
@@ -705,7 +705,7 @@
             "factionName": "Any",
             "id": "597a0f5686f774273b74f676",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 11,
             "name": "Chemical - Part 4",
             "tarkovDataId": 43,
@@ -729,7 +729,7 @@
             "factionName": "Any",
             "id": "597a160786f77477531d39d2",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 11,
             "name": "Out of Curiosity",
             "tarkovDataId": 179,
@@ -753,7 +753,7 @@
             "factionName": "Any",
             "id": "597a171586f77405ba6887d3",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 11,
             "name": "Big Customer",
             "tarkovDataId": 180,
@@ -777,7 +777,7 @@
             "factionName": "Any",
             "id": "59c124d686f774189b3c843f",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 5,
             "name": "BP Depot",
             "tarkovDataId": 4,
@@ -801,7 +801,7 @@
             "factionName": "Any",
             "id": "59c50a9e86f7745fef66f4ff",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 17,
             "name": "The Punisher - Part 1",
             "tarkovDataId": 13,
@@ -825,7 +825,7 @@
             "factionName": "Any",
             "id": "59c50c8886f7745fed3193bf",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 18,
             "name": "The Punisher - Part 2",
             "tarkovDataId": 14,
@@ -849,7 +849,7 @@
             "factionName": "Any",
             "id": "59c512ad86f7741f0d09de9b",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 19,
             "name": "The Punisher - Part 3",
             "tarkovDataId": 15,
@@ -945,7 +945,7 @@
             "factionName": "Any",
             "id": "59ca264786f77445a80ed044",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 20,
             "name": "The Punisher - Part 4",
             "tarkovDataId": 16,
@@ -994,7 +994,7 @@
             "id": "59ca2eb686f77445a80ed049",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 21,
+            "minPlayerLevel": 20,
             "name": "The Punisher - Part 6",
             "tarkovDataId": 18,
             "taskRequirements": [
@@ -1017,7 +1017,7 @@
             "factionName": "Any",
             "id": "5a03153686f77442d90e2171",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 12,
             "name": "Spa Tour - Part 1",
             "tarkovDataId": 64,
@@ -1041,7 +1041,7 @@
             "factionName": "Any",
             "id": "5a03173786f77451cb427172",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 12,
             "name": "Spa Tour - Part 2",
             "tarkovDataId": 65,
@@ -1065,7 +1065,7 @@
             "factionName": "Any",
             "id": "5a0327ba86f77456b9154236",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 12,
             "name": "Spa Tour - Part 3",
             "tarkovDataId": 66,
@@ -1089,7 +1089,7 @@
             "factionName": "Any",
             "id": "5a03296886f774569778596a",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 12,
             "name": "Spa Tour - Part 4",
             "tarkovDataId": 67,
@@ -1113,7 +1113,7 @@
             "factionName": "Any",
             "id": "5a0449d586f77474e66227b7",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 12,
             "name": "Spa Tour - Part 5",
             "tarkovDataId": 68,
@@ -1137,7 +1137,7 @@
             "factionName": "Any",
             "id": "5a27b75b86f7742e97191958",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 10,
             "name": "Fishing Gear",
             "tarkovDataId": 57,
@@ -1161,7 +1161,7 @@
             "factionName": "Any",
             "id": "5a27b7a786f774579c3eb376",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 10,
             "name": "Tigr Safari",
             "tarkovDataId": 58,
@@ -1186,7 +1186,7 @@
             "factionName": "Any",
             "id": "5a27b7d686f77460d847e6a6",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 10,
             "name": "Scrap Metal",
             "tarkovDataId": 59,
@@ -1210,7 +1210,7 @@
             "factionName": "Any",
             "id": "5a27b80086f774429a5d7e20",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 11,
             "name": "Eagle Eye",
             "tarkovDataId": 60,
@@ -1234,7 +1234,7 @@
             "factionName": "Any",
             "id": "5a27b87686f77460de0252a8",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 11,
             "name": "Humanitarian Supplies",
             "tarkovDataId": 61,
@@ -1258,7 +1258,7 @@
             "factionName": "Any",
             "id": "5a27b9de86f77464e5044585",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 12,
             "name": "The Cult - Part 1",
             "tarkovDataId": 62,
@@ -1282,7 +1282,7 @@
             "factionName": "Any",
             "id": "5a27ba1c86f77461ea5a3c56",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 18,
             "name": "The Cult - Part 2",
             "tarkovDataId": 63,
@@ -1306,7 +1306,7 @@
             "factionName": "Any",
             "id": "5a27ba9586f7741b543d8e85",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 12,
             "name": "Spa Tour - Part 6",
             "tarkovDataId": 69,
@@ -1330,7 +1330,7 @@
             "factionName": "Any",
             "id": "5a27bafb86f7741c73584017",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 12,
             "name": "Spa Tour - Part 7",
             "tarkovDataId": 70,
@@ -1354,7 +1354,7 @@
             "factionName": "Any",
             "id": "5a27bb1e86f7741f27621b7e",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 12,
             "name": "Cargo X - Part 1",
             "tarkovDataId": 71,
@@ -1378,7 +1378,7 @@
             "factionName": "Any",
             "id": "5a27bb3d86f77411ea361a21",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 12,
             "name": "Cargo X - Part 2",
             "tarkovDataId": 72,
@@ -1402,7 +1402,7 @@
             "factionName": "Any",
             "id": "5a27bb5986f7741dfb660900",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 12,
             "name": "Cargo X - Part 3",
             "tarkovDataId": 73,
@@ -1570,21 +1570,11 @@
             "factionName": "Any",
             "id": "5a27c99a86f7747d2c6bdd8e",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 9,
             "name": "Friend From the West - Part 1",
             "tarkovDataId": 46,
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "596b36c586f77450d6045ad2",
-                        "name": "Supplier"
-                    }
-                }
-            ],
+            "taskRequirements": [],
             "trader": {
                 "name": "Skier"
             },
@@ -1594,7 +1584,7 @@
             "factionName": "Any",
             "id": "5a27d2af86f7744e1115b323",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 9,
             "name": "Friend From the West - Part 2",
             "tarkovDataId": 47,
@@ -1618,7 +1608,7 @@
             "factionName": "Any",
             "id": "5a68661a86f774500f48afb0",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 20,
             "name": "Health Care Privacy - Part 1",
             "tarkovDataId": 28,
@@ -1642,7 +1632,7 @@
             "factionName": "Any",
             "id": "5a68663e86f774501078f78a",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 20,
             "name": "Health Care Privacy - Part 2",
             "tarkovDataId": 29,
@@ -1738,7 +1728,7 @@
             "factionName": "Any",
             "id": "5ac23c6186f7741247042bad",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 2,
             "name": "Gunsmith - Part 1",
             "tarkovDataId": 82,
@@ -1763,7 +1753,7 @@
             "factionName": "Any",
             "id": "5ac2426c86f774138762edfe",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 5,
             "name": "Gunsmith - Part 2",
             "tarkovDataId": 83,
@@ -1787,7 +1777,7 @@
             "factionName": "Any",
             "id": "5ac2428686f77412450b42bf",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 7,
             "name": "Gunsmith - Part 3",
             "tarkovDataId": 84,
@@ -1859,7 +1849,7 @@
             "factionName": "Any",
             "id": "5ac244eb86f7741356335af1",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 15,
             "name": "Gunsmith - Part 7",
             "tarkovDataId": 85,
@@ -1883,7 +1873,7 @@
             "factionName": "Any",
             "id": "5ac345dc86f774288030817f",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 12,
             "name": "Farming - Part 1",
             "tarkovDataId": 104,
@@ -1907,7 +1897,7 @@
             "factionName": "Any",
             "id": "5ac3460c86f7742880308185",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 12,
             "name": "Farming - Part 2",
             "tarkovDataId": 105,
@@ -2156,7 +2146,7 @@
             "factionName": "Any",
             "id": "5ae3267986f7742a413592fe",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 10,
             "name": "Gunsmith - Part 5",
             "tarkovDataId": 86,
@@ -2180,7 +2170,7 @@
             "factionName": "Any",
             "id": "5ae3270f86f77445ba41d4dd",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 14,
             "name": "Gunsmith - Part 6",
             "tarkovDataId": 87,
@@ -2204,7 +2194,7 @@
             "factionName": "Any",
             "id": "5ae3277186f7745973054106",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 17,
             "name": "Gunsmith - Part 8",
             "tarkovDataId": 89,
@@ -2228,7 +2218,7 @@
             "factionName": "Any",
             "id": "5ae327c886f7745c7b3f2f3f",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 20,
             "name": "Gunsmith - Part 10",
             "tarkovDataId": 91,
@@ -2276,7 +2266,7 @@
             "factionName": "Any",
             "id": "5ae448a386f7744d3730fff0",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 15,
             "name": "Only Business",
             "tarkovDataId": 111,
@@ -2290,7 +2280,7 @@
             "factionName": "Any",
             "id": "5ae448bf86f7744d733e55ee",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 17,
             "name": "Make ULTRA Great Again",
             "tarkovDataId": 122,
@@ -2314,7 +2304,7 @@
             "factionName": "Any",
             "id": "5ae448e586f7744dcf0c2a67",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 17,
             "name": "Big Sale",
             "tarkovDataId": 112,
@@ -2338,7 +2328,7 @@
             "factionName": "Any",
             "id": "5ae448f286f77448d73c0131",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 17,
             "name": "The Blood of War - Part 1",
             "tarkovDataId": 113,
@@ -2395,7 +2385,7 @@
             "factionName": "Any",
             "id": "5ae4493486f7744efa289417",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 17,
             "name": "Database - Part 1",
             "tarkovDataId": 115,
@@ -2428,7 +2418,7 @@
             "factionName": "Any",
             "id": "5ae4493d86f7744b8e15aa8f",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 17,
             "name": "Database - Part 2",
             "tarkovDataId": 116,
@@ -3001,7 +2991,7 @@
             "factionName": "Any",
             "id": "5b47926a86f7747ccc057c15",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 24,
             "name": "Informed Means Armed",
             "tarkovDataId": 51,
@@ -3049,7 +3039,7 @@
             "factionName": "Any",
             "id": "5b4795fb86f7745876267770",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 24,
             "name": "Chumming",
             "tarkovDataId": 52,
@@ -3073,7 +3063,7 @@
             "factionName": "Any",
             "id": "5bc4776586f774512d07cf05",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 2,
             "name": "The Tarkov Shooter - Part 1",
             "tarkovDataId": 143,
@@ -3097,7 +3087,7 @@
             "factionName": "Any",
             "id": "5bc479e586f7747f376c7da3",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 2,
             "name": "The Tarkov Shooter - Part 2",
             "tarkovDataId": 144,
@@ -3122,7 +3112,7 @@
             "factionName": "Any",
             "id": "5bc47dbf86f7741ee74e93b9",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 2,
             "name": "The Tarkov Shooter - Part 3",
             "tarkovDataId": 145,
@@ -3267,7 +3257,7 @@
             "id": "5c0bbaa886f7746941031d82",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 25,
+            "minPlayerLevel": 24,
             "name": "Bullshit",
             "tarkovDataId": 55,
             "taskRequirements": [
@@ -3411,7 +3401,7 @@
             "id": "5c0be13186f7746f016734aa",
             "kappaRequired": true,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 35,
+            "minPlayerLevel": 27,
             "name": "Psycho Sniper",
             "tarkovDataId": 80,
             "taskRequirements": [
@@ -3716,7 +3706,7 @@
             "factionName": "Any",
             "id": "5c1234c286f77406fa13baeb",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 18,
             "name": "Setup",
             "tarkovDataId": 56,
@@ -4248,6 +4238,15 @@
                         "complete"
                     ],
                     "task": {
+                        "id": "5c0be13186f7746f016734aa",
+                        "name": "Psycho Sniper"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
                         "id": "5d25e4b786f77408251c4bfc",
                         "name": "Fishing Place"
                     }
@@ -4347,15 +4346,6 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "5c0be13186f7746f016734aa",
-                        "name": "Psycho Sniper"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
                         "id": "5c12452c86f7744b83469073",
                         "name": "Perfect Mediator"
                     }
@@ -4433,7 +4423,7 @@
             "factionName": "Any",
             "id": "5d2495a886f77425cd51e403",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 2,
             "name": "Introduction",
             "tarkovDataId": 134,
@@ -4458,7 +4448,7 @@
             "factionName": "Any",
             "id": "5d24b81486f77439c92d6ba8",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 2,
             "name": "Acquaintance",
             "tarkovDataId": 135,
@@ -4482,7 +4472,7 @@
             "factionName": "Any",
             "id": "5d25aed386f77442734d25d2",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 2,
             "name": "The Survivalist Path - Unprotected but Dangerous",
             "tarkovDataId": 136,
@@ -4506,7 +4496,7 @@
             "factionName": "Any",
             "id": "5d25b6be86f77444001e1b89",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 2,
             "name": "The Survivalist Path - Thrifty",
             "tarkovDataId": 137,
@@ -4530,7 +4520,7 @@
             "factionName": "Any",
             "id": "5d25bfd086f77442734d3007",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 2,
             "name": "The Survivalist Path - Zhivchik",
             "tarkovDataId": 138,
@@ -4554,7 +4544,7 @@
             "factionName": "Any",
             "id": "5d25c81b86f77443e625dd71",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 2,
             "name": "The Survivalist Path - Wounded Beast",
             "tarkovDataId": 139,
@@ -4578,7 +4568,7 @@
             "factionName": "Any",
             "id": "5d25cf2686f77443e75488d4",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 2,
             "name": "The Survivalist Path - Tough Guy",
             "tarkovDataId": 140,
@@ -4674,7 +4664,7 @@
             "factionName": "Any",
             "id": "5d25e2b486f77409de05bba0",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 2,
             "name": "The Huntsman Path - Secured Perimeter",
             "tarkovDataId": 156,
@@ -4731,7 +4721,7 @@
             "factionName": "Any",
             "id": "5d25e2cc86f77443e47ae019",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 2,
             "name": "The Huntsman Path - Forest Cleaning",
             "tarkovDataId": 158,
@@ -4976,7 +4966,7 @@
             "factionName": "Any",
             "id": "5d25e48186f77443e625e386",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 20,
             "name": "Courtesy Visit",
             "tarkovDataId": 141,
@@ -5778,7 +5768,7 @@
             "factionName": "Any",
             "id": "60896e28e4a85c72ef3fa301",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 15,
             "name": "Disease History",
             "tarkovDataId": 203,
@@ -5899,7 +5889,7 @@
             "factionName": "Any",
             "id": "608974d01a66564e74191fc0",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 17,
             "name": "A Fuel Matter",
             "tarkovDataId": 204,
@@ -6468,7 +6458,7 @@
             "factionName": "Any",
             "id": "6179ad56c760af5ad2053587",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 17,
             "name": "Seaside Vacation",
             "tarkovDataId": 231,
@@ -6493,7 +6483,7 @@
             "factionName": "Any",
             "id": "6179afd0bca27a099552e040",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 26,
             "name": "Lost Contact",
             "tarkovDataId": 241,
@@ -6736,7 +6726,7 @@
             "factionName": "Any",
             "id": "61958c366726521dd96828ec",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 12,
             "name": "Cargo X - Part 4",
             "tarkovDataId": 234,
@@ -6831,129 +6821,10 @@
             "id": "625d6ff5ddc94657c21a1625",
             "kappaRequired": false,
             "lightkeeperRequired": true,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Network Provider - Part 1",
             "tarkovDataId": null,
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5d25e2cc86f77443e47ae019",
-                        "name": "The Huntsman Path - Forest Cleaning"
-                    }
-                },
-                {
-                    "status": [
-                        "complete",
-                        "failed"
-                    ],
-                    "task": {
-                        "id": "597a0f5686f774273b74f676",
-                        "name": "Chemical - Part 4"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "61958c366726521dd96828ec",
-                        "name": "Cargo X - Part 4"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "63913715f8e5dd32bf4e3aaa",
-                        "name": "Broadcast - Part 2"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "608974d01a66564e74191fc0",
-                        "name": "A Fuel Matter"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5ae4493d86f7744b8e15aa8f",
-                        "name": "Database - Part 2"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "6179ad56c760af5ad2053587",
-                        "name": "Seaside Vacation"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5a27ba1c86f77461ea5a3c56",
-                        "name": "The Cult - Part 2"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "59ca264786f77445a80ed044",
-                        "name": "The Punisher - Part 4"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5d25e48186f77443e625e386",
-                        "name": "Courtesy Visit"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5ae327c886f7745c7b3f2f3f",
-                        "name": "Gunsmith - Part 10"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "6179afd0bca27a099552e040",
-                        "name": "Lost Contact"
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "639135c3744e452011470807",
-                        "name": "House Arrest - Part 1"
-                    }
-                }
-            ],
+            "taskRequirements": [],
             "trader": {
                 "name": "Mechanic"
             },
@@ -6964,7 +6835,7 @@
             "id": "625d6ffaf7308432be1d44c5",
             "kappaRequired": false,
             "lightkeeperRequired": true,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Network Provider - Part 2",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -6988,7 +6859,7 @@
             "id": "625d6ffcaa168e51321d69d7",
             "kappaRequired": false,
             "lightkeeperRequired": true,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Assessment - Part 1",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -7012,7 +6883,7 @@
             "id": "625d6fff4149f1149b5b12c9",
             "kappaRequired": false,
             "lightkeeperRequired": true,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Assessment - Part 2",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -7036,7 +6907,7 @@
             "id": "625d7001c4874104f230c0c5",
             "kappaRequired": false,
             "lightkeeperRequired": true,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Assessment - Part 3",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -7060,7 +6931,7 @@
             "id": "625d70031ed3bb5bcc5bd9e5",
             "kappaRequired": false,
             "lightkeeperRequired": true,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Key to the Tower",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -7084,7 +6955,7 @@
             "id": "625d7005a4eb80027c4f2e09",
             "kappaRequired": false,
             "lightkeeperRequired": true,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Knock-Knock",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -7108,7 +6979,7 @@
             "id": "625d700cc48e6c62a440fab5",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Getting Acquainted",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -7132,7 +7003,7 @@
             "id": "626148251ed3bb5bcc5bd9ed",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Make Amends - Buyout",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -7157,7 +7028,7 @@
             "id": "6261482fa4eb80027c4f2e11",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Make Amends - Equipment",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -7181,7 +7052,7 @@
             "id": "626148334149f1149b5b12ca",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Make Amends - Security",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -7205,7 +7076,7 @@
             "id": "62614836f7308432be1d44cc",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Make Amends - Sweep Up",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -7229,7 +7100,7 @@
             "id": "6261483ac48e6c62a440fab7",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Make Amends - Software",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -7253,7 +7124,7 @@
             "id": "6261483dc4874104f230c0cd",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Make Amends - Quarantine",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -7325,19 +7196,10 @@
             "id": "626bd75d5bef5d7d590bd415",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 30,
             "name": "Top Secret",
             "tarkovDataId": 246,
             "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "6179b4f16e9dd54ac275e407",
-                        "name": "Missing Cargo"
-                    }
-                },
                 {
                     "status": [
                         "complete",
@@ -7346,6 +7208,15 @@
                     "task": {
                         "id": "625d700cc48e6c62a440fab5",
                         "name": "Getting Acquainted"
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "6179b4f16e9dd54ac275e407",
+                        "name": "Missing Cargo"
                     }
                 }
             ],
@@ -7358,7 +7229,7 @@
             "factionName": "Any",
             "id": "626bd75e47ea7f506e5493c5",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 12,
             "name": "Broadcast - Part 1",
             "tarkovDataId": 245,
@@ -7577,7 +7448,7 @@
             "factionName": "Any",
             "id": "639135c3744e452011470807",
             "kappaRequired": false,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 33,
             "name": "House Arrest - Part 1",
             "tarkovDataId": null,
@@ -7851,7 +7722,7 @@
             "factionName": "Any",
             "id": "63913715f8e5dd32bf4e3aaa",
             "kappaRequired": false,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 15,
             "name": "Broadcast - Part 2",
             "tarkovDataId": null,
@@ -7900,7 +7771,7 @@
             "id": "6391d90f4ed9512be67647df",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Make Amends",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -7924,7 +7795,7 @@
             "id": "6391d912f8e5dd32bf4e3ab2",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Make Amends",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -7948,7 +7819,7 @@
             "id": "6391d9144b15ca31f76bc323",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Make Amends",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -7996,7 +7867,7 @@
             "id": "63966faeea19ac7ed845db2c",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Information Source",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -8020,7 +7891,7 @@
             "id": "63966fbeea19ac7ed845db2e",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Missing Informant",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -8044,7 +7915,7 @@
             "id": "63966fccac6f8f3c677b9d89",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Snatch",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -8068,7 +7939,7 @@
             "id": "63966fd9ea19ac7ed845db30",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Payback",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -8092,7 +7963,7 @@
             "id": "63966fe7ea74a47c2d3fc0e6",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Return the Favor",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -8116,7 +7987,7 @@
             "id": "63966ff54c3ef01b6f3ffad8",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Provocation",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -8140,7 +8011,7 @@
             "id": "639670029113f06a7c3b2377",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Following the Bread Crumbs",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -8164,7 +8035,7 @@
             "id": "6396700fea19ac7ed845db32",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Spotter",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -8188,7 +8059,7 @@
             "id": "6396701b9113f06a7c3b2379",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Make an Impression",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -8212,7 +8083,7 @@
             "id": "63967028c4a91c5cb76abd81",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 0,
             "name": "Trouble in the Big City",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -8235,7 +8106,7 @@
             "factionName": "Any",
             "id": "639872f9decada40426d3447",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 9,
             "name": "Gunsmith - Part 4",
             "tarkovDataId": 85,
@@ -8268,7 +8139,7 @@
             "factionName": "Any",
             "id": "639872fa9b4fb827b200d8e5",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 19,
             "name": "Gunsmith - Part 9",
             "tarkovDataId": 90,
@@ -8388,7 +8259,7 @@
             "factionName": "Any",
             "id": "639dbaf17c898a131e1cffff",
             "kappaRequired": false,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 31,
             "name": "Debtor",
             "tarkovDataId": null,
@@ -8642,7 +8513,7 @@
             "id": "64e7b99017ab941a6f7bf9d7",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 21,
+            "minPlayerLevel": 20,
             "name": "Gendarmerie - Mall Cop",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -8666,7 +8537,7 @@
             "id": "64e7b9a4aac4cd0a726562cb",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 21,
+            "minPlayerLevel": 20,
             "name": "Gendarmerie - Tickets, Please",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -8690,7 +8561,7 @@
             "id": "64e7b9bffd30422ed03dad38",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 21,
+            "minPlayerLevel": 20,
             "name": "Gendarmerie - District Patrol",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -9010,7 +8881,7 @@
             "factionName": "Any",
             "id": "657315ddab5a49b71f098853",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 1,
             "name": "First in Line",
             "tarkovDataId": null,
@@ -9024,7 +8895,7 @@
             "factionName": "Any",
             "id": "657315df034d76585f032e01",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 1,
             "name": "Shooting Cans",
             "tarkovDataId": null,
@@ -9038,7 +8909,7 @@
             "factionName": "Any",
             "id": "657315e1dccd301f1301416a",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 1,
             "name": "Luxurious Life",
             "tarkovDataId": null,
@@ -9062,7 +8933,7 @@
             "factionName": "Any",
             "id": "657315e270bb0b8dba00cc48",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 1,
             "name": "Burning Rubber",
             "tarkovDataId": null,
@@ -9076,7 +8947,7 @@
             "factionName": "Any",
             "id": "657315e4a6af4ab4b50f3459",
             "kappaRequired": true,
-            "lightkeeperRequired": true,
+            "lightkeeperRequired": false,
             "minPlayerLevel": 1,
             "name": "Saving the Mole",
             "tarkovDataId": null,
@@ -11066,7 +10937,7 @@
             "id": "673f2cd5d3346c2167020484",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Shipping Delay - Part 2",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11090,7 +10961,7 @@
             "id": "673f348dd3346c21670217e7",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Shipping Delay - Part 1",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11114,7 +10985,7 @@
             "id": "673f4e956f1b89c7bc0f56ef",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Hot Wheels",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11138,7 +11009,7 @@
             "id": "673f5a4976553f78350bdac1",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Hot Wheels - Let's Try Again",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11162,7 +11033,7 @@
             "id": "673f6027352b4da8e00322d2",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Inevitable Response",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11186,7 +11057,7 @@
             "id": "673f61a066e6a521aa04b62b",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Order From Outside",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11211,7 +11082,7 @@
             "id": "673f629c5b555b53460cf827",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Building Foundations",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11236,7 +11107,7 @@
             "id": "6740a02a69a58fceba0ff399",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Natural Exchange",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11260,7 +11131,7 @@
             "id": "6740a15566e6a521aa051b15",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Forge a Friendship",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11293,7 +11164,7 @@
             "id": "6740a2c17e3818d5bb0648b6",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Half-Empty",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11317,7 +11188,7 @@
             "id": "6740a3f4eca8acb2d2055159",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Stick in the Wheel",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11341,7 +11212,7 @@
             "id": "6740b60c60a98cad1b0e0aa0",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Another Shipping Delay",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11374,7 +11245,7 @@
             "id": "674492b6909d2013670a347a",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Ask for Directions",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11398,7 +11269,7 @@
             "id": "6744a4717e3818d5bb0680bb",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Stabilize Business",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11422,7 +11293,7 @@
             "id": "6744a728352b4da8e003eda9",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Battery Change",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11446,7 +11317,7 @@
             "id": "6744a9dfef61d56e020b5c4a",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Battery Change",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11470,7 +11341,7 @@
             "id": "6744ab1def61d56e020b5c56",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Protect the Sky",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11495,7 +11366,7 @@
             "id": "6744aca8d3346c216702c583",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Discombobulate",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11519,7 +11390,7 @@
             "id": "6744af0969a58fceba101fed",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "The Price of Independence",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11552,7 +11423,7 @@
             "id": "6745cbee909d2013670a4a55",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "The Price of Independence",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11585,7 +11456,7 @@
             "id": "6745fae369a58fceba10343d",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "The Higher They Fly",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11610,7 +11481,7 @@
             "id": "6745fcded0fbbc74ca0f721d",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Swift Retribution",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11634,7 +11505,7 @@
             "id": "6745fdddd3346c216702e0bf",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Simple Side Job",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11658,7 +11529,7 @@
             "id": "674600a366e6a521aa05eb66",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Route Deviation",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11682,7 +11553,7 @@
             "id": "674602307e3818d5bb069489",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Hindsight 20/20",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11706,7 +11577,7 @@
             "id": "6746053b5b555b53460d9896",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Key Partner",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11730,7 +11601,7 @@
             "id": "674605df60a98cad1b0ec799",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Killer Argument",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11754,7 +11625,7 @@
             "id": "67460662d0fbbc74ca0f7229",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "Choose Your Friends Wisely",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -11787,20 +11658,10 @@
             "id": "6752f6d83038f7df520c83e8",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 20,
+            "minPlayerLevel": 0,
             "name": "A Helping Hand",
             "tarkovDataId": null,
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "657315e4a6af4ab4b50f3459",
-                        "name": "Saving the Mole"
-                    }
-                }
-            ],
+            "taskRequirements": [],
             "trader": {
                 "name": "Mechanic"
             },
@@ -12851,17 +12712,18 @@
             "id": "68db9c7557bc51a8c804c14b",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 33,
+            "minPlayerLevel": 29,
             "name": "Goals and Means",
             "tarkovDataId": null,
             "taskRequirements": [
                 {
                     "status": [
-                        "complete"
+                        "complete",
+                        "failed"
                     ],
                     "task": {
-                        "id": "5ae3280386f7742a41359364",
-                        "name": "Gunsmith - Part 15"
+                        "id": "625d700cc48e6c62a440fab5",
+                        "name": "Getting Acquainted"
                     }
                 },
                 {
@@ -12869,8 +12731,8 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "625d700cc48e6c62a440fab5",
-                        "name": "Getting Acquainted"
+                        "id": "5ae3280386f7742a41359364",
+                        "name": "Gunsmith - Part 15"
                     }
                 }
             ],
@@ -12884,7 +12746,7 @@
             "id": "68ee1c18b4e5bc9a68018cd7",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "minPlayerLevel": 21,
+            "minPlayerLevel": 20,
             "name": "No Questions Asked",
             "tarkovDataId": null,
             "taskRequirements": [
@@ -13055,20 +12917,6 @@
                 "name": "Ref"
             },
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hold_the_Lead"
-        },
-        {
-            "factionName": "Any",
-            "id": "69ce1de03e15cd80bd06f6c9",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "minPlayerLevel": 0,
-            "name": "Oil Change",
-            "tarkovDataId": null,
-            "taskRequirements": [],
-            "trader": {
-                "name": "Prapor"
-            },
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Oil_Change"
         }
     ]
 }
